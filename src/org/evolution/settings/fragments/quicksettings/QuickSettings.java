@@ -31,6 +31,7 @@ import lineageos.preference.LineageSecureSettingSwitchPreference;
 import lineageos.providers.LineageSettings;
 
 import org.evolution.settings.preferences.SystemSettingListPreference;
+import org.evolution.settings.preferences.SystemSettingSeekBarPreference;
 import org.evolution.settings.preferences.SystemSettingSwitchPreference;
 import org.evolution.settings.utils.DeviceUtils;
 
@@ -57,6 +58,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     private static final String KEY_BATTERY_STYLE = "qs_battery_style";
     private static final String KEY_BATTERY_PERCENT = "qs_show_battery_percent";
+    private static final String KEY_TILE_ANIM_STYLE = "qs_tile_animation_style";
+    private static final String KEY_TILE_ANIM_DURATION = "qs_tile_animation_duration";
+    private static final String KEY_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
 
     private static final int BATTERY_STYLE_PORTRAIT = 0;
     private static final int BATTERY_STYLE_TEXT = 4;
@@ -64,6 +68,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     private SystemSettingListPreference mBatteryStyle;
     private SystemSettingListPreference mBatteryPercent;
+    private SystemSettingListPreference mTileAnimationStyle;
+    private SystemSettingSeekBarPreference mTileAnimationDuration;
+    private SystemSettingListPreference mTileAnimationInterpolator;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -77,6 +84,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         mBatteryStyle = (SystemSettingListPreference) findPreference(KEY_BATTERY_STYLE);
         mBatteryPercent = (SystemSettingListPreference) findPreference(KEY_BATTERY_PERCENT);
+        mTileAnimationStyle = (SystemSettingListPreference) findPreference(KEY_TILE_ANIM_STYLE);
+        mTileAnimationDuration = (SystemSettingSeekBarPreference) findPreference(KEY_TILE_ANIM_DURATION);
+        mTileAnimationInterpolator = (SystemSettingListPreference) findPreference(KEY_TILE_ANIM_INTERPOLATOR);
 
         int batterystyle = Settings.System.getIntForUser(resolver,
                 Settings.System.QS_BATTERY_STYLE, BATTERY_STYLE_PORTRAIT, UserHandle.USER_CURRENT);
@@ -106,6 +116,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             prefScreen.removePreference(mShowAutoBrightness);
         }
 
+        mTileAnimationStyle.setOnPreferenceChangeListener(this);
+
+        int tileAnimationStyle = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
+        updateTileAnimStyle(tileAnimationStyle);
+
         mMiscellaneousCategory = (PreferenceCategory) findPreference(KEY_MISCELLANEOUS_CATEGORY);
 
         if (!DeviceUtils.deviceSupportsBluetooth(mContext)) {
@@ -129,8 +145,17 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             mBatteryPercent.setEnabled(
                     value != BATTERY_STYLE_TEXT && value != BATTERY_STYLE_HIDDEN);
             return true;
+        } else if (preference == mTileAnimationStyle) {
+            int value = Integer.parseInt((String) newValue);
+            updateTileAnimStyle(value);
+            return true;
         }
         return false;
+    }
+
+    private void updateTileAnimStyle(int tileAnimationStyle) {
+        mTileAnimationDuration.setEnabled(tileAnimationStyle != 0);
+        mTileAnimationInterpolator.setEnabled(tileAnimationStyle != 0);
     }
 
     @Override
