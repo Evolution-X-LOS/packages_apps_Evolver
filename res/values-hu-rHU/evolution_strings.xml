@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2024 Evolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Evolver -->
+    <string name="evolver_dashboard_title">(R)Evolver</string>
+    <string name="evolver_dashboard_summary">Úgy fejlődik, mint még soha</string>
+    <!-- Categories -->
+    <string name="themes_title">Témák</string>
+    <string name="themes_summary">Monet, fontok, ikonok</string>
+    <string name="lock_screen_title">Záróképernyő</string>
+    <string name="lock_screen_summary">Felhasználói felület, egyebek</string>
+    <string name="status_bar_title">Állapotsor</string>
+    <string name="status_bar_summary">Vezérlők, ikonok, adatvédelmi mutatók</string>
+    <string name="quick_settings_title">Gyorsbeállítások</string>
+    <string name="quick_settings_summary">Interfész, záróképernyő</string>
+    <string name="notifications_title">Értesítések</string>
+    <string name="notifications_summary">Riasztások, interfész</string>
+    <string name="power_menu_title">Kikapcsolási menü</string>
+    <string name="power_menu_summary">Műveletek, záróképernyő</string>
+    <string name="buttons_title">Gombok</string>
+    <string name="buttons_summary">Bekapcsoló és hangerőgombok</string>
+    <string name="miscellaneous_title">Különlegességek</string>
+    <string name="miscellaneous_summary">Fejleszői lehetőségek, álcázás</string>
+    <string name="about_title">Névjegy</string>
+    <string name="about_summary">Az Evolution X-ről</string>
+    <!-- Themes -->
+    <string name="themes_monet_category">Monet</string>
+    <string name="themes_monet_title">Monet-beállítások</string>
+    <string name="themes_monet_summary">Testreszabhatja az Android beépített témamotorját</string>
+    <string name="themes_fonts_category">Betűtípusok</string>
+    <string name="themes_system_font_title">Rendszer-betűtípus</string>
+    <string name="themes_system_font_summary">Itt állíthatja be a rendszer-betűtípusát</string>
+    <string name="themes_lock_screen_clock_font_title">A záróképernyő-óra betűtípusa</string>
+    <string name="themes_lock_screen_clock_font_summary">Itt állíthatja be a záróképernyő-óra betűtípusát</string>
+    <string name="themes_icons_category">Ikonok</string>
+    <string name="themes_system_icons_title">Rendszerikonok</string>
+    <string name="themes_system_icons_summary">Itt állíthatja be a rendszerikonok stílusát</string>
+    <string name="themes_icon_shape_title">Ikonforma</string>
+    <string name="themes_icon_shape_summary">Itt állíthatja be a rendszerikonok formáját</string>
+    <string name="themes_signal_icon_title">Térerőkijelzés-ikon</string>
+    <string name="themes_signal_icon_summary">Itt állíthatja be a térerő-ikon stílusát</string>
+    <string name="themes_wifi_icon_title">WiFi-ikon</string>
+    <string name="themes_wifi_icon_summary">Itt állíthatja be a Wi-Fi-ikon stílusát</string>
+    <string name="themes_navigation_bar_icons_title">A Navigációs sáv ikonjai</string>
+    <string name="themes_navigation_bar_icons_summary">Itt állíthatja be a navigációssáv stílusát</string>
+    <!-- Themes/Monet Engine -->
+    <string name="monet_engine_custom_color_title">Kiemelőszín</string>
+    <string name="monet_engine_custom_color_summary">Egyéni színt választhat a kiemeléshez</string>
+    <string name="monet_engine_custom_bgcolor_title">Háttérszín</string>
+    <string name="monet_engine_custom_bgcolor_summary">Egyéni színt választhat a háttérhez</string>
+    <string name="monet_engine_color_override_title">Egyéni szín</string>
+    <string name="monet_engine_luminance_factor_title">Fénysűrűség</string>
+    <string name="monet_engine_luminance_factor_summary">A magasabb érték élénkebb színt eredményez</string>
+    <string name="monet_engine_chroma_factor_title">Színerősség</string>
+    <string name="monet_engine_chroma_factor_summary">A magasabb érték erősebb színt eredményez</string>
+    <string name="monet_engine_whole_palette_title">Az egész paletta</string>
+    <string name="monet_engine_whole_palette_summary">A \'Fényerősség\' és a \'Színesség\' kiválasztása a másodlagos színeket is befolyásolja</string>
+    <string name="monet_engine_tint_background_title">Háttérkitöltés</string>
+    <string name="monet_engine_tint_background_summary">A \'Fénysűrűség\' és a \'Színerősség\' kiválasztása a háttérszíneket is befolyásolja</string>
+    <string name="monet_engine_style_title">Témastílus</string>
+    <string name="monet_engine_style_tonal_spot">Tónusfolt (alapértelmezett)</string>
+    <string name="monet_engine_style_vibrant">Vibráló</string>
+    <string name="monet_engine_style_expressive">Kifejező</string>
+    <string name="monet_engine_style_spritz">Fröccs</string>
+    <string name="monet_engine_style_rainbow">Szivárvány</string>
+    <string name="monet_engine_style_fruit_salad">Gyümölcssaláta</string>
+    <string name="monet_engine_style_monochromatic">Monokróm</string>
+    <string name="monet_engine_color_source_title">Színforrás</string>
+    <string name="monet_engine_color_source_both">Mind (alapértelmezett)</string>
+    <string name="monet_engine_color_source_home">Fő háttérkép</string>
+    <string name="monet_engine_color_source_lock">Záróképernyő háttere</string>
+    <string name="monet_engine_color_source_preset">Előre beállatott</string>
+    <!-- Lock screen -->
+    <string name="lock_screen_interface_category">Kezelőfelület</string>
+    <string name="lock_screen_charging_stats_title">Töltési statisztikák</string>
+    <string name="lock_screen_charging_stats_summary">Töltés közben megjeleníti az aktuális áramerősséget, töltőfeszültséget és az akkumulátor hőmérsékletét a zárképernyőn</string>
+    <string name="lock_screen_fingerprint_category">Ujjlenyomat</string>
+    <string name="lock_screen_fingerprint_ripple_title">Fodrozódó animáció</string>
+    <string name="lock_screen_fingerprint_ripple_summary">Ujjlenyomatos feloldáskor fodrozódó effektus</string>
+    <!-- Status bar -->
+    <string name="status_bar_gestures_category">Mozdulatvezérlés</string>
+    <string name="status_bar_brightness_control_title">Fényerőszabályzás</string>
+    <string name="status_bar_brightness_control_summary">Fényerő változtatása az állapotsávon való csúsztatással</string>
+    <string name="status_bar_quick_pull_down_title">Gyors legördítés</string>
+    <string name="status_bar_quick_pull_down_summary">Az Állapotsor %1$s húzhatja le a Gyorsbeállításokat</string>
+    <string name="status_bar_quick_pull_down_off">Ki</string>
+    <string name="status_bar_quick_pull_down_right">jobb oldalán</string>
+    <string name="status_bar_quick_pull_down_left">bal oldalán</string>
+    <string name="status_bar_quick_pull_down_both">mindkét oldalán</string>
+    <string name="status_bar_icons_category">Ikonok</string>
+    <string name="status_bar_tuner_title">Állapotsor-hangolás</string>
+    <string name="status_bar_tuner_summary">Beállítható mely rendszer-ikonok jelenjenek meg</string>
+    <string name="status_bar_data_disabled_icon_title">A letiltott adatforgalom kijelzője</string>
+    <string name="status_bar_data_disabled_icon_summary">A térerő mellett X-jel megjelenítése, ha a mobiladat-forgalom le van tiltva</string>
+    <string name="status_bar_4g_icon_title">4G-ikon</string>
+    <string name="status_bar_4g_icon_summary">\'4G\'-ikonra cseréli le az \'LTE\'-ikont</string>
+    <string name="status_bar_bluetooth_battery_title">Bluetooth-akkuállapot</string>
+    <string name="status_bar_bluetooth_battery_summary">A csatlakoztatott bluetooth eszköz akkuállapotának megjelenítése, ha rendelkezésre áll</string>
+    <string name="status_bar_colored_icons_title">Színes ikonok</string>
+    <string name="status_bar_colored_icons_summary">Használja a Launcher-ikonokat az alkalmazásértesítésekhez</string>
+    <string name="status_bar_notif_count_title">Értesítés-számláló</string>
+    <string name="status_bar_notif_count_summary">Megjeleníti az olvasatlan értesítések számát az alkalmazásikonokon</string>
+    <string name="status_bar_privacy_indicators_category">Adatvédelmi kijelzők</string>
+    <string name="status_bar_mic_camera_privacy_indicator_title">Mikrofon és Kamera</string>
+    <string name="status_bar_mic_camera_privacy_indicator_summary">Kijelzi, ha egy alkalmazás hozzáfér a mikrofonhoz vagy a kamerához</string>
+    <string name="status_bar_location_privacy_indicator_title">Helymeghatározás</string>
+    <string name="status_bar_location_privacy_indicator_summary">Kijelzi, ha egy alkalmazás a helymeghatározást használja</string>
+    <string name="status_bar_projection_privacy_indicator_title">Képernyő-kivetítés</string>
+    <string name="status_bar_projection_privacy_indicator_summary">Kijelzi, ha a kijező épp kivetítésre kerül</string>
+    <!-- Quick settings -->
+    <string name="quick_settings_interface_category">Kezelőfelület</string>
+    <string name="quick_settings_floating_clear_all_title">Lebegő \"Az összes törlése\" gomb</string>
+    <string name="quick_settings_floating_clear_all_summary">Lecserélheti a szöveges \"Az összes törlése\" gombot egy alul középen lebegőre</string>
+    <string name="quick_settings_lock_screen_category">Záróképernyő</string>
+    <string name="quick_settings_secure_lock_screen_title">Elrejtés a biztonságos záróképernyőn</string>
+    <string name="quick_settings_secure_lock_screen_summary">Az összes gyorsbeállítás elrejtése az értesítési területen, amikor a készülélk le van zárva</string>
+    <string name="quick_settings_miscellaneous_category">Különlegességek</string>
+    <string name="quick_settings_bluetooth_show_dialog_title">Bluetooth-csempeüzenet</string>
+    <string name="quick_settings_bluetooth_show_dialog_summary">Ha megérinti a csempét, megjelenik a BT-párbeszédablak vagy a BT-állapot</string>
+    <!-- Notifications -->
+    <string name="notifications_interface_category">Kezelőfelület</string>
+    <string name="notifications_kill_app_button_title">Az alkalmazás kilövése</string>
+    <string name="notifications_kill_app_button_summary">Az értesítések hosszannyomási menüjében megjeleik az \"Alkalmazás kilövése\" gomb</string>
+    <string name="notifications_sounds_vibration_category">Hangok és rezgés</string>
+    <string name="notifications_alert_display_on_title">Figyelmeztetés bekapcsolt képernyőn</string>
+    <string name="notifications_alert_display_on_summary">Értesítésjelzés hanggal és rezgéssel, ha a képernyő be van kapcsolva</string>
+    <!-- Power menu -->
+    <string name="power_menu_interface_category">Kezelőfelület</string>
+    <string name="power_menu_actions_title">Kikapcsolási-menüfunkciók</string>
+    <string name="power_menu_actions_summary">Itt választhatja ki, melyik műveletek látszódjanak</string>
+    <string name="power_menu_lock_screen_category">Záróképernyő</string>
+    <string name="power_menu_lock_screen_secure_title">Megjelenítés a biztonságos záróképernyőn</string>
+    <string name="power_menu_lock_screen_secure_summary">A Kikapcsolási menü megjelenítése, ha a készülék le van zárva</string>
+    <!-- Power menu/Power menu actions -->
+    <string name="power_menu_actions_advanced_reboot_title">Speciális újraindítás</string>
+    <string name="power_menu_actions_screenshot_title">Képernyőkép</string>
+    <string name="power_menu_actions_onthego_title">Menet közben mód (OnTheGo)</string>
+    <string name="power_menu_actions_airplane_title">Repülőgép-üzemmód</string>
+    <string name="power_menu_actions_torch_title">Zseblámpa</string>
+    <string name="power_menu_actions_settings_title">Beállítások</string>
+    <string name="power_menu_actions_lockdown_title">Zárolás</string>
+    <string name="power_menu_actions_lockdown_unavailable">A Zárolás letiltva, mert a billentyűzár nem biztonságos</string>
+    <string name="power_menu_actions_soundpanel_title">Hangpanel</string>
+    <string name="power_menu_actions_users_title">Felhasználók</string>
+    <string name="power_menu_actions_logout_title">Kijelentkezés</string>
+    <string name="power_menu_actions_emergency_title">Segélyhívás</string>
+    <string name="power_menu_actions_devicecontrols_title">Készülékvezérlők</string>
+    <!-- Miscellaneous -->
+    <string name="miscellaneous_spoofing_category">Hamisítás, álcázás</string>
+    <string name="miscellaneous_developer_options_category">Fejlesztői lehetőségek</string>
+    <string name="miscellaneous_app_downgrade_title">Downgrade lehetősége</string>
+    <string name="miscellaneous_app_downgrade_summary">Engedélyezze a rendszeralkalmazások downgrade-jét, ami összeomláshoz és adatvesztéshez vezethet</string>
+    <string name="miscellaneous_ignore_window_secure_title">A képernyő biztonsági figyemeztetéseinek figyelmen kívül hagyása</string>
+    <string name="miscellaneous_ignore_window_secure_summary">Eltávolítja a képernyőképekre és a képernyőfelvételekre vonatkozó korlátozásokat az összes alkalmazásnál, ami az adatvédelmi szivárgások kockázatát eredményezheti</string>
+    <!-- Miscellaneous/Spoofing -->
+    <string name="spoofing_title">Részek hamisítása</string>
+    <string name="spoofing_summary">Megkerülheti az alkalmazáskorlátozásokat részegységek hamisításával</string>
+    <string name="spoofing_system_wide_category">Rendszer-szintű</string>
+    <string name="spoofing_pif_toggle_title">Gplay integritásjavítás</string>
+    <string name="spoofing_pif_toggle_summary">A romba beépített integritás-értékek használata</string>
+    <string name="spoofing_pif_values_title">A Gplay integritásjavítás értékei</string>
+    <string name="spoofing_pif_values_summary">A jelenlegi értékek megtekintése, amelyeket a GMS meghamisításához használnak a Play Integrity API-tanúsítványhoz</string>
+    <string name="spoofing_pixel_props_title">Pixel-kellékek</string>
+    <string name="spoofing_pixel_props_summary">A kijelölt Google alkalmazásokhoz a legújabb Pixel-telefonnak álcázza az Ön készülékét</string>
+    <string name="spoofing_storage_encryption_title">Tárhelytitkosítás</string>
+    <string name="spoofing_storage_encryption_summary">A tárhely állapotának hamisítása \' Titkosított \'-ra</string>
+    <string name="spoofing_app_specific_category">Alkalmazás-specifikus</string>
+    <string name="spoofing_vending_title">Google Play Áruház trükk</string>
+    <string name="spoofing_vending_summary">A legutolsó Pixel készüléknek álcázza az Ön készülékét</string>
+    <string name="spoofing_photos_title">Trükk a Google Fényképek-hez</string>
+    <string name="spoofing_photos_summary">Pixel XL-re álcázás a Google Fényképek alkalmazáshoz</string>
+    <string name="spoofing_games_title">FPS-emelés játékokhoz</string>
+    <string name="spoofing_games_summary">Eszközinfó-hamisítás hogy magasabb FPS legyen elérhető a játékokhoz</string>
+    <string name="spoofing_snap_title">Snapchat álcázás</string>
+    <string name="spoofing_snap_summary">A Snapchat-ben Pixel XL-nek álcázza az Ön készülékét a lehetséges csevegési problémák elkerüléséért</string>
+    <!-- About -->
+    <string name="about_info">Az Evolution X célja, hogy a felhasználók számára első pillantásra Pixel-szerű érzést nyújtson Önnek, sok hozzáadott funkcióval.</string>
+    <string name="about_website_title">Honlap</string>
+    <string name="about_website_summary">Nyugodtan látogassa meg weboldalunkat</string>
+    <string name="about_twitter_summary">Nézze meg tweetjeinket</string>
+    <string name="about_discord_summary">Látogassa meg közösségi csetünket</string>
+    <string name="about_github_summary">Nézze meg a GitHub-unkat</string>
+    <string name="about_contributors_title">Közreműködők</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Színválasztó</string>
+    <string name="press_color_to_apply">Érintse meg a színt az alkalmazáshoz</string>
+    <string name="set">Beállít</string>
+    <string name="color_default">Alapértelmezett</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value"><xliff:g id="v">%s</xliff:g> értékű</string>
+    <string name="custom_seekbar_default_value">alapértelmezetten</string>
+    <string name="custom_seekbar_default_value_to_set">Alapértelmezett érték <xliff:g id="v">%s</xliff:g>\nNyomja hosszan a beállításhoz</string>
+    <string name="custom_seekbar_default_value_is_set">Az alapértelmezett érték beállítva</string>
+</resources>
