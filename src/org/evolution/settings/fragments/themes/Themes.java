@@ -26,6 +26,7 @@ import com.android.settingslib.search.SearchIndexable;
 import java.util.List;
 
 import org.evolution.settings.preferences.GlobalSettingListPreference;
+import org.evolution.settings.preferences.OverlaySwitchPreference;
 import org.evolution.settings.utils.DeviceUtils;
 import org.evolution.settings.utils.SystemUtils;
 
@@ -43,9 +44,15 @@ public class Themes extends SettingsPreferenceFragment implements
     private static final String KEY_ANIMATIONS_CATEGORY = "themes_animations_category";
     private static final String KEY_UDFPS_ANIMATION = "udfps_animation";
     private static final String KEY_BOOT_ANIMATION = "boot_animation";
+    private static final String KEY_LAUNCHER_CATEGORY = "themes_launcher_category";
+    private static final String KEY_BLUR_OVERLAY = "com.google.android.apps.nexuslauncher.blur.overlay";
+    private static final String KEY_ICONS_OVERLAY = "com.google.android.apps.nexuslauncher.icons.overlay";
 
     private GlobalSettingListPreference mLockSound;
     private GlobalSettingListPreference mUnlockSound;
+    private OverlaySwitchPreference mBlurOverlay;
+    private OverlaySwitchPreference mIconsOverlay;
+    private PreferenceCategory mLauncherCategory;
     private PreferenceCategory mIconsCategory;
     private Preference mSignalIcon;
     private Preference mUdfpsIcon;
@@ -67,6 +74,9 @@ public class Themes extends SettingsPreferenceFragment implements
         mLockSound.setOnPreferenceChangeListener(this);
         mUnlockSound = (GlobalSettingListPreference) findPreference(KEY_UNLOCK_SOUND);
         mUnlockSound.setOnPreferenceChangeListener(this);
+        mLauncherCategory = (PreferenceCategory) findPreference(KEY_LAUNCHER_CATEGORY);
+        mBlurOverlay = (OverlaySwitchPreference) findPreference(KEY_BLUR_OVERLAY);
+        mIconsOverlay = (OverlaySwitchPreference) findPreference(KEY_ICONS_OVERLAY);
         mIconsCategory = (PreferenceCategory) findPreference(KEY_ICONS_CATEGORY);
         mBootAnimation = (Preference) findPreference(KEY_BOOT_ANIMATION);
         mSignalIcon = (Preference) findPreference(KEY_SIGNAL_ICON);
@@ -95,6 +105,13 @@ public class Themes extends SettingsPreferenceFragment implements
             if (!Utils.isPackageInstalled(context, "org.evolution.udfps.animations")) {
                 mAnimationsCategory.removePreference(mUdfpsAnimation);
             }
+        }
+
+        if (!Utils.isPackageInstalled(context, "com.google.android.apps.nexuslauncher.icons.overlay")) {
+            mLauncherCategory.removePreference(mIconsOverlay);
+        }
+        if (!Utils.isPackageInstalled(context, "com.google.android.apps.nexuslauncher.blur.overlay")) {
+            mLauncherCategory.removePreference(mBlurOverlay);
         }
     }
 
