@@ -509,6 +509,7 @@
     <!-- General -->
     <string name="enable">Enable</string>
     <string name="disable">Disable</string>
+    <string name="boot_animation_applied">Boot animation applied</string>
 
     <!-- Units -->
     <string name="unit_milliseconds">milliseconds</string>
