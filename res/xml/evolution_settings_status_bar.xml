@@ -159,6 +159,37 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/status_bar_extra_padding_category">
+
+        <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+            android:key="status_bar_extra_padding_start"
+            android:title="@string/status_bar_extra_padding_start_title"
+            android:defaultValue="0"
+            settings:interval="1"
+            settings:units="@string/unit_pixels"
+            android:max="30"
+            settings:min="-30" />
+
+        <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+            android:key="status_bar_extra_padding_top"
+            android:title="@string/status_bar_extra_padding_top_title"
+            android:defaultValue="0"
+            settings:interval="1"
+            settings:units="@string/unit_pixels"
+            android:max="30"
+            settings:min="-30" />
+
+        <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+            android:key="status_bar_extra_padding_end"
+            android:title="@string/status_bar_extra_padding_end_title"
+            android:defaultValue="0"
+            settings:interval="1"
+            settings:units="@string/unit_pixels"
+            android:max="30"
+            settings:min="-30" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="status_bar_miscellaneous_category"
         android:title="@string/status_bar_miscellaneous_category">
 
