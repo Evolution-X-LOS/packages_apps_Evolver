@@ -65,6 +65,11 @@
     <string name="themes_screen_off_animation_scale">Ölçek</string>
     <string name="themes_udfps_animation_title">Parmak izi animasyonu</string>
     <string name="themes_udfps_animation_summary">UDFPS animasyon stilini ayarlayın</string>
+    <string name="themes_launcher_category">Pixel Başlatıcı</string>
+    <string name="themes_launcher_background_blur_title">Arkaplan bulanıklığı</string>
+    <string name="themes_launcher_background_blur_summary">Son öğeler sayfası arka planı için bulanıklaştırma efektini etkinleştir</string>
+    <string name="themes_launcher_more_themed_icons_title">Daha fazla temalı simgeler</string>
+    <string name="themes_launcher_more_themed_icons_summary">Yüklü uygulamalar için dinamik renk temalı simgeler için desteği genişletir</string>
     <!-- Themes/Boot animation preview -->
     <string name="boot_animation_preview_desc">Seçilen açılış animasyonunun önizlemesi</string>
     <string name="boot_animation_preview_summary">Şu anda seçili olan açılış animasyonunun önizlemesini görüntüler</string>
@@ -79,6 +84,8 @@
     <string name="monet_engine_luminance_factor_summary">Daha yüksek değerler daha parlak renkler üretir</string>
     <string name="monet_engine_chroma_factor_title">Renk faktörü</string>
     <string name="monet_engine_chroma_factor_summary">Daha yüksek değerler daha güçlü renkler üretir</string>
+    <string name="monet_engine_whole_palette_title">Tüm palet</string>
+    <string name="monet_engine_whole_palette_summary">Parlaklık ve renk seçiminin arka plan renklerini de etkilemesini sağlayın</string>
     <string name="monet_engine_tint_background_title">Arkaplan renk tonu</string>
     <string name="monet_engine_tint_background_summary">Parlaklık ve Renklilik seçiminin arka plan renklerini de etkilemesini sağlayın</string>
     <string name="monet_engine_style_title">Tema stili</string>
@@ -88,6 +95,7 @@
     <string name="monet_engine_style_spritz">Spritz</string>
     <string name="monet_engine_style_rainbow">Gökkuşağı</string>
     <string name="monet_engine_style_fruit_salad">Meyve Salatası</string>
+    <string name="monet_engine_style_monochromatic">Tek renkli</string>
     <string name="monet_engine_color_source_title">Renk kaynağı</string>
     <string name="monet_engine_color_source_both">Her ikisi (Varsayılan)</string>
     <string name="monet_engine_color_source_home">Ana ekran duvar kağıdı</string>
@@ -252,6 +260,8 @@
     <string name="status_bar_miscellaneous_category">Çeşitli</string>
     <string name="status_bar_battery_bar_title">Pil çubuğu</string>
     <string name="status_bar_battery_bar_summary">Durum çubuğu üzerinde pil çubuğunu görüntüleyin ve özelleştirin</string>
+    <string name="status_bar_carrier_lock_screen_title">Kilit ekranında operatör adı</string>
+    <string name="status_bar_carrier_lock_screen_summary">Kilit ekranı durum çubuğunda operatör adını görüntüleme</string>
     <!-- Status bar/Clock & date-->
     <string name="status_bar_clock_position_title">Saat konumu</string>
     <string name="status_bar_clock_position_right">Sağ</string>
@@ -290,6 +300,11 @@
     <string name="status_bar_clock_date_position">Tarih konumu</string>
     <string name="status_bar_clock_date_right">Saatin sağında</string>
     <string name="status_bar_clock_date_left">Saatin solunda</string>
+    <!-- Status bar/Extra padding -->
+    <string name="status_bar_extra_padding_category">Ek dolgu</string>
+    <string name="status_bar_extra_padding_start_title">Dolguyu başlat</string>
+    <string name="status_bar_extra_padding_top_title">Üst dolgu</string>
+    <string name="status_bar_extra_padding_end_title">Dolguyu bitir</string>
     <!-- Status bar/Network traffic -->
     <string name="network_traffic_location_title">Konum</string>
     <string name="network_traffic_location_disable">Devre dışı</string>
@@ -393,8 +408,8 @@
     <string name="quick_settings_require_unlock_title">Güvenli hızlı ayarlar kareleri kilit açma gerektirir</string>
     <string name="quick_settings_require_unlock_summary">Aşağıdaki hızlı ayarlarla etkileşim kurabilmeniz için önce cihazın kilidinin açılması gerekir:\nUçak, Pil tasarrufu, Bluetooth, Hücresel, Veri tasarrufu, Hotspot, İnternet, NFC, Döndürme kilidi ve Wi-Fi</string>
     <string name="quick_settings_miscellaneous_category">Çeşitli</string>
-    <string name="quick_settings_bluetooth_auto_on_title">Otomatik Bluetooth açık</string>
-    <string name="quick_settings_bluetooth_auto_on_summary">Hızlı ayarlar iletişim kutusunu açarken Bluetooth\'u otomatik olarak etkinleştirin</string>
+    <string name="quick_settings_bluetooth_show_dialog_title">Bluetooth ayarı iletisi</string>
+    <string name="quick_settings_bluetooth_show_dialog_summary">Bluetooth düğmesine dokununca Bluetooth iletişimini göster veya Bluetooth\'u kapat ya da aç</string>
     <!-- Notifications -->
     <string name="notifications_interface_category">Arayüz</string>
     <string name="notifications_edge_light_title">Kenar aydınlatması</string>
@@ -493,10 +508,6 @@
     <string name="about_discord_summary">Topluluk sohbetimizi ziyaret edin</string>
     <string name="about_github_summary">GitHub\'ımızı açmak için buraya dokunun</string>
     <string name="about_contributors_title">Katkıda bulunanlar</string>
-    <!-- Black themes for dark mode -->
-    <string name="black_theme_style_title">Siyah tema stilleri</string>
-    <string name="black_theme_style_berry">Berry siyahı</string>
-    <string name="black_theme_style_amoled">Gerçek amoled karanlığı</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Renk seçici</string>
     <string name="press_color_to_apply">Uygulamak istediğiniz rengin üzerine dokunun</string>
@@ -519,4 +530,7 @@
     <string name="systemui_restart_message">Değişikliklerin aktif olması için Sistem Arayüzü yeniden başlatılmalı Sistem Arayüzü yeniden başlatılsın mı?</string>
     <string name="systemui_restart_yes">Evet</string>
     <string name="systemui_restart_not_now">Henüz değil</string>
+    <!-- General -->
+    <string name="enable">Etkinleştir</string>
+    <string name="disable">Devre dışı bırak</string>
 </resources>
