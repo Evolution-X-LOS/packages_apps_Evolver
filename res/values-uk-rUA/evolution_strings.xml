@@ -95,7 +95,6 @@
     <string name="monet_engine_style_spritz">Шприц</string>
     <string name="monet_engine_style_rainbow">Веселка</string>
     <string name="monet_engine_style_fruit_salad">Фруктовий салат</string>
-    <string name="monet_engine_style_monochromatic">Монохромний</string>
     <string name="monet_engine_color_source_title">Джерело кольору</string>
     <string name="monet_engine_color_source_both">Обидва (за замовчуванням)</string>
     <string name="monet_engine_color_source_home">Шпалери теми</string>
