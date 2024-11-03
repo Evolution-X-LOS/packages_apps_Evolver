@@ -95,7 +95,6 @@
     <string name="monet_engine_style_spritz">Fröccs</string>
     <string name="monet_engine_style_rainbow">Szivárvány</string>
     <string name="monet_engine_style_fruit_salad">Gyümölcssaláta</string>
-    <string name="monet_engine_style_monochromatic">Monokróm</string>
     <string name="monet_engine_color_source_title">Színforrás</string>
     <string name="monet_engine_color_source_both">Mind (alapértelmezett)</string>
     <string name="monet_engine_color_source_home">Fő háttérkép</string>
