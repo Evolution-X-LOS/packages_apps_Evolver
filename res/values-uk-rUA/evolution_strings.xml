@@ -84,8 +84,6 @@
     <string name="monet_engine_luminance_factor_summary">Вищі значення дають яскравіші кольори</string>
     <string name="monet_engine_chroma_factor_title">Інтенсивність кольору</string>
     <string name="monet_engine_chroma_factor_summary">Вищі значення дають більш насичені кольори</string>
-    <string name="monet_engine_whole_palette_title">Повна палітра</string>
-    <string name="monet_engine_whole_palette_summary">Зробити блиск і вибір Chroma впливає на вторинні кольори</string>
     <string name="monet_engine_tint_background_title">Відтінок фону</string>
     <string name="monet_engine_tint_background_summary">Зробити так, щоб вибір яскравості та кольоровості також впливав на кольори фону</string>
     <string name="monet_engine_style_title">Стиль теми</string>
@@ -299,11 +297,6 @@
     <string name="status_bar_clock_date_position">Розташування дати</string>
     <string name="status_bar_clock_date_right">Праворуч від годинника</string>
     <string name="status_bar_clock_date_left">Ліворуч від годинника</string>
-    <!-- Status bar/Extra padding -->
-    <string name="status_bar_extra_padding_category">Додатковий відступ</string>
-    <string name="status_bar_extra_padding_start_title">Початок відступу</string>
-    <string name="status_bar_extra_padding_top_title">Верхній відступ</string>
-    <string name="status_bar_extra_padding_end_title">Кінець відступу</string>
     <!-- Status bar/Network traffic -->
     <string name="network_traffic_location_title">Місцезнаходження</string>
     <string name="network_traffic_location_disable">Вимкнено</string>
@@ -508,6 +501,10 @@
     <string name="about_discord_summary">Відвідайте наш чат спільноти</string>
     <string name="about_github_summary">Наш GitHub</string>
     <string name="about_contributors_title">Співавтори</string>
+    <!-- Black themes for dark mode -->
+    <string name="black_theme_style_title">Стилі чорної теми</string>
+    <string name="black_theme_style_berry">Чорна Ягода</string>
+    <string name="black_theme_style_amoled">Справжній темний Amoled</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Палітра кольорів</string>
     <string name="press_color_to_apply">Натисніть на колір нижче, щоб застосувати</string>
