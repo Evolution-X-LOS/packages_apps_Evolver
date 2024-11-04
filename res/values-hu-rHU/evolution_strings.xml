@@ -84,8 +84,6 @@
     <string name="monet_engine_luminance_factor_summary">A magasabb érték élénkebb színt eredményez</string>
     <string name="monet_engine_chroma_factor_title">Színerősség</string>
     <string name="monet_engine_chroma_factor_summary">A magasabb érték erősebb színt eredményez</string>
-    <string name="monet_engine_whole_palette_title">Az egész paletta</string>
-    <string name="monet_engine_whole_palette_summary">A \'Fényerősség\' és a \'Színesség\' kiválasztása a másodlagos színeket is befolyásolja</string>
     <string name="monet_engine_tint_background_title">Háttérkitöltés</string>
     <string name="monet_engine_tint_background_summary">A \'Fénysűrűség\' és a \'Színerősség\' kiválasztása a háttérszíneket is befolyásolja</string>
     <string name="monet_engine_style_title">Témastílus</string>
@@ -507,6 +505,10 @@
     <string name="about_discord_summary">Látogassa meg közösségi csetünket</string>
     <string name="about_github_summary">Nézze meg a GitHub-unkat</string>
     <string name="about_contributors_title">Közreműködők</string>
+    <!-- Black themes for dark mode -->
+    <string name="black_theme_style_title">Fekete témastílusok</string>
+    <string name="black_theme_style_berry">Bogyófekete</string>
+    <string name="black_theme_style_amoled">Valódi amoled sötét</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Színválasztó</string>
     <string name="press_color_to_apply">Érintse meg a színt az alkalmazáshoz</string>
