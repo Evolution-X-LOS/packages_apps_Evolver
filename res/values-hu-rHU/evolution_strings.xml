@@ -299,11 +299,6 @@
     <string name="status_bar_clock_date_position">Dátumelhelyezés</string>
     <string name="status_bar_clock_date_right">Az órától jobbra</string>
     <string name="status_bar_clock_date_left">Az órától balra</string>
-    <!-- Status bar/Extra padding -->
-    <string name="status_bar_extra_padding_category">Extra kitöltés</string>
-    <string name="status_bar_extra_padding_start_title">Kezdeti kitöltés</string>
-    <string name="status_bar_extra_padding_top_title">Felső margó</string>
-    <string name="status_bar_extra_padding_end_title">Végző kitöltés</string>
     <!-- Status bar/Network traffic -->
     <string name="network_traffic_location_title">Helymeghatározás</string>
     <string name="network_traffic_location_disable">Kikapcsolva</string>
