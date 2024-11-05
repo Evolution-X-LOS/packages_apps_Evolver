@@ -299,11 +299,6 @@
     <string name="status_bar_clock_date_position">Розташування дати</string>
     <string name="status_bar_clock_date_right">Праворуч від годинника</string>
     <string name="status_bar_clock_date_left">Ліворуч від годинника</string>
-    <!-- Status bar/Extra padding -->
-    <string name="status_bar_extra_padding_category">Додатковий відступ</string>
-    <string name="status_bar_extra_padding_start_title">Початок відступу</string>
-    <string name="status_bar_extra_padding_top_title">Верхній відступ</string>
-    <string name="status_bar_extra_padding_end_title">Кінець відступу</string>
     <!-- Status bar/Network traffic -->
     <string name="network_traffic_location_title">Місцезнаходження</string>
     <string name="network_traffic_location_disable">Вимкнено</string>
