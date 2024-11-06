@@ -299,11 +299,6 @@
     <string name="status_bar_clock_date_position">Tarih konumu</string>
     <string name="status_bar_clock_date_right">Saatin sağında</string>
     <string name="status_bar_clock_date_left">Saatin solunda</string>
-    <!-- Status bar/Extra padding -->
-    <string name="status_bar_extra_padding_category">Ek dolgu</string>
-    <string name="status_bar_extra_padding_start_title">Dolguyu başlat</string>
-    <string name="status_bar_extra_padding_top_title">Üst dolgu</string>
-    <string name="status_bar_extra_padding_end_title">Dolguyu bitir</string>
     <!-- Status bar/Network traffic -->
     <string name="network_traffic_location_title">Konum</string>
     <string name="network_traffic_location_disable">Devre dışı</string>
