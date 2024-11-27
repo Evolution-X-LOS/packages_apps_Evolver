@@ -65,6 +65,11 @@
     <string name="themes_screen_off_animation_scale">Échelle</string>
     <string name="themes_udfps_animation_title">Animation du lecteur d\'empreintes sous l\'écran</string>
     <string name="themes_udfps_animation_summary">Définir le style d\'animation du capteur d\'enpreintes digitales</string>
+    <string name="themes_launcher_category">Lanceur Pixel</string>
+    <string name="themes_launcher_background_blur_title">Flou d\'arrière-plan</string>
+    <string name="themes_launcher_background_blur_summary">Activer l\'effet de flou pour le fond de la page des éléments récents</string>
+    <string name="themes_launcher_more_themed_icons_title">Plus d\'icônes thématiques</string>
+    <string name="themes_launcher_more_themed_icons_summary">Supporte la prise en charge des icônes couleurs dynamiques pour les applications installées</string>
     <!-- Themes/Boot animation preview -->
     <string name="boot_animation_preview_desc">Aperçu de l\'animation de démarrage sélectionnée</string>
     <string name="boot_animation_preview_summary">Affiche un aperçu de l\'animation de démarrage actuellement sélectionnée</string>
@@ -79,6 +84,8 @@
     <string name="monet_engine_luminance_factor_summary">Des valeurs plus élevées produisent des couleurs plus brillantes</string>
     <string name="monet_engine_chroma_factor_title">Facteur chromatique</string>
     <string name="monet_engine_chroma_factor_summary">Des valeurs plus élevées produisent des couleurs plus fortes</string>
+    <string name="monet_engine_whole_palette_title">Palette entière</string>
+    <string name="monet_engine_whole_palette_summary">Faire que la Luminance et la sélection Chroma affectent aussi les couleurs secondaires</string>
     <string name="monet_engine_tint_background_title">Teinte de l\'arrière-plan</string>
     <string name="monet_engine_tint_background_summary">Faire en sorte que la luminosité et la sélection de couleur affectent aussi les couleurs d\'arrière-plan</string>
     <string name="monet_engine_style_title">Style du thème</string>
@@ -252,6 +259,8 @@
     <string name="status_bar_miscellaneous_category">Divers</string>
     <string name="status_bar_battery_bar_title">Barre de batterie</string>
     <string name="status_bar_battery_bar_summary">Afficher et personnaliser la barre de batterie au-dessus de la barre d\'état</string>
+    <string name="status_bar_carrier_lock_screen_title">Nom de l\'opérateur sur l\'écran de verrouillage</string>
+    <string name="status_bar_carrier_lock_screen_summary">Afficher le nom de l\'opérateur sur la barre d\'état de l\'écran de verrouillage</string>
     <!-- Status bar/Clock & date-->
     <string name="status_bar_clock_position_title">Position de l’horloge</string>
     <string name="status_bar_clock_position_right">À droite</string>
@@ -493,10 +502,6 @@
     <string name="about_discord_summary">Visitez notre chat communautaire</string>
     <string name="about_github_summary">Allez voir notre GitHub</string>
     <string name="about_contributors_title">Contributeurs</string>
-    <!-- Black themes for dark mode -->
-    <string name="black_theme_style_title">Styles de thèmes sombres</string>
-    <string name="black_theme_style_berry">Thème noir baie</string>
-    <string name="black_theme_style_amoled">Noir amoled</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Sélecteur de couleur</string>
     <string name="press_color_to_apply">Appuyez sur une couleur ci-dessous pour l\'appliquer</string>
@@ -519,4 +524,7 @@
     <string name="systemui_restart_message">Pour que les changements prennent effet, SystemUi doit être redémarré. Redémarrer maintenant ?</string>
     <string name="systemui_restart_yes">Oui</string>
     <string name="systemui_restart_not_now">Plus tard</string>
+    <!-- General -->
+    <string name="enable">Activer</string>
+    <string name="disable">Désactiver</string>
 </resources>
