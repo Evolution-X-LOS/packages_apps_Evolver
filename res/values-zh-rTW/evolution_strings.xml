@@ -461,8 +461,9 @@
     <string name="miscellaneous_app_downgrade_summary">允許系統應用程式降低版本。這可能導致應用程式崩潰和資料損失。</string>
     <string name="miscellaneous_block_wallpaper_dimming_title">忽略桌布調暗要求</string>
     <string name="miscellaneous_block_wallpaper_dimming_summary">阻止所有應用程式將桌布亮度調暗\n強制調暗值為0</string>
-    <string name="miscellaneous_ignore_window_secure_title">忽略 FLAG_SECURE 窗口標誌</string>
-    <string name="miscellaneous_ignore_window_secure_summary">移除部分應用程式螢幕不能截圖及錄影的限制。可能會導致個人資料洩漏。</string>
+    <string name="miscellaneous_ignore_window_secure_title">忽略應用程式禁止使用者擷取螢幕的保護</string>
+    <string name="miscellaneous_ignore_window_secure_summary">移除所有應用程式的螢幕截圖和螢幕錄影限制，在某些情境下能帶來便利性，但可能引發隱私洩漏之虞。
+您可能需要重新啟動應用程式才能使變更生效。</string>
     <string name="miscellaneous_unlimit_screenrecord_title">無限制螢幕錄影</string>
     <string name="miscellaneous_unlimit_screenrecord_summary">移除檔案大小最高 15GB 的限制\n可能導致輸出檔案大小高於所需的大小</string>
     <!-- Miscellaneous/Spoofing -->
