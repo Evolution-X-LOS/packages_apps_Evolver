@@ -476,7 +476,7 @@
     <string name="spoofing_pif_values_summary">查看當前所使用的 GMS 偽裝資訊</string>
     <string name="spoofing_pixel_props_title">Pixel 專屬功能</string>
     <string name="spoofing_pixel_props_summary">針對特定的 Google 應用程式偽裝成最新的 Pixel 裝置</string>
-    <string name="spoofing_storage_encryption_title">使用加密儲存空間偽裝</string>
+    <string name="spoofing_storage_encryption_title">儲存空間加密</string>
     <string name="spoofing_storage_encryption_summary">偽裝儲存空間加密狀態為已加密</string>
     <string name="spoofing_app_specific_category">針對特定應用</string>
     <string name="spoofing_vending_title">Play 商店偽裝</string>
