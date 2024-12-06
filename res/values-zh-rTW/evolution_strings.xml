@@ -39,7 +39,7 @@
     <string name="themes_system_font_title">標題/內文字體</string>
     <string name="themes_system_font_summary">設定系統字型樣式</string>
     <string name="themes_lock_screen_clock_font_title">鎖定畫面時鐘字體</string>
-    <string name="themes_lock_screen_clock_font_summary">設定鎖定畫面時鐘字體風格</string>
+    <string name="themes_lock_screen_clock_font_summary">設定鎖定畫面時鐘字體樣式</string>
     <string name="themes_icons_category">圖示</string>
     <string name="themes_system_icons_title">系統圖示</string>
     <string name="themes_system_icons_summary">設定自訂圖示套件樣式</string>
@@ -55,7 +55,7 @@
     <string name="themes_udfps_icon_summary">設定自訂指紋辨識圖示樣式</string>
     <string name="themes_brightness_category">亮度控制條</string>
     <string name="themes_brightness_slider_title">亮度控制條樣式</string>
-    <string name="themes_brightness_slider_summary">設定亮度控制條風格</string>
+    <string name="themes_brightness_slider_summary">設定亮度控制條樣式</string>
     <string name="themes_animations_category">動畫</string>
     <string name="themes_boot_animation_title">開機動畫</string>
     <string name="themes_boot_animation_summary">設定開機動畫樣式</string>
@@ -340,11 +340,11 @@
     <string name="battery_bar_blend_color_reverse_summary_on">滿 &#8594; 空：紅 &#8594; 綠 &#8594; 藍 &#8594; 紅</string>
     <!-- Quick settings -->
     <string name="quick_settings_interface_category">介面</string>
-    <string name="quick_settings_tile_ui_style_title">快速設定圖塊風格</string>
+    <string name="quick_settings_tile_ui_style_title">快速設定圖塊樣式</string>
     <string name="quick_settings_tile_ui_style_a11_circle">圓形圖塊</string>
     <string name="quick_settings_tile_ui_style_a11_square">方形圖塊</string>
     <string name="quick_settings_tile_ui_style_a11_mix">圓形 &amp; 方形圖塊</string>
-    <string name="quick_settings_panel_style_title">快速設定面板風格</string>
+    <string name="quick_settings_panel_style_title">快速設定面板樣式</string>
     <string name="quick_settings_panel_style_outline">外框</string>
     <string name="quick_settings_panel_style_two_tone">雙色主題顏色</string>
     <string name="quick_settings_panel_style_color_pop">流行色</string>
@@ -483,8 +483,8 @@
     <string name="spoofing_vending_summary">針對 Play 商店偽裝成最新款的 Pixel 裝置</string>
     <string name="spoofing_photos_title">Google 相簿偽裝</string>
     <string name="spoofing_photos_summary">針對 Play 相簿偽裝成 Pixel XL</string>
-    <string name="spoofing_games_title">解鎖遊戲中更高的螢幕更新率</string>
-    <string name="spoofing_games_summary">針對部分特定的遊戲將您的裝置偽裝成其他機型來解鎖更高的更新率</string>
+    <string name="spoofing_games_title">解鎖遊戲螢幕更新率</string>
+    <string name="spoofing_games_summary">針對特定的遊戲將您的裝置偽裝成其他機型來解鎖更高的更新率</string>
     <string name="spoofing_snap_title">Snapchat 偽裝</string>
     <string name="spoofing_snap_summary">針對 Snapchat 偽裝成 Pixel XL 以解決可能的聊天問題</string>
     <!-- Navigation Bar -->
