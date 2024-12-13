@@ -117,6 +117,9 @@
     <string name="quick_settings_lock_screen_category">Екран блокування</string>
     <string name="quick_settings_secure_lock_screen_title">Приховати на екрані блокування</string>
     <string name="quick_settings_secure_lock_screen_summary">Приховати всі швидкі налаштування в панелі сповіщень, коли пристрій заблоковано</string>
+    <string name="quick_settings_miscellaneous_category">Різне</string>
+    <string name="quick_settings_bluetooth_show_dialog_title">Діалогове вікно плитки Bluetooth</string>
+    <string name="quick_settings_bluetooth_show_dialog_summary">Показати діалогове вікно або змінити стан bluetooth при натисканні на плитку Bluetooth</string>
     <!-- Notifications -->
     <string name="notifications_interface_category">Інтерфейс</string>
     <string name="notifications_kill_app_button_title">Завершити додаток</string>
