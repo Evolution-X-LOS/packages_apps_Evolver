@@ -117,6 +117,9 @@
     <string name="quick_settings_lock_screen_category">Kilit ekranı</string>
     <string name="quick_settings_secure_lock_screen_title">Güvenli kilit ekranında gizle</string>
     <string name="quick_settings_secure_lock_screen_summary">Cihaz kilitliyken bildirim çubuğundaki tüm hızlı ayarları gizleyin</string>
+    <string name="quick_settings_miscellaneous_category">Çeşitli</string>
+    <string name="quick_settings_bluetooth_show_dialog_title">Bluetooth ayarı iletisi</string>
+    <string name="quick_settings_bluetooth_show_dialog_summary">Bluetooth düğmesine dokununca Bluetooth iletişimini göster veya Bluetooth\'u kapat ya da aç</string>
     <!-- Notifications -->
     <string name="notifications_interface_category">Arayüz</string>
     <string name="notifications_kill_app_button_title">Uygulamayı sonlandır</string>
