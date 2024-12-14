@@ -57,7 +57,7 @@
     <string name="monet_engine_chroma_factor_title">Коэффициент цветности</string>
     <string name="monet_engine_chroma_factor_summary">Чем больше значение, тем насыщеннее цвета</string>
     <string name="monet_engine_whole_palette_title">Вся палитра</string>
-    <string name="monet_engine_whole_palette_summary">Сделайте так, чтобы выбор яркости и насыщенности влиял также и на вторичные цвета</string>
+    <string name="monet_engine_whole_palette_summary">Значения яркости и цветности будут влиять так же и на вторичные цвета</string>
     <string name="monet_engine_tint_background_title">Окрасить фон</string>
     <string name="monet_engine_tint_background_summary">Значения яркости и цветности будут влиять так же и на цвета фона</string>
     <string name="monet_engine_style_title">Стиль темы</string>
@@ -67,7 +67,7 @@
     <string name="monet_engine_style_spritz">Брызги</string>
     <string name="monet_engine_style_rainbow">Радуга</string>
     <string name="monet_engine_style_fruit_salad">Фруктовый салат</string>
-    <string name="monet_engine_style_monochromatic">Монохромный</string>
+    <string name="monet_engine_style_monochromatic">Монохроматический</string>
     <string name="monet_engine_color_source_title">Источник цвета</string>
     <string name="monet_engine_color_source_both">Оба (по умолчанию)</string>
     <string name="monet_engine_color_source_home">Обои домашнего экрана</string>
@@ -117,6 +117,9 @@
     <string name="quick_settings_lock_screen_category">Экран блокировки</string>
     <string name="quick_settings_secure_lock_screen_title">Скрытие на защищённом экране блокировки</string>
     <string name="quick_settings_secure_lock_screen_summary">Скрывать все быстрые настройки в шторке уведомлений, пока устройство заблокировано</string>
+    <string name="quick_settings_miscellaneous_category">Прочее</string>
+    <string name="quick_settings_bluetooth_show_dialog_title">Диалог плитки Bluetooth</string>
+    <string name="quick_settings_bluetooth_show_dialog_summary">Показывать диалоговое окно или переключать состояние при нажатии на плитку Bluetooth</string>
     <!-- Notifications -->
     <string name="notifications_interface_category">Интерфейс</string>
     <string name="notifications_kill_app_button_title">Закрыть приложение</string>
@@ -166,7 +169,7 @@
     <string name="spoofing_storage_encryption_summary">Подмена статуса шифрования хранилища на «Зашифровано»</string>
     <string name="spoofing_app_specific_category">Для отдельных приложений</string>
     <string name="spoofing_vending_title">Подмена Google Play</string>
-    <string name="spoofing_vending_summary">Подмена устройства на последний Google Pixel для Google Play</string>
+    <string name="spoofing_vending_summary">Подмена устройства на Pixel 9 Pro для Google Play</string>
     <string name="spoofing_photos_title">Маскировка для Google Фото</string>
     <string name="spoofing_photos_summary">Подмена устройства на Pixel XL для приложения «Google Фото»</string>
     <string name="spoofing_games_title">Повышенный FPS в играх</string>
