@@ -46,6 +46,11 @@
     <string name="themes_wifi_icon_summary">Itt állíthatja be a Wi-Fi-ikon stílusát</string>
     <string name="themes_navigation_bar_icons_title">A Navigációs sáv ikonjai</string>
     <string name="themes_navigation_bar_icons_summary">Itt állíthatja be a navigációssáv stílusát</string>
+    <string name="themes_udfps_icon_title">Ujjlenyomat-ikon</string>
+    <string name="themes_udfps_icon_summary">Itt állíthatja be az ujjlenyomat-ikon stílusát</string>
+    <string name="themes_animations_category">Animációk</string>
+    <string name="themes_udfps_animation_title">Ujjlenyomat-animáció</string>
+    <string name="themes_udfps_animation_summary">Itt állíthatja be az ujjlenyomat-animáció stílusát</string>
     <!-- Themes/Monet Engine -->
     <string name="monet_engine_custom_color_title">Kiemelőszín</string>
     <string name="monet_engine_custom_color_summary">Egyéni színt választhat a kiemeléshez</string>
@@ -80,6 +85,8 @@
     <string name="lock_screen_fingerprint_category">Ujjlenyomat</string>
     <string name="lock_screen_fingerprint_ripple_title">Fodrozódó animáció</string>
     <string name="lock_screen_fingerprint_ripple_summary">Ujjlenyomatos feloldáskor fodrozódó effektus</string>
+    <string name="lock_screen_screen_off_udfps_title">Ujjlenyomatszenzor kikapcsolt kijelzőnél</string>
+    <string name="lock_screen_screen_off_udfps_summary">A képernyőbe épített ujjlenyomat-szenzor aktív marad kikapcsolt képernyőn is</string>
     <!-- Status bar -->
     <string name="status_bar_gestures_category">Mozdulatvezérlés</string>
     <string name="status_bar_brightness_control_title">Fényerőszabályzás</string>
