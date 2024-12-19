@@ -29,8 +29,6 @@ import com.android.settingslib.search.SearchIndexable;
 
 import java.util.List;
 
-import lineageos.providers.LineageSettings;
-
 @SearchIndexable
 public class NetworkTrafficSettings extends SettingsPreferenceFragment {
 

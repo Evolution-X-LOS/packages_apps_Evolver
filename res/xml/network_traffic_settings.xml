@@ -18,27 +18,27 @@
     android:title="@string/status_bar_network_traffic_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <lineageos.preference.LineageSecureSettingMainSwitchPreference
-        android:key="network_traffic_location"
+    <lineageos.preference.SystemSettingMainSwitchPreference
+        android:key="network_traffic_enabled"
         android:title="@string/enable" />
 
-    <lineageos.preference.LineageSecureSettingListPreference
+    <org.evolution.settings.preferences.SystemSettingListPreference
         android:key="network_traffic_mode"
         android:title="@string/network_traffic_mode_title"
         android:entries="@array/network_traffic_mode_entries"
         android:entryValues="@array/network_traffic_mode_values"
         android:summary="%s"
-        android:dependency="network_traffic_location"
+        android:dependency="network_traffic_enabled"
         android:defaultValue="0" />
 
-    <lineageos.preference.LineageSecureSettingSwitchPreference
+    <org.evolution.settings.preferences.SystemSettingSwitchPreference
         android:key="network_traffic_autohide"
         android:title="@string/network_traffic_autohide"
         android:summary="@string/network_traffic_autohide_summary"
-        android:dependency="network_traffic_location"
+        android:dependency="network_traffic_enabled"
         android:defaultValue="true" />
 
-    <org.evolution.settings.preferences.LineageSecureSettingSeekBarPreference
+    <org.evolution.settings.preferences.SystemSettingSeekBarPreference
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold"
         android:defaultValue="0"
@@ -48,29 +48,29 @@
         settings:interval="10"
         android:dependency="network_traffic_autohide" />
 
-    <org.evolution.settings.preferences.LineageSecureSettingSeekBarPreference
+    <org.evolution.settings.preferences.SystemSettingSeekBarPreference
         android:key="network_traffic_refresh_interval"
         android:title="@string/network_traffic_refresh_interval_title"
         android:summary="@string/network_traffic_refresh_interval_summary"
-        android:dependency="network_traffic_location"
+        android:dependency="network_traffic_enabled"
         android:defaultValue="2"
         android:max="10"
         settings:min="1"
         settings:units="@string/unit_seconds" />
 
-    <lineageos.preference.LineageSecureSettingListPreference
+    <org.evolution.settings.preferences.SystemSettingListPreference
         android:key="network_traffic_units"
         android:title="@string/network_traffic_units_title"
         android:entries="@array/network_traffic_units_entries"
         android:entryValues="@array/network_traffic_units_values"
         android:summary="%s"
-        android:dependency="network_traffic_location"
+        android:dependency="network_traffic_enabled"
         android:defaultValue="1" />
 
-    <lineageos.preference.LineageSecureSettingSwitchPreference
+    <org.evolution.settings.preferences.SystemSettingSwitchPreference
         android:key="network_traffic_hidearrow"
         android:title="@string/network_traffic_hidearrow"
         android:summary="@string/network_traffic_hidearrow_summary"
-        android:dependency="network_traffic_location"
+        android:dependency="network_traffic_enabled"
         android:defaultValue="false" />
 </PreferenceScreen>
