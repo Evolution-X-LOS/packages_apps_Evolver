@@ -102,6 +102,11 @@
     <string name="lock_screen_fingerprint_success_vibration_summary">Ujjlenyomat sikeres hitelesítésekor rezgés</string>
     <string name="lock_screen_fingerprint_error_vibration_title">A sikertelen hitelesítés rezeg</string>
     <string name="lock_screen_fingerprint_error_vibration_summary">Rezgéssel jelzi az ujjlenyomat sikertelen hitelesítését</string>
+    <string name="lock_screen_miscellaneous_category">Különlegességek</string>
+    <string name="lock_screen_pocket_detection_title">Zsebészlelés</string>
+    <string name="lock_screen_pocket_detection_summary">Ha a készüléket zsebben érzékeli, megakadályozza a véletlen érintéseket a képernyőn és a fizikai gombokon</string>
+    <string name="lock_screen_always_on_pocket_mode_title">Állandó Zsebmód</string>
+    <string name="lock_screen_always_on_pocket_mode_summary">Ha be van kapcsolva a képernyő, folyamatos a kijelző és a gombok blokkolása</string>
     <!-- Status bar -->
     <string name="status_bar_gestures_category">Mozdulatvezérlés</string>
     <string name="status_bar_brightness_control_title">Fényerőszabályzás</string>
@@ -348,6 +353,26 @@
     <string name="spoofing_games_summary">Eszközinfó-hamisítás hogy magasabb FPS legyen elérhető a játékokhoz</string>
     <string name="spoofing_snap_title">Snapchat álcázás</string>
     <string name="spoofing_snap_summary">A Snapchat-ben Pixel XL-nek álcázza az Ön készülékét a lehetséges csevegési problémák elkerüléséért</string>
+    <!-- Miscellaneous/Smart Pixels -->
+    <string name="smart_pixels_warning_text">Az Intelligens Pixelek egy akkumulátorkímélő funkció. Attól függően, hogy hány képpontot kapcsol ki, láthatja az akkumulátor élettartamának javulását. Ne feledje, hogy ez bizonyos esetekben nem reagáló területeket eredményezhet az érintőképernyőn</string>
+    <string name="smart_pixels_title">Intelligens pixelek</string>
+    <string name="smart_pixels_summary">Akkumulátorkímélés extra képpontok kikapcsolásával</string>
+    <string name="smart_pixels_enable_title">Az \'Intelligens pixelek\' bekapcsolása</string>
+    <string name="smart_pixels_enable_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
+    <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkukímélő-üzemmódban</string>
+    <string name="smart_pixels_on_power_save_summary">Engedélyezi az Intelligens pixelek funkciót, ha az akkukímélő-üzemmód be van kapcsolva</string>
+    <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
+    <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
+    <string name="smart_pixels_shift_summary">Beégés elleni védelmet nyújt OLED-kijelzőkön a képpontok gyakori áthelyezésével</string>
+    <!-- Navigation Bar -->
+    <string name="navbar_layout_category_title">Navigációs gomb</string>
+    <string name="navbar_layout_title">Elrendezés</string>
+    <string name="navbar_layout_normal">Normál</string>
+    <string name="navbar_layout_compact">Kompakt</string>
+    <string name="navbar_layout_leftleaning">Balra dőltött</string>
+    <string name="navbar_layout_rightleaning">Jobbra dőltött</string>
+    <string name="navbar_invert_layout_title">Fordított elrendezés</string>
+    <string name="navbar_invert_layout_summary">Navigációs sáv és más elemek megfordítása, mint például a bevitelimód-váltó elrendezése</string>
     <!-- About -->
     <string name="about_info">Az Evolution X célja, hogy a felhasználók számára első pillantásra Pixel-szerű érzést nyújtson Önnek, sok hozzáadott funkcióval.</string>
     <string name="about_website_title">Honlap</string>
