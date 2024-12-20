@@ -29,6 +29,10 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
 
     private static final String TAG = "Miscellaneous";
 
+    private static final String SMART_PIXELS = "smart_pixels";
+
+    private Preference mSmartPixels;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +42,12 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
         final ContentResolver resolver = context.getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources resources = context.getResources();
+
+        mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
+        boolean mSmartPixelsSupported = getResources().getBoolean(
+                com.android.internal.R.bool.config_supportSmartPixels);
+        if (!mSmartPixelsSupported)
+            prefScreen.removePreference(mSmartPixels);
     }
 
     @Override
@@ -59,6 +69,12 @@ public class Miscellaneous extends SettingsPreferenceFragment implements
             public List<String> getNonIndexableKeys(Context context) {
                 List<String> keys = super.getNonIndexableKeys(context);
                 final Resources resources = context.getResources();
+
+                boolean mSmartPixelsSupported = context.getResources().getBoolean(
+                        com.android.internal.R.bool.config_supportSmartPixels);
+                if (!mSmartPixelsSupported)
+                    keys.add(SMART_PIXELS);
+
                 return keys;
             }
         };
