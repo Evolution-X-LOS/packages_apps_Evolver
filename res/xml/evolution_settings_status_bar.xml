@@ -93,11 +93,11 @@
             android:defaultValue="true" />
 
         <!-- Colored icons -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <!--org.evolution.settings.preferences.SystemSettingSwitchPreference
             android:key="statusbar_colored_icons"
             android:title="@string/status_bar_colored_icons_title"
             android:summary="@string/status_bar_colored_icons_summary"
-            android:defaultValue="false" />
+            android:defaultValue="false" />-->
 
         <!-- Network traffic -->
         <Preference
@@ -107,11 +107,11 @@
             android:fragment="org.evolution.settings.fragments.statusbar.NetworkTrafficSettings" />
 
         <!-- Notification counter -->
-        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+        <!--org.evolution.settings.preferences.SystemSettingSwitchPreference
             android:key="statusbar_notif_count"
             android:title="@string/status_bar_notif_count_title"
             android:summary="@string/status_bar_notif_count_summary"
-            android:defaultValue="false" />
+            android:defaultValue="false" />-->
     </PreferenceCategory>
 
     <PreferenceCategory
