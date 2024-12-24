@@ -102,6 +102,11 @@
     <string name="lock_screen_fingerprint_success_vibration_summary">Ujjlenyomat sikeres hitelesítésekor rezgés</string>
     <string name="lock_screen_fingerprint_error_vibration_title">A sikertelen hitelesítés rezeg</string>
     <string name="lock_screen_fingerprint_error_vibration_summary">Rezgéssel jelzi az ujjlenyomat sikertelen hitelesítését</string>
+    <string name="lock_screen_miscellaneous_category">Különlegességek</string>
+    <string name="lock_screen_pocket_detection_title">Zsebészlelés</string>
+    <string name="lock_screen_pocket_detection_summary">Ha a készüléket zsebben érzékeli, megakadályozza a véletlen érintéseket a képernyőn és a fizikai gombokon</string>
+    <string name="lock_screen_always_on_pocket_mode_title">Állandó Zsebmód</string>
+    <string name="lock_screen_always_on_pocket_mode_summary">Ha be van kapcsolva a képernyő, folyamatos a kijelző és a gombok blokkolása</string>
     <!-- Status bar -->
     <string name="status_bar_gestures_category">Mozdulatvezérlés</string>
     <string name="status_bar_brightness_control_title">Fényerőszabályzás</string>
@@ -146,8 +151,6 @@
     <string name="status_bar_battery_percent_text_next_left">Az ikon mellett (bal)</string>
     <string name="status_bar_battery_text_charging_title">Akkuszázalék töltés közben</string>
     <string name="status_bar_battery_text_charging_summary">Töltés közben állandóan jelenítse meg az akkuszázalékot</string>
-    <string name="status_bar_clock_and_date_title">Óra és dátum</string>
-    <string name="status_bar_clock_and_date_summary">Az \'Óra és dátum\' testreszabása</string>
     <string name="status_bar_data_disabled_icon_title">A letiltott adatforgalom kijelzője</string>
     <string name="status_bar_data_disabled_icon_summary">A térerő mellett X-jel megjelenítése, ha a mobiladat-forgalom le van tiltva</string>
     <string name="status_bar_4g_icon_title">4G-ikon</string>
@@ -169,65 +172,6 @@
     <string name="status_bar_location_privacy_indicator_summary">Kijelzi, ha egy alkalmazás a helymeghatározást használja</string>
     <string name="status_bar_projection_privacy_indicator_title">Képernyő-kivetítés</string>
     <string name="status_bar_projection_privacy_indicator_summary">Kijelzi, ha a kijező épp kivetítésre kerül</string>
-    <string name="status_bar_miscellaneous_category">Különlegességek</string>
-    <string name="status_bar_battery_bar_title">Akkumulátorsáv</string>
-    <string name="status_bar_battery_bar_summary">Akkumulátorsáv megjelenítése és testreszabása az állapotsor felett</string>
-    <string name="status_bar_carrier_lock_screen_title">Szolgáltatónév a záróképernyőn</string>
-    <string name="status_bar_carrier_lock_screen_summary">A záróképernyő állapotsorában megjelenik a szolgáltató neve</string>
-    <!-- Status bar/Clock & date-->
-    <string name="status_bar_clock_position_title">Az óra helyzete</string>
-    <string name="status_bar_clock_position_right">Jobbra</string>
-    <string name="status_bar_clock_position_left">Balra</string>
-    <string name="status_bar_clock_position_center">Középre</string>
-    <string name="status_bar_clock_position_hidden">Rejtett</string>
-    <string name="status_bar_clock_seconds_title">Másodpercmutató</string>
-    <string name="status_bar_clock_seconds_summary">Ez egy állapotsori másodpercmutató</string>
-    <string name="status_bar_clock_auto_hide_intervals_title">Elrejtés időközönként</string>
-    <string name="status_bar_clock_auto_hide_intervals_summary">Az Óra elrejtése meghatározott időalapú intervallumban</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Az elrejtés hossza</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Az elrejtési idő hosszúsága másodpercben</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">A megjelenítés hossza</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">A megjelenítési idő hosszúsága másodpercben</string>
-    <string name="status_bar_clock_auto_hide_launcher_title">Elrejtés a Launcheren</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Rejtse el az órát, ha a launcher látható</string>
-    <string name="status_bar_clock_chip_title">Hátteres óra</string>
-    <string name="status_bar_clock_chip_summary">Az óra mögött megjelenít egy hátteret</string>
-    <string name="status_bar_am_pm_title">A DE/DU megjelenítés stílusa</string>
-    <string name="status_bar_am_pm_info">A 24-órás formátum engedélyezett</string>
-    <string name="status_bar_am_pm_normal">Normál</string>
-    <string name="status_bar_am_pm_small">Kicsi</string>
-    <string name="status_bar_am_pm_hidden">Rejtett</string>
-    <string name="status_bar_date_title">Dátum</string>
-    <string name="status_bar_date_none">Rejtett</string>
-    <string name="status_bar_date_small">Kicsi</string>
-    <string name="status_bar_date_normal">Normál</string>
-    <string name="status_bar_date_format_title">Dátumformátum</string>
-    <string name="status_bar_date_style">Dátumstílus</string>
-    <string name="status_bar_date_style_normal">Normál</string>
-    <string name="status_bar_date_style_lowercase">Kisbetűs</string>
-    <string name="status_bar_date_style_uppercase">Nagybetűs</string>
-    <string name="status_bar_date_format_custom">Egyéni java-formátum</string>
-    <string name="status_bar_date_string_edittext_title">A dátumformátum pl. HH/nn/éé kell legyen</string>
-    <string name="status_bar_date_string_edittext_summary">Írja be</string>
-    <string name="status_bar_clock_date_position">Dátumelhelyezés</string>
-    <string name="status_bar_clock_date_right">Az órától jobbra</string>
-    <string name="status_bar_clock_date_left">Az órától balra</string>
-    <!-- Status bar/Battery Bar -->
-    <string name="battery_bar_color">Szín</string>
-    <string name="battery_bar_charging_color">Töltésjelző szín</string>
-    <string name="battery_bar_battery_low_color">Alacsony akkuszint jelzőszíne</string>
-    <string name="battery_bar_style_title">Igazítás</string>
-    <string name="battery_bar_thickness_title">Vastagság</string>
-    <string name="battery_bar_animate_title">Töltési animáció</string>
-    <string name="battery_bar_style_regular">Hagyományos</string>
-    <string name="battery_bar_style_center_mirrored">Középre tükrözött</string>
-    <string name="battery_bar_style_reversed">Fordított</string>
-    <string name="battery_bar_use_charging_color">Egyéni töltésjelző szín</string>
-    <string name="battery_bar_blend_color_title">Kevert színek</string>
-    <string name="battery_bar_blend_color_summary">Keverje az üres/teli színeket az akkumulátor töltöttségének megfelelően</string>
-    <string name="battery_bar_blend_color_reverse_title">Fordított irányú színek</string>
-    <string name="battery_bar_blend_color_reverse_summary_off">Teljesen &#8594; üres: piros &#8592; zöld &#8592; kék &#8592; piros</string>
-    <string name="battery_bar_blend_color_reverse_summary_on">Teljesen &#8594; üres: piros &#8594; zöld &#8594; kék &#8594; piros</string>
     <!-- Status bar/Network traffic -->
     <string name="network_traffic_location_title">Helymeghatározás</string>
     <string name="network_traffic_location_disable">Kikapcsolva</string>
@@ -270,6 +214,8 @@
     <string name="quick_settings_lock_screen_category">Záróképernyő</string>
     <string name="quick_settings_secure_lock_screen_title">Elrejtés a biztonságos záróképernyőn</string>
     <string name="quick_settings_secure_lock_screen_summary">Az összes gyorsbeállítás elrejtése az értesítési területen, amikor a készülélk le van zárva</string>
+    <string name="quick_settings_require_unlock_title">Kötelező feloldás a biztonságos csempékhez</string>
+    <string name="quick_settings_require_unlock_summary">Mielőtt használná, a következő gyorsbeállításokhoz fel kell oldani a készüléket:\nReplőgép-mód, Akkukímélő, Bluetooth, Hálózat, Adatforgalom-csökkentő, Hotspot, Internet, NFC, Képernyő-elforgatás és a Wi-Fi</string>
     <string name="quick_settings_miscellaneous_category">Különlegességek</string>
     <string name="quick_settings_bluetooth_show_dialog_title">Bluetooth-csempeüzenet</string>
     <string name="quick_settings_bluetooth_show_dialog_summary">Ha megérinti a csempét, megjelenik a BT-párbeszédablak vagy a BT-állapot</string>
@@ -348,6 +294,28 @@
     <string name="spoofing_games_summary">Eszközinfó-hamisítás hogy magasabb FPS legyen elérhető a játékokhoz</string>
     <string name="spoofing_snap_title">Snapchat álcázás</string>
     <string name="spoofing_snap_summary">A Snapchat-ben Pixel XL-nek álcázza az Ön készülékét a lehetséges csevegési problémák elkerüléséért</string>
+    <!-- Miscellaneous/Smart Pixels -->
+    <string name="smart_pixels_warning_text">Az Intelligens Pixelek egy akkumulátorkímélő funkció. Attól függően, hogy hány képpontot kapcsol ki, láthatja az akkumulátor élettartamának javulását. Ne feledje, hogy ez bizonyos esetekben nem reagáló területeket eredményezhet az érintőképernyőn</string>
+    <string name="smart_pixels_title">Intelligens pixelek</string>
+    <string name="smart_pixels_summary">Akkumulátorkímélés extra képpontok kikapcsolásával</string>
+    <string name="smart_pixels_enable_title">Az \'Intelligens pixelek\' bekapcsolása</string>
+    <string name="smart_pixels_enable_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
+    <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkukímélő-üzemmódban</string>
+    <string name="smart_pixels_on_power_save_summary">Engedélyezi az Intelligens pixelek funkciót, ha az akkukímélő-üzemmód be van kapcsolva</string>
+    <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
+    <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
+    <string name="smart_pixels_shift_summary">Beégés elleni védelmet nyújt OLED-kijelzőkön a képpontok gyakori áthelyezésével</string>
+    <!-- Navigation Bar -->
+    <string name="navbar_visibility_title">Navigációs sáv</string>
+    <string name="navbar_visibility_summary">A navigációs sáv megjelenítése a képernyő alján</string>
+    <string name="navbar_layout_category_title">Navigációs gomb</string>
+    <string name="navbar_layout_title">Elrendezés</string>
+    <string name="navbar_layout_normal">Normál</string>
+    <string name="navbar_layout_compact">Kompakt</string>
+    <string name="navbar_layout_leftleaning">Balra dőltött</string>
+    <string name="navbar_layout_rightleaning">Jobbra dőltött</string>
+    <string name="navbar_invert_layout_title">Fordított elrendezés</string>
+    <string name="navbar_invert_layout_summary">Navigációs sáv és más elemek megfordítása, mint például a bevitelimód-váltó elrendezése</string>
     <!-- About -->
     <string name="about_info">Az Evolution X célja, hogy a felhasználók számára első pillantásra Pixel-szerű érzést nyújtson Önnek, sok hozzáadott funkcióval.</string>
     <string name="about_website_title">Honlap</string>
@@ -370,10 +338,10 @@
     <string name="custom_seekbar_default_value">alapértelmezetten</string>
     <string name="custom_seekbar_default_value_to_set">Alapértelmezett érték <xliff:g id="v">%s</xliff:g>\nNyomja hosszan a beállításhoz</string>
     <string name="custom_seekbar_default_value_is_set">Az alapértelmezett érték beállítva</string>
-    <!-- Units -->
-    <string name="unit_milliseconds">ezredmásodperc</string>
-    <string name="unit_seconds">másodperc</string>
     <!-- General -->
     <string name="enable">Engedélyez</string>
     <string name="disable">Letilt</string>
+    <!-- Units -->
+    <string name="unit_milliseconds">ezredmásodperc</string>
+    <string name="unit_seconds">másodperc</string>
 </resources>
