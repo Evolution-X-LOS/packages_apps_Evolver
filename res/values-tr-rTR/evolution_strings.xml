@@ -151,8 +151,6 @@
     <string name="status_bar_battery_percent_text_next_left">Simgenin yanında (sol)</string>
     <string name="status_bar_battery_text_charging_title">Şarj olurken pil yüzdesi</string>
     <string name="status_bar_battery_text_charging_summary">Şarj olurken her zaman pil yüzdesini göster</string>
-    <string name="status_bar_clock_and_date_title">Saat ve tarih</string>
-    <string name="status_bar_clock_and_date_summary">Saati ve tarihi özelleştir</string>
     <string name="status_bar_data_disabled_icon_title">Mobil veri devre dışı göstergesi</string>
     <string name="status_bar_data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal simgesinin yanında bir gösterge görüntüle</string>
     <string name="status_bar_4g_icon_title">4G simgesi</string>
@@ -174,65 +172,6 @@
     <string name="status_bar_location_privacy_indicator_summary">Bir uygulama konumunuza eriştiğinde bir belirteç göster</string>
     <string name="status_bar_projection_privacy_indicator_title">Ekran yansıtma</string>
     <string name="status_bar_projection_privacy_indicator_summary">Ekran yansıtıldığında bir belirteç göster</string>
-    <string name="status_bar_miscellaneous_category">Çeşitli</string>
-    <string name="status_bar_battery_bar_title">Pil çubuğu</string>
-    <string name="status_bar_battery_bar_summary">Durum çubuğu üzerinde pil çubuğunu görüntüleyin ve özelleştirin</string>
-    <string name="status_bar_carrier_lock_screen_title">Kilit ekranında operatör adı</string>
-    <string name="status_bar_carrier_lock_screen_summary">Kilit ekranı durum çubuğunda operatör adını görüntüleme</string>
-    <!-- Status bar/Clock & date-->
-    <string name="status_bar_clock_position_title">Saat konumu</string>
-    <string name="status_bar_clock_position_right">Sağ</string>
-    <string name="status_bar_clock_position_left">Sol</string>
-    <string name="status_bar_clock_position_center">Orta</string>
-    <string name="status_bar_clock_position_hidden">Gizli</string>
-    <string name="status_bar_clock_seconds_title">Saniye göster</string>
-    <string name="status_bar_clock_seconds_summary">Durum çubuğunda saatin yanında saniye göster</string>
-    <string name="status_bar_clock_auto_hide_intervals_title">Aralıklarla otomatik gizleme</string>
-    <string name="status_bar_clock_auto_hide_intervals_summary">Saati belirli zaman aralıklarında gizle</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Gizleme süresi</string>
-    <string name="status_bar_clock_auto_hide_hdur_summary">Saatin gizlenmesi için gereken saniye süresi</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Gösterme süresi</string>
-    <string name="status_bar_clock_auto_hide_sdur_summary">Saatin gizlenmeden önceki beklenmesi gereken saniye süresi</string>
-    <string name="status_bar_clock_auto_hide_launcher_title">Başlatıcıda otomatik gizle</string>
-    <string name="status_bar_clock_auto_hide_launcher_summary">Başlatıcı görünürse saati gizle</string>
-    <string name="status_bar_clock_chip_title">Arka plan çipi</string>
-    <string name="status_bar_clock_chip_summary">Vurgu rengini saatin arkasında göster</string>
-    <string name="status_bar_am_pm_title">ÖÖ/ÖS</string>
-    <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Küçük</string>
-    <string name="status_bar_am_pm_hidden">Gizli</string>
-    <string name="status_bar_date_title">Tarih</string>
-    <string name="status_bar_date_none">Gizli</string>
-    <string name="status_bar_date_small">Küçük</string>
-    <string name="status_bar_date_normal">Normal</string>
-    <string name="status_bar_date_format_title">Tarih biçimi</string>
-    <string name="status_bar_date_style">Tarih stili</string>
-    <string name="status_bar_date_style_normal">Normal</string>
-    <string name="status_bar_date_style_lowercase">Küçük harf</string>
-    <string name="status_bar_date_style_uppercase">Büyük harf</string>
-    <string name="status_bar_date_format_custom">Özel java biçimi</string>
-    <string name="status_bar_date_string_edittext_title">Tarih biçimi AA/gg/yy şeklinde olmalıdır</string>
-    <string name="status_bar_date_string_edittext_summary">Dize girin</string>
-    <string name="status_bar_clock_date_position">Tarih konumu</string>
-    <string name="status_bar_clock_date_right">Saatin sağında</string>
-    <string name="status_bar_clock_date_left">Saatin solunda</string>
-    <!-- Status bar/Battery Bar -->
-    <string name="battery_bar_color">Renk</string>
-    <string name="battery_bar_charging_color">Şarj rengi</string>
-    <string name="battery_bar_battery_low_color">Düşük pil rengi</string>
-    <string name="battery_bar_style_title">Konum</string>
-    <string name="battery_bar_thickness_title">Kalınlık</string>
-    <string name="battery_bar_animate_title">Şarj animasyonu</string>
-    <string name="battery_bar_style_regular">Düzenli</string>
-    <string name="battery_bar_style_center_mirrored">Merkez-yansıtmalı</string>
-    <string name="battery_bar_style_reversed">Ters</string>
-    <string name="battery_bar_use_charging_color">Özel şarj rengi</string>
-    <string name="battery_bar_blend_color_title">Renkleri karıştır</string>
-    <string name="battery_bar_blend_color_summary">Pil yüzdesine karşılık gelen dolu/boş renkleri karıştırır</string>
-    <string name="battery_bar_blend_color_reverse_title">Renk yönünü tersine çevir</string>
-    <string name="battery_bar_blend_color_reverse_summary_off">Dolu &#8594; boş: kırmızı &#8592; yeşil &#8592; mavi &#8592; kırmızı</string>
-    <string name="battery_bar_blend_color_reverse_summary_on">Dolu &#8594; boş: kırmızı &#8594; yeşil &#8594; mavi &#8594; kırmızı</string>
     <!-- Status bar/Network traffic -->
     <string name="network_traffic_location_title">Konum</string>
     <string name="network_traffic_location_disable">Devre dışı</string>
@@ -367,6 +306,8 @@
     <string name="smart_pixels_shift_title">Yanma koruması</string>
     <string name="smart_pixels_shift_summary">Amoled cihazlarda sık sık pikselleri kaydırarak yanmaları önler</string>
     <!-- Navigation Bar -->
+    <string name="navbar_visibility_title">Gezinme çubuğu</string>
+    <string name="navbar_visibility_summary">Ekranın alt kısmında gezinme çubuğunu göster</string>
     <string name="navbar_layout_category_title">Düğme gezinti çubuğu</string>
     <string name="navbar_layout_title">Düzen</string>
     <string name="navbar_layout_normal">Normal</string>
@@ -397,10 +338,10 @@
     <string name="custom_seekbar_default_value">varsayılan olarak</string>
     <string name="custom_seekbar_default_value_to_set">Varsayılan değer: <xliff:g id="v">%s</xliff:g>\nAyarlamak için uzun dokunun</string>
     <string name="custom_seekbar_default_value_is_set">Varsayılan değer ayarlandı</string>
-    <!-- Units -->
-    <string name="unit_milliseconds">milisaniye</string>
-    <string name="unit_seconds">saniye</string>
     <!-- General -->
     <string name="enable">Etkinleştir</string>
     <string name="disable">Devre dışı bırak</string>
+    <!-- Units -->
+    <string name="unit_milliseconds">milisaniye</string>
+    <string name="unit_seconds">saniye</string>
 </resources>
