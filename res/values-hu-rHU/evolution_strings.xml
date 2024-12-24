@@ -339,4 +339,7 @@
     <!-- General -->
     <string name="enable">Engedélyez</string>
     <string name="disable">Letilt</string>
+    <!-- Units -->
+    <string name="unit_milliseconds">ezredmásodperc</string>
+    <string name="unit_seconds">másodperc</string>
 </resources>
