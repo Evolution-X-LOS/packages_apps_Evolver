@@ -325,6 +325,8 @@
     <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
 
     <!-- Navigation Bar -->
+    <string name="navbar_visibility_title">Navigation bar</string>
+    <string name="navbar_visibility_summary">Display navigation bar at bottom of screen</string>
     <string name="navbar_layout_category_title">Button navbar</string>
     <string name="navbar_layout_title">Layout</string>
     <string name="navbar_layout_normal">Normal</string>
