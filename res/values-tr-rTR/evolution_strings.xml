@@ -339,4 +339,7 @@
     <!-- General -->
     <string name="enable">Etkinleştir</string>
     <string name="disable">Devre dışı bırak</string>
+    <!-- Units -->
+    <string name="unit_milliseconds">milisaniye</string>
+    <string name="unit_seconds">saniye</string>
 </resources>
