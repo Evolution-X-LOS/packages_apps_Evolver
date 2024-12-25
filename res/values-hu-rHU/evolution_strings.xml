@@ -294,20 +294,7 @@
     <string name="spoofing_games_summary">Eszközinfó-hamisítás hogy magasabb FPS legyen elérhető a játékokhoz</string>
     <string name="spoofing_snap_title">Snapchat álcázás</string>
     <string name="spoofing_snap_summary">A Snapchat-ben Pixel XL-nek álcázza az Ön készülékét a lehetséges csevegési problémák elkerüléséért</string>
-    <!-- Miscellaneous/Smart Pixels -->
-    <string name="smart_pixels_warning_text">Az Intelligens Pixelek egy akkumulátorkímélő funkció. Attól függően, hogy hány képpontot kapcsol ki, láthatja az akkumulátor élettartamának javulását. Ne feledje, hogy ez bizonyos esetekben nem reagáló területeket eredményezhet az érintőképernyőn</string>
-    <string name="smart_pixels_title">Intelligens pixelek</string>
-    <string name="smart_pixels_summary">Akkumulátorkímélés extra képpontok kikapcsolásával</string>
-    <string name="smart_pixels_enable_title">Az \'Intelligens pixelek\' bekapcsolása</string>
-    <string name="smart_pixels_enable_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
-    <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkukímélő-üzemmódban</string>
-    <string name="smart_pixels_on_power_save_summary">Engedélyezi az Intelligens pixelek funkciót, ha az akkukímélő-üzemmód be van kapcsolva</string>
-    <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
-    <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
-    <string name="smart_pixels_shift_summary">Beégés elleni védelmet nyújt OLED-kijelzőkön a képpontok gyakori áthelyezésével</string>
     <!-- Navigation Bar -->
-    <string name="navbar_visibility_title">Navigációs sáv</string>
-    <string name="navbar_visibility_summary">A navigációs sáv megjelenítése a képernyő alján</string>
     <string name="navbar_layout_category_title">Navigációs gomb</string>
     <string name="navbar_layout_title">Elrendezés</string>
     <string name="navbar_layout_normal">Normál</string>
