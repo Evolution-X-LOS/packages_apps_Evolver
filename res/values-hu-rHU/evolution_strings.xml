@@ -209,8 +209,25 @@
     <string name="quick_settings_auto_brightness_icon_summary">Az alkalmazkodó fényerő kapcsolója a csúszka közelében</string>
     <string name="quick_settings_brightness_slider_haptic_title">Érintési visszajelzés</string>
     <string name="quick_settings_brightness_slider_haptic_summary">Rezgéssel jelzi, ha fényerő-szabályzás történt a csúszkával</string>
+    <string name="quick_settings_data_usage_title">Adathasználat</string>
+    <string name="quick_settings_data_usage_summary">Kijelzi az adathasználatot a gyorsbeállítások láblécében</string>
     <string name="quick_settings_floating_clear_all_title">Lebegő \"Az összes törlése\" gomb</string>
     <string name="quick_settings_floating_clear_all_summary">Lecserélheti a szöveges \"Az összes törlése\" gombot egy alul középen lebegőre</string>
+    <string name="quick_settings_animations_category">Animációk</string>
+    <string name="quick_settings_tile_animation_style_title">A Csempék animációstílusa</string>
+    <string name="quick_settings_tile_animation_duration_title">Animációhossz</string>
+    <string name="quick_settings_tile_animation_interpolator_title">Animációmódosító</string>
+    <string name="quick_settings_tile_animation_style_off">Nincs animáció</string>
+    <string name="quick_settings_tile_animation_style_flip">Átfordítás</string>
+    <string name="quick_settings_tile_animation_style_rotate">Elforgatás</string>
+    <string name="quick_settings_tile_animation_interpolator_linear">Egyenletes</string>
+    <string name="quick_settings_tile_animation_interpolator_accelerate">Gyorsuló</string>
+    <string name="quick_settings_tile_animation_interpolator_decelerate">Lassuló</string>
+    <string name="quick_settings_tile_animation_interpolator_accelerateDecelerate">Gyorsuló-Lassuló</string>
+    <string name="quick_settings_tile_animation_interpolator_bounce">Ugráló</string>
+    <string name="quick_settings_tile_animation_interpolator_overshoot">Túlzó</string>
+    <string name="quick_settings_tile_animation_interpolator_anticipate">Siettetett</string>
+    <string name="quick_settings_tile_animation_interpolator_anticipateOvershoot">Siettetett-Túlzó</string>
     <string name="quick_settings_lock_screen_category">Záróképernyő</string>
     <string name="quick_settings_secure_lock_screen_title">Elrejtés a biztonságos záróképernyőn</string>
     <string name="quick_settings_secure_lock_screen_summary">Az összes gyorsbeállítás elrejtése az értesítési területen, amikor a készülélk le van zárva</string>
@@ -294,20 +311,7 @@
     <string name="spoofing_games_summary">Eszközinfó-hamisítás hogy magasabb FPS legyen elérhető a játékokhoz</string>
     <string name="spoofing_snap_title">Snapchat álcázás</string>
     <string name="spoofing_snap_summary">A Snapchat-ben Pixel XL-nek álcázza az Ön készülékét a lehetséges csevegési problémák elkerüléséért</string>
-    <!-- Miscellaneous/Smart Pixels -->
-    <string name="smart_pixels_warning_text">Az Intelligens Pixelek egy akkumulátorkímélő funkció. Attól függően, hogy hány képpontot kapcsol ki, láthatja az akkumulátor élettartamának javulását. Ne feledje, hogy ez bizonyos esetekben nem reagáló területeket eredményezhet az érintőképernyőn</string>
-    <string name="smart_pixels_title">Intelligens pixelek</string>
-    <string name="smart_pixels_summary">Akkumulátorkímélés extra képpontok kikapcsolásával</string>
-    <string name="smart_pixels_enable_title">Az \'Intelligens pixelek\' bekapcsolása</string>
-    <string name="smart_pixels_enable_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
-    <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkukímélő-üzemmódban</string>
-    <string name="smart_pixels_on_power_save_summary">Engedélyezi az Intelligens pixelek funkciót, ha az akkukímélő-üzemmód be van kapcsolva</string>
-    <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
-    <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
-    <string name="smart_pixels_shift_summary">Beégés elleni védelmet nyújt OLED-kijelzőkön a képpontok gyakori áthelyezésével</string>
     <!-- Navigation Bar -->
-    <string name="navbar_visibility_title">Navigációs sáv</string>
-    <string name="navbar_visibility_summary">A navigációs sáv megjelenítése a képernyő alján</string>
     <string name="navbar_layout_category_title">Navigációs gomb</string>
     <string name="navbar_layout_title">Elrendezés</string>
     <string name="navbar_layout_normal">Normál</string>
