@@ -209,8 +209,25 @@
     <string name="quick_settings_auto_brightness_icon_summary">Kaydırıcının yanında uyarlanabilir parlaklık için simge geçişini göster</string>
     <string name="quick_settings_brightness_slider_haptic_title">Dokunmatik geri bildirim</string>
     <string name="quick_settings_brightness_slider_haptic_summary">Parlaklık kaydırıcıyla değiştirildiğinde dokunsal geribildirim sağla</string>
+    <string name="quick_settings_data_usage_title">Veri kullanımı</string>
+    <string name="quick_settings_data_usage_summary">Hızlı ayarlar alt bilgisinde veri kullanım özetini göster</string>
     <string name="quick_settings_floating_clear_all_title">Uçan \"Tümünü temizle\" butonu</string>
     <string name="quick_settings_floating_clear_all_summary">\"Tümünü temizle\" yazı butonunu ekranın altının ortasındaki uçan bir tanesiyle değiştir</string>
+    <string name="quick_settings_animations_category">Animasyonlar</string>
+    <string name="quick_settings_tile_animation_style_title">Döşeme animasyon stili</string>
+    <string name="quick_settings_tile_animation_duration_title">Animasyon süresi</string>
+    <string name="quick_settings_tile_animation_interpolator_title">Kare animasyon efekti</string>
+    <string name="quick_settings_tile_animation_style_off">Animasyon yok</string>
+    <string name="quick_settings_tile_animation_style_flip">Çevir</string>
+    <string name="quick_settings_tile_animation_style_rotate">Döndür</string>
+    <string name="quick_settings_tile_animation_interpolator_linear">Çizgisel</string>
+    <string name="quick_settings_tile_animation_interpolator_accelerate">Hızlandır</string>
+    <string name="quick_settings_tile_animation_interpolator_decelerate">Yavaşlat</string>
+    <string name="quick_settings_tile_animation_interpolator_accelerateDecelerate">Hızlandır ve yavaşlat</string>
+    <string name="quick_settings_tile_animation_interpolator_bounce">Sıçrat</string>
+    <string name="quick_settings_tile_animation_interpolator_overshoot">İlerlet</string>
+    <string name="quick_settings_tile_animation_interpolator_anticipate">Beklet</string>
+    <string name="quick_settings_tile_animation_interpolator_anticipateOvershoot">İlerlet ve beklet</string>
     <string name="quick_settings_lock_screen_category">Kilit ekranı</string>
     <string name="quick_settings_secure_lock_screen_title">Güvenli kilit ekranında gizle</string>
     <string name="quick_settings_secure_lock_screen_summary">Cihaz kilitliyken bildirim çubuğundaki tüm hızlı ayarları gizleyin</string>
@@ -294,20 +311,7 @@
     <string name="spoofing_games_summary">Daha yüksek FPS\'nin kilidini açmak için belirli oyunlar için cihazı farklı model olarak gösterin</string>
     <string name="spoofing_snap_title">Snapchat taklidi</string>
     <string name="spoofing_snap_summary">Olası sohbet sorunlarını gidermek için Snapchat\'i Pixel XL olarak taklit edin</string>
-    <!-- Miscellaneous/Smart Pixels -->
-    <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksele karar verdiğinize bağlı olarak pil ömründe iyileşme görebilirsiniz</string>
-    <string name="smart_pixels_title">Akıllı Pikseller</string>
-    <string name="smart_pixels_summary">Fazladan pikselleri kapatarak pil tasarrufu sağlayın</string>
-    <string name="smart_pixels_enable_title">Akıllı pikselleri etkinleştir</string>
-    <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
-    <string name="smart_pixels_on_power_save_title">Pil tasarrufunda otomatik etkinleştir</string>
-    <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde Akıllı Pikselleri etkinleştirin</string>
-    <string name="smart_pixels_percent">Devre dışı bırakılacak piksel yüzdesi</string>
-    <string name="smart_pixels_shift_title">Yanma koruması</string>
-    <string name="smart_pixels_shift_summary">Amoled cihazlarda sık sık pikselleri kaydırarak yanmaları önler</string>
     <!-- Navigation Bar -->
-    <string name="navbar_visibility_title">Gezinme çubuğu</string>
-    <string name="navbar_visibility_summary">Ekranın alt kısmında gezinme çubuğunu göster</string>
     <string name="navbar_layout_category_title">Düğme gezinti çubuğu</string>
     <string name="navbar_layout_title">Düzen</string>
     <string name="navbar_layout_normal">Normal</string>
