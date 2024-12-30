@@ -197,6 +197,29 @@
     <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizle</string>
     <!-- Quick settings -->
     <string name="quick_settings_interface_category">Arayüz</string>
+    <string name="quick_settings_tile_ui_style_title">Hızlı ayarlar kare stili</string>
+    <string name="quick_settings_tile_ui_style_a11_circle">Daire butonlar</string>
+    <string name="quick_settings_tile_ui_style_a11_square">Kare butonlar</string>
+    <string name="quick_settings_tile_ui_style_a11_mix">Daire &amp; Kare butonlar</string>
+    <string name="quick_settings_panel_style_title">Hızlı ayarlar paneli stili</string>
+    <string name="quick_settings_panel_style_outline">Çerçeve</string>
+    <string name="quick_settings_panel_style_two_tone">Hızlı ayarlar iki tonlu vurgu rengi</string>
+    <string name="quick_settings_panel_style_color_pop">Renk patlaması</string>
+    <string name="quick_settings_panel_style_shaded">Gölgeli</string>
+    <string name="quick_settings_panel_style_cyberpunk">Cyberpunk</string>
+    <string name="quick_settings_panel_style_neumorph">Nömorf</string>
+    <string name="quick_settings_panel_style_reflected">Yansıtılmış</string>
+    <string name="quick_settings_panel_style_surround">Çevre</string>
+    <string name="quick_settings_panel_style_thin">İnce çizgi</string>
+    <string name="quick_settings_tile_label_hide_title">Etiketi gizle</string>
+    <string name="quick_settings_tile_label_size_title">Etiket metni boyutu</string>
+    <string name="quick_settings_tile_label_hide_summary">Yalnızca simgeyi göster</string>
+    <string name="quick_settings_tile_layout_title">Dikey düzen</string>
+    <string name="quick_settings_tile_layout_summary">Etiketi simgenin yanında değil altında görüntüle</string>
+    <string name="quick_settings_columns_portrait_title">Sütunlar (dikey)</string>
+    <string name="quick_settings_columns_landscape_title">Satırlar (yatay)</string>
+    <string name="quick_settings_qqs_rows_portrait_title">Hızlı QS satırları (dikey)</string>
+    <string name="quick_settings_qqs_rows_landscape_title">Hızlı QS satırları (yatay)</string>
     <string name="quick_settings_brightness_slider_category">Parlaklık kaydırıcısı</string>
     <string name="quick_settings_show_brightness_slider_title">Parlaklık kaydırıcısı</string>
     <string name="quick_settings_show_brightness_slider_never">Asla gösterme</string>
@@ -294,20 +317,7 @@
     <string name="spoofing_games_summary">Daha yüksek FPS\'nin kilidini açmak için belirli oyunlar için cihazı farklı model olarak gösterin</string>
     <string name="spoofing_snap_title">Snapchat taklidi</string>
     <string name="spoofing_snap_summary">Olası sohbet sorunlarını gidermek için Snapchat\'i Pixel XL olarak taklit edin</string>
-    <!-- Miscellaneous/Smart Pixels -->
-    <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksele karar verdiğinize bağlı olarak pil ömründe iyileşme görebilirsiniz</string>
-    <string name="smart_pixels_title">Akıllı Pikseller</string>
-    <string name="smart_pixels_summary">Fazladan pikselleri kapatarak pil tasarrufu sağlayın</string>
-    <string name="smart_pixels_enable_title">Akıllı pikselleri etkinleştir</string>
-    <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
-    <string name="smart_pixels_on_power_save_title">Pil tasarrufunda otomatik etkinleştir</string>
-    <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde Akıllı Pikselleri etkinleştirin</string>
-    <string name="smart_pixels_percent">Devre dışı bırakılacak piksel yüzdesi</string>
-    <string name="smart_pixels_shift_title">Yanma koruması</string>
-    <string name="smart_pixels_shift_summary">Amoled cihazlarda sık sık pikselleri kaydırarak yanmaları önler</string>
     <!-- Navigation Bar -->
-    <string name="navbar_visibility_title">Gezinme çubuğu</string>
-    <string name="navbar_visibility_summary">Ekranın alt kısmında gezinme çubuğunu göster</string>
     <string name="navbar_layout_category_title">Düğme gezinti çubuğu</string>
     <string name="navbar_layout_title">Düzen</string>
     <string name="navbar_layout_normal">Normal</string>
