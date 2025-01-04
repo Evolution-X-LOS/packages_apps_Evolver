@@ -107,6 +107,37 @@
     <string name="lock_screen_pocket_detection_summary">Ha a készüléket zsebben érzékeli, megakadályozza a véletlen érintéseket a képernyőn és a fizikai gombokon</string>
     <string name="lock_screen_always_on_pocket_mode_title">Állandó Zsebmód</string>
     <string name="lock_screen_always_on_pocket_mode_summary">Ha be van kapcsolva a képernyő, folyamatos a kijelző és a gombok blokkolása</string>
+    <!-- Lock screen/Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">Pulse információk</string>
+    <string name="pulse_help_policy_notice_summary">A Pulse egy brilliáns audiógrafikus hangszínszabályozó a zenelejátszáshoz</string>
+    <string name="lock_screen_pulse_settings_title">Pulse</string>
+    <string name="lock_screen_pulse_settings_summary">Egy audiógrafikus hangszínszabályozó a navigációs sávhoz és a záróképernyőhöz</string>
+    <string name="show_navbar_pulse_title">Pulse a navigációs sávhoz</string>
+    <string name="show_navbar_pulse_summary">Grafikus hangszínszabályzó a navigációs sávon</string>
+    <string name="show_lockscreen_pulse_title">Pulzáló záróképernyő</string>
+    <string name="show_lockscreen_pulse_summary">A záróképernyő audiógrafikus hangszínszabályozója</string>
+    <string name="show_ambient_pulse_title">Pulse a környezeti kijelzőhöz</string>
+    <string name="show_ambient_pulse_summary">Grafikus hangszínszabályzó a környezeti kijelzőhöz</string>
+    <string name="pulse_render_mode_title">A renderelés módja</string>
+    <string name="pulse_render_mode_fading_bars">Halványuló blokkok</string>
+    <string name="pulse_render_mode_solid_lines">Folytonos vonalak</string>
+    <string name="pulse_legacy_mode_advanced_category">A \'Halványuló blokkok üzemmód\' beállításai</string>
+    <string name="pulse_custom_fudge_factor">Az ésszerűség szintje</string>
+    <string name="pulse_lavalamp_speed_title">A Lávalámpa sebessége</string>
+    <string name="pulse_solid_units_count">A folytonos vonalak száma</string>
+    <string name="pulse_solid_units_opacity">A folytonos vonalak átlátszósága</string>
+    <string name="pulse_solid_dimen_category">A \'Folytonos vonalak üzemmód\' beállításai</string>
+    <string name="pulse_color_mode_title">Szín</string>
+    <string name="pulse_color_accent">Kiemelés</string>
+    <string name="pulse_color_custom">Egyéni</string>
+    <string name="pulse_color_lava_lamp">Lávalámpa</string>
+    <string name="pulse_color_user_title">Színválasztás</string>
+    <string name="pulse_smoothing_enabled_title">Simítás be</string>
+    <string name="pulse_smoothing_enabled_summary">Az összes sáv animációja sokkal simábbá válik</string>
+    <string name="pulse_custom_dimen">Sávszélesség</string>
+    <string name="pulse_custom_div">Sávtérköz</string>
+    <string name="pulse_filled_block_size">Blokkméret</string>
+    <string name="pulse_empty_block_size">Blokktérköz</string>
     <!-- Status bar -->
     <string name="status_bar_gestures_category">Mozdulatvezérlés</string>
     <string name="status_bar_brightness_control_title">Fényerőszabályzás</string>
@@ -172,6 +203,8 @@
     <string name="status_bar_location_privacy_indicator_summary">Kijelzi, ha egy alkalmazás a helymeghatározást használja</string>
     <string name="status_bar_projection_privacy_indicator_title">Képernyő-kivetítés</string>
     <string name="status_bar_projection_privacy_indicator_summary">Kijelzi, ha a kijező épp kivetítésre kerül</string>
+    <string name="status_bar_carrier_lock_screen_title">Szolgáltatónév a záróképernyőn</string>
+    <string name="status_bar_carrier_lock_screen_summary">A záróképernyő állapotsorában megjelenik a szolgáltató neve</string>
     <!-- Status bar/Network traffic -->
     <string name="network_traffic_location_title">Helymeghatározás</string>
     <string name="network_traffic_location_disable">Kikapcsolva</string>
@@ -197,6 +230,29 @@
     <string name="network_traffic_hidearrow_summary">Elrejti a forgalmat jelző nyilakat</string>
     <!-- Quick settings -->
     <string name="quick_settings_interface_category">Kezelőfelület</string>
+    <string name="quick_settings_tile_ui_style_title">A Gyorsbeállítás-csempék stílusa</string>
+    <string name="quick_settings_tile_ui_style_a11_circle">Körcsempék</string>
+    <string name="quick_settings_tile_ui_style_a11_square">Négyzetcsempék</string>
+    <string name="quick_settings_tile_ui_style_a11_mix">Kör- és négyzetcsempék</string>
+    <string name="quick_settings_panel_style_title">A Gyorsbeállítások panel stílusa</string>
+    <string name="quick_settings_panel_style_outline">Körvonal</string>
+    <string name="quick_settings_panel_style_two_tone">Két tónussal kiemelt</string>
+    <string name="quick_settings_panel_style_color_pop">Többszínű</string>
+    <string name="quick_settings_panel_style_shaded">Árnyékolt</string>
+    <string name="quick_settings_panel_style_cyberpunk">Cyberpunk</string>
+    <string name="quick_settings_panel_style_neumorph">Neumorph</string>
+    <string name="quick_settings_panel_style_reflected">Tükrözött</string>
+    <string name="quick_settings_panel_style_surround">Térhatású</string>
+    <string name="quick_settings_panel_style_thin">Vékony vonalú</string>
+    <string name="quick_settings_tile_label_hide_title">Címke-elrejtés</string>
+    <string name="quick_settings_tile_label_size_title">Cimke-méret</string>
+    <string name="quick_settings_tile_label_hide_summary">Csak az ikonok látszanak a csempén</string>
+    <string name="quick_settings_tile_layout_title">Függőleges elrendezés</string>
+    <string name="quick_settings_tile_layout_summary">Ikonnév nem az ikon alatt, hanem mellette</string>
+    <string name="quick_settings_columns_portrait_title">Oszlopok (álló)</string>
+    <string name="quick_settings_columns_landscape_title">Oszlopok (fekvő)</string>
+    <string name="quick_settings_qqs_rows_portrait_title">A Gyorsbeállítások sorai (álló módban)</string>
+    <string name="quick_settings_qqs_rows_landscape_title">A Gyorsbeállítások sorai (fekvő módban)</string>
     <string name="quick_settings_brightness_slider_category">Fényerőcsúszka</string>
     <string name="quick_settings_show_brightness_slider_title">Fényerőcsúszka</string>
     <string name="quick_settings_show_brightness_slider_never">Ne mutassa soha</string>
@@ -294,20 +350,7 @@
     <string name="spoofing_games_summary">Eszközinfó-hamisítás hogy magasabb FPS legyen elérhető a játékokhoz</string>
     <string name="spoofing_snap_title">Snapchat álcázás</string>
     <string name="spoofing_snap_summary">A Snapchat-ben Pixel XL-nek álcázza az Ön készülékét a lehetséges csevegési problémák elkerüléséért</string>
-    <!-- Miscellaneous/Smart Pixels -->
-    <string name="smart_pixels_warning_text">Az Intelligens Pixelek egy akkumulátorkímélő funkció. Attól függően, hogy hány képpontot kapcsol ki, láthatja az akkumulátor élettartamának javulását. Ne feledje, hogy ez bizonyos esetekben nem reagáló területeket eredményezhet az érintőképernyőn</string>
-    <string name="smart_pixels_title">Intelligens pixelek</string>
-    <string name="smart_pixels_summary">Akkumulátorkímélés extra képpontok kikapcsolásával</string>
-    <string name="smart_pixels_enable_title">Az \'Intelligens pixelek\' bekapcsolása</string>
-    <string name="smart_pixels_enable_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
-    <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkukímélő-üzemmódban</string>
-    <string name="smart_pixels_on_power_save_summary">Engedélyezi az Intelligens pixelek funkciót, ha az akkukímélő-üzemmód be van kapcsolva</string>
-    <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
-    <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
-    <string name="smart_pixels_shift_summary">Beégés elleni védelmet nyújt OLED-kijelzőkön a képpontok gyakori áthelyezésével</string>
     <!-- Navigation Bar -->
-    <string name="navbar_visibility_title">Navigációs sáv</string>
-    <string name="navbar_visibility_summary">A navigációs sáv megjelenítése a képernyő alján</string>
     <string name="navbar_layout_category_title">Navigációs gomb</string>
     <string name="navbar_layout_title">Elrendezés</string>
     <string name="navbar_layout_normal">Normál</string>
