@@ -30,6 +30,9 @@
     <string name="themes_monet_category">Monet</string>
     <string name="themes_monet_title">Monet-beállítások</string>
     <string name="themes_monet_summary">Testreszabhatja az Android beépített témamotorját</string>
+    <string name="themes_audio_category">Audió - Hang</string>
+    <string name="themes_lock_sound_title">A lezárás hangja</string>
+    <string name="themes_unlock_sound_title">A feloldás hangja</string>
     <string name="themes_fonts_category">Betűtípusok</string>
     <string name="themes_system_font_title">Rendszer-betűtípus</string>
     <string name="themes_system_font_summary">Itt állíthatja be a rendszer-betűtípusát</string>
@@ -49,6 +52,8 @@
     <string name="themes_udfps_icon_title">Ujjlenyomat-ikon</string>
     <string name="themes_udfps_icon_summary">Itt állíthatja be az ujjlenyomat-ikon stílusát</string>
     <string name="themes_animations_category">Animációk</string>
+    <string name="themes_boot_animation_title">Bootanimáció</string>
+    <string name="themes_boot_animation_summary">Itt állíthatja be a boot-animáció stílusát</string>
     <string name="themes_charging_animation_title">Töltési animáció</string>
     <string name="themes_charging_animation_summary">Animáció megjelenítése, ha a telefon a töltőhöz csatlakozik</string>
     <string name="themes_screen_off_animation_title">Képernyőkikapcsolási animáció</string>
@@ -62,6 +67,10 @@
     <string name="themes_launcher_background_blur_summary">Az Előzmények-oldalháttér elmosási effektjének bekapcsolása</string>
     <string name="themes_launcher_more_themed_icons_title">Még témázottabb ikonok</string>
     <string name="themes_launcher_more_themed_icons_summary">A dinamikus színes témájú ikon-támogatás kibővítése a telepített alkalmazásokhoz</string>
+    <!-- Themes/Boot animation preview -->
+    <string name="boot_animation_preview_desc">A kiválasztott boot-animáció előnézete</string>
+    <string name="boot_animation_preview_summary">Megmutatja önnek, hogy milyen lenne, amit kiválasztott</string>
+    <string name="boot_animation_preview_title">A Boot-animáció előnézete</string>
     <!-- Themes/Monet Engine -->
     <string name="monet_engine_custom_color_title">Kiemelőszín</string>
     <string name="monet_engine_custom_color_summary">Egyéni színt választhat a kiemeléshez</string>
@@ -466,7 +475,13 @@
     <!-- General -->
     <string name="enable">Engedélyez</string>
     <string name="disable">Letilt</string>
+    <string name="boot_animation_applied">A kiválasztott Boot-animáció alkalmazva</string>
     <!-- Units -->
     <string name="unit_milliseconds">ezredmásodperc</string>
     <string name="unit_seconds">másodperc</string>
+    <!-- SystemUI restart dialog -->
+    <string name="systemui_restart_title">Rendszerfelület-újraindítás szükséges</string>
+    <string name="systemui_restart_message">A módosítások érvénybe léptetéséhez szükséges a rendszerfelület újraindítása. Újraindítja most?</string>
+    <string name="systemui_restart_yes">Igen</string>
+    <string name="systemui_restart_not_now">Most nem</string>
 </resources>
