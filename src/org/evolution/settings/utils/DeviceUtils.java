@@ -40,8 +40,6 @@ import java.util.Arrays;
 
 public class DeviceUtils {
 
-    private static final String DEVICE = "ro.evolution.device";
-
     /* returns whether the device has a centered display cutout or not. */
     public static boolean hasCenteredCutout(Context context) {
         Display display = context.getDisplay();
@@ -287,31 +285,8 @@ public class DeviceUtils {
                 com.android.internal.R.integer.config_navBarInteractionMode);
     }
 
-    private static final String[] currentlySupportedPixels = {
-            "rango",
-            "mustang",
-            "blazer",
-            "frankel",
-            "komodo",
-            "caiman",
-            "tokay",
-            "comet",
-            "akita",
-            "husky",
-            "shiba",
-            "felix",
-            "tangorpro",
-            "lynx",
-            "cheetah",
-            "panther",
-            "bluejay",
-            "oriole",
-            "raven",
-            "barbet"
-    };
-
     public static boolean isCurrentlySupportedPixel() {
-        String deviceCodename = SystemProperties.get(DEVICE);
-        return Arrays.asList(currentlySupportedPixels).contains(deviceCodename);
+        boolean isPixelDevice = SystemProperties.get("ro.product.model").matches("Pixel [3-9][a-zA-Z ]*");
+        return isPixelDevice;
     }
 }
