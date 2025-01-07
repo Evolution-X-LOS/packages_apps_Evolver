@@ -30,6 +30,9 @@
     <string name="themes_monet_category">Monet</string>
     <string name="themes_monet_title">Monet ayarları</string>
     <string name="themes_monet_summary">Android\'in dahili tema motorunu özelleştirin</string>
+    <string name="themes_audio_category">Ses</string>
+    <string name="themes_lock_sound_title">Kilitleme sesi</string>
+    <string name="themes_unlock_sound_title">Kilit açma sesi</string>
     <string name="themes_fonts_category">Yazı tipleri</string>
     <string name="themes_system_font_title">Başlık / Gövde yazı tipi</string>
     <string name="themes_system_font_summary">Sistem yazı tipi stili ayarlayın</string>
@@ -48,7 +51,12 @@
     <string name="themes_navigation_bar_icons_summary">Özel gezinme çubuğu stili ayarlayın</string>
     <string name="themes_udfps_icon_title">UDFPS simgesi</string>
     <string name="themes_udfps_icon_summary">UDFPS simge stilini ayarlayın</string>
+    <string name="themes_brightness_category">Parlaklık kaydırıcısı</string>
+    <string name="themes_brightness_slider_title">Parlaklık kaydırıcı stili</string>
+    <string name="themes_brightness_slider_summary">Parlaklık kaydırıcısı stilini ayarla</string>
     <string name="themes_animations_category">Animasyonlar</string>
+    <string name="themes_boot_animation_title">Açılış animasyonu</string>
+    <string name="themes_boot_animation_summary">Açılış animasyon stilini ayarla</string>
     <string name="themes_charging_animation_title">Şarj animasyonu</string>
     <string name="themes_charging_animation_summary">Cihaz şarja takıldığında bir animasyon göster</string>
     <string name="themes_screen_off_animation_title">Ekran kapanma animasyonu</string>
@@ -62,6 +70,10 @@
     <string name="themes_launcher_background_blur_summary">Son öğeler sayfası arka planı için bulanıklaştırma efektini etkinleştir</string>
     <string name="themes_launcher_more_themed_icons_title">Daha fazla temalı simgeler</string>
     <string name="themes_launcher_more_themed_icons_summary">Yüklü uygulamalar için dinamik renk temalı simgeler için desteği genişletir</string>
+    <!-- Themes/Boot animation preview -->
+    <string name="boot_animation_preview_desc">Seçilen açılış animasyonunun önizlemesi</string>
+    <string name="boot_animation_preview_summary">Şu anda seçili olan açılış animasyonunun önizlemesini görüntüler</string>
+    <string name="boot_animation_preview_title">Açılış animasyonu önizlemesi</string>
     <!-- Themes/Monet Engine -->
     <string name="monet_engine_custom_color_title">Vurgu rengi</string>
     <string name="monet_engine_custom_color_summary">Vurgu için özel renk seçin</string>
@@ -182,6 +194,8 @@
     <string name="status_bar_battery_percent_text_next_left">Simgenin yanında (sol)</string>
     <string name="status_bar_battery_text_charging_title">Şarj olurken pil yüzdesi</string>
     <string name="status_bar_battery_text_charging_summary">Şarj olurken her zaman pil yüzdesini göster</string>
+    <string name="status_bar_clock_and_date_title">Saat ve tarih</string>
+    <string name="status_bar_clock_and_date_summary">Saati ve tarihi özelleştir</string>
     <string name="status_bar_data_disabled_icon_title">Mobil veri devre dışı göstergesi</string>
     <string name="status_bar_data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal simgesinin yanında bir gösterge görüntüle</string>
     <string name="status_bar_4g_icon_title">4G simgesi</string>
@@ -192,6 +206,46 @@
     <string name="status_bar_bluetooth_battery_summary">Eğer mümkün ise bağlı olan bluetooth cihazının pil durumunu gösterir</string>
     <string name="status_bar_colored_icons_title">Renkli simgeler</string>
     <string name="status_bar_colored_icons_summary">Uygulama bildirimleri için başlatıcı simgelerini kullanın</string>
+    <string name="status_bar_logo_title">Logo</string>
+    <string name="status_bar_logo_summary">Durum çubuğunda özel bir logo görüntüle</string>
+    <string name="status_bar_logo_position_title">Logo konumu</string>
+    <string name="status_bar_logo_position_left">Sol taraf</string>
+    <string name="status_bar_logo_position_right">Sağ taraf</string>
+    <string name="status_bar_logo_style_title">Logo stili</string>
+    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Uzaylı</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">Blackberry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">Havalı ifadesi</string>
+    <string name="status_bar_logo_style_emoticon_devil">Şeytan ifadesi</string>
+    <string name="status_bar_logo_style_fire">Fire</string>
+    <string name="status_bar_logo_style_heart">Kalp</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Örümcek Adam</string>
+    <string name="status_bar_logo_style_superman">Süpermen</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">XBOX</string>
+    <string name="status_bar_logo_style_ghost">Hayalet</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Demir Adam</string>
+    <string name="status_bar_logo_style_captain_america">Kaptan Amerika</string>
+    <string name="status_bar_logo_style_flash">Flaş</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
+    <string name="status_bar_logo_style_amogus">Amogus</string>
     <string name="status_bar_network_traffic_settings_title">Ağ trafiği monitörü</string>
     <string name="status_bar_network_traffic_settings_summary">Geçerli ağ trafiği düzeylerini görüntüleyin ve özelleştirin</string>
     <string name="status_bar_notif_count_title">Bildirim sayısı</string>
@@ -205,6 +259,44 @@
     <string name="status_bar_projection_privacy_indicator_summary">Ekran yansıtıldığında bir belirteç göster</string>
     <string name="status_bar_carrier_lock_screen_title">Kilit ekranında operatör adı</string>
     <string name="status_bar_carrier_lock_screen_summary">Kilit ekranı durum çubuğunda operatör adını görüntüleme</string>
+    <!-- Status bar/Clock & date-->
+    <string name="status_bar_clock_position_title">Saat konumu</string>
+    <string name="status_bar_clock_position_right">Sağ</string>
+    <string name="status_bar_clock_position_left">Sol</string>
+    <string name="status_bar_clock_position_center">Orta</string>
+    <string name="status_bar_clock_position_hidden">Gizli</string>
+    <string name="status_bar_clock_seconds_title">Saniye göster</string>
+    <string name="status_bar_clock_seconds_summary">Durum çubuğunda saatin yanında saniye göster</string>
+    <string name="status_bar_clock_auto_hide_intervals_title">Aralıklarla otomatik gizleme</string>
+    <string name="status_bar_clock_auto_hide_intervals_summary">Saati belirli zaman aralıklarında gizle</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Gizleme süresi</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">Saatin gizlenmesi için gereken saniye süresi</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Gösterme süresi</string>
+    <string name="status_bar_clock_auto_hide_sdur_summary">Saatin gizlenmeden önceki beklenmesi gereken saniye süresi</string>
+    <string name="status_bar_clock_auto_hide_launcher_title">Başlatıcıda otomatik gizle</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">Başlatıcı görünürse saati gizle</string>
+    <string name="status_bar_clock_chip_title">Arka plan çipi</string>
+    <string name="status_bar_clock_chip_summary">Vurgu rengini saatin arkasında göster</string>
+    <string name="status_bar_am_pm_title">ÖÖ/ÖS</string>
+    <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Küçük</string>
+    <string name="status_bar_am_pm_hidden">Gizli</string>
+    <string name="status_bar_date_title">Tarih</string>
+    <string name="status_bar_date_none">Gizli</string>
+    <string name="status_bar_date_small">Küçük</string>
+    <string name="status_bar_date_normal">Normal</string>
+    <string name="status_bar_date_format_title">Tarih biçimi</string>
+    <string name="status_bar_date_style">Tarih stili</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Küçük harf</string>
+    <string name="status_bar_date_style_uppercase">Büyük harf</string>
+    <string name="status_bar_date_format_custom">Özel java biçimi</string>
+    <string name="status_bar_date_string_edittext_title">Tarih biçimi AA/gg/yy şeklinde olmalıdır</string>
+    <string name="status_bar_date_string_edittext_summary">Dize girin</string>
+    <string name="status_bar_clock_date_position">Tarih konumu</string>
+    <string name="status_bar_clock_date_right">Saatin sağında</string>
+    <string name="status_bar_clock_date_left">Saatin solunda</string>
     <!-- Status bar/Network traffic -->
     <string name="network_traffic_location_title">Konum</string>
     <string name="network_traffic_location_disable">Devre dışı</string>
@@ -384,7 +476,13 @@
     <!-- General -->
     <string name="enable">Etkinleştir</string>
     <string name="disable">Devre dışı bırak</string>
+    <string name="boot_animation_applied">Açılış animasyonu uygulandı</string>
     <!-- Units -->
     <string name="unit_milliseconds">milisaniye</string>
     <string name="unit_seconds">saniye</string>
+    <!-- SystemUI restart dialog -->
+    <string name="systemui_restart_title">Sistem arayüzünün yeniden başlatılması gerekir</string>
+    <string name="systemui_restart_message">Değişikliklerin aktif olması için Sistem Arayüzü yeniden başlatılmalı Sistem Arayüzü yeniden başlatılsın mı?</string>
+    <string name="systemui_restart_yes">Evet</string>
+    <string name="systemui_restart_not_now">Henüz değil</string>
 </resources>
