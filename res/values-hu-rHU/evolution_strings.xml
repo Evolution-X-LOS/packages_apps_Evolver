@@ -116,37 +116,6 @@
     <string name="lock_screen_pocket_detection_summary">Ha a készüléket zsebben érzékeli, megakadályozza a véletlen érintéseket a képernyőn és a fizikai gombokon</string>
     <string name="lock_screen_always_on_pocket_mode_title">Állandó Zsebmód</string>
     <string name="lock_screen_always_on_pocket_mode_summary">Ha be van kapcsolva a képernyő, folyamatos a kijelző és a gombok blokkolása</string>
-    <!-- Lock screen/Pulse music visualizer -->
-    <string name="pulse_help_policy_notice_title">Pulse információk</string>
-    <string name="pulse_help_policy_notice_summary">A Pulse egy brilliáns audiógrafikus hangszínszabályozó a zenelejátszáshoz</string>
-    <string name="lock_screen_pulse_settings_title">Pulse</string>
-    <string name="lock_screen_pulse_settings_summary">Egy audiógrafikus hangszínszabályozó a navigációs sávhoz és a záróképernyőhöz</string>
-    <string name="show_navbar_pulse_title">Pulse a navigációs sávhoz</string>
-    <string name="show_navbar_pulse_summary">Grafikus hangszínszabályzó a navigációs sávon</string>
-    <string name="show_lockscreen_pulse_title">Pulzáló záróképernyő</string>
-    <string name="show_lockscreen_pulse_summary">A záróképernyő audiógrafikus hangszínszabályozója</string>
-    <string name="show_ambient_pulse_title">Pulse a környezeti kijelzőhöz</string>
-    <string name="show_ambient_pulse_summary">Grafikus hangszínszabályzó a környezeti kijelzőhöz</string>
-    <string name="pulse_render_mode_title">A renderelés módja</string>
-    <string name="pulse_render_mode_fading_bars">Halványuló blokkok</string>
-    <string name="pulse_render_mode_solid_lines">Folytonos vonalak</string>
-    <string name="pulse_legacy_mode_advanced_category">A \'Halványuló blokkok üzemmód\' beállításai</string>
-    <string name="pulse_custom_fudge_factor">Az ésszerűség szintje</string>
-    <string name="pulse_lavalamp_speed_title">A Lávalámpa sebessége</string>
-    <string name="pulse_solid_units_count">A folytonos vonalak száma</string>
-    <string name="pulse_solid_units_opacity">A folytonos vonalak átlátszósága</string>
-    <string name="pulse_solid_dimen_category">A \'Folytonos vonalak üzemmód\' beállításai</string>
-    <string name="pulse_color_mode_title">Szín</string>
-    <string name="pulse_color_accent">Kiemelés</string>
-    <string name="pulse_color_custom">Egyéni</string>
-    <string name="pulse_color_lava_lamp">Lávalámpa</string>
-    <string name="pulse_color_user_title">Színválasztás</string>
-    <string name="pulse_smoothing_enabled_title">Simítás be</string>
-    <string name="pulse_smoothing_enabled_summary">Az összes sáv animációja sokkal simábbá válik</string>
-    <string name="pulse_custom_dimen">Sávszélesség</string>
-    <string name="pulse_custom_div">Sávtérköz</string>
-    <string name="pulse_filled_block_size">Blokkméret</string>
-    <string name="pulse_empty_block_size">Blokktérköz</string>
     <!-- Status bar -->
     <string name="status_bar_gestures_category">Mozdulatvezérlés</string>
     <string name="status_bar_brightness_control_title">Fényerőszabályzás</string>
