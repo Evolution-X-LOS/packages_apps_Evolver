@@ -51,6 +51,9 @@
     <string name="themes_navigation_bar_icons_summary">Itt állíthatja be a navigációssáv stílusát</string>
     <string name="themes_udfps_icon_title">Ujjlenyomat-ikon</string>
     <string name="themes_udfps_icon_summary">Itt állíthatja be az ujjlenyomat-ikon stílusát</string>
+    <string name="themes_brightness_category">Fényerőcsúszka</string>
+    <string name="themes_brightness_slider_title">A Fényerőcsúszka stílusa</string>
+    <string name="themes_brightness_slider_summary">Itt állíthatja be a csúszka stílusát</string>
     <string name="themes_animations_category">Animációk</string>
     <string name="themes_boot_animation_title">Bootanimáció</string>
     <string name="themes_boot_animation_summary">Itt állíthatja be a boot-animáció stílusát</string>
