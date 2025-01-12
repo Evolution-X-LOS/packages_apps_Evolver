@@ -65,11 +65,6 @@
     <string name="themes_screen_off_animation_scale">Ölçek</string>
     <string name="themes_udfps_animation_title">Parmak izi animasyonu</string>
     <string name="themes_udfps_animation_summary">UDFPS animasyon stilini ayarlayın</string>
-    <string name="themes_launcher_category">Pixel Başlatıcı</string>
-    <string name="themes_launcher_background_blur_title">Arkaplan bulanıklığı</string>
-    <string name="themes_launcher_background_blur_summary">Son öğeler sayfası arka planı için bulanıklaştırma efektini etkinleştir</string>
-    <string name="themes_launcher_more_themed_icons_title">Daha fazla temalı simgeler</string>
-    <string name="themes_launcher_more_themed_icons_summary">Yüklü uygulamalar için dinamik renk temalı simgeler için desteği genişletir</string>
     <!-- Themes/Boot animation preview -->
     <string name="boot_animation_preview_desc">Seçilen açılış animasyonunun önizlemesi</string>
     <string name="boot_animation_preview_summary">Şu anda seçili olan açılış animasyonunun önizlemesini görüntüler</string>
