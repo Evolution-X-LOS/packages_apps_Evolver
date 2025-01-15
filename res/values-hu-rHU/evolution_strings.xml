@@ -65,11 +65,6 @@
     <string name="themes_screen_off_animation_scale">Összeugrás</string>
     <string name="themes_udfps_animation_title">Ujjlenyomat-animáció</string>
     <string name="themes_udfps_animation_summary">Itt állíthatja be az ujjlenyomat-animáció stílusát</string>
-    <string name="themes_launcher_category">Pixel Launcher</string>
-    <string name="themes_launcher_background_blur_title">Háttér-homályosítás</string>
-    <string name="themes_launcher_background_blur_summary">Az Előzmények-oldalháttér elmosási effektjének bekapcsolása</string>
-    <string name="themes_launcher_more_themed_icons_title">Még témázottabb ikonok</string>
-    <string name="themes_launcher_more_themed_icons_summary">A dinamikus színes témájú ikon-támogatás kibővítése a telepített alkalmazásokhoz</string>
     <!-- Themes/Boot animation preview -->
     <string name="boot_animation_preview_desc">A kiválasztott boot-animáció előnézete</string>
     <string name="boot_animation_preview_summary">Megmutatja önnek, hogy milyen lenne, amit kiválasztott</string>
@@ -359,6 +354,21 @@
     <string name="quick_settings_brightness_slider_haptic_summary">Rezgéssel jelzi, ha fényerő-szabályzás történt a csúszkával</string>
     <string name="quick_settings_floating_clear_all_title">Lebegő \"Az összes törlése\" gomb</string>
     <string name="quick_settings_floating_clear_all_summary">Lecserélheti a szöveges \"Az összes törlése\" gombot egy alul középen lebegőre</string>
+    <string name="quick_settings_animations_category">Animációk</string>
+    <string name="quick_settings_tile_animation_style_title">A Csempék animációstílusa</string>
+    <string name="quick_settings_tile_animation_duration_title">Animációhossz</string>
+    <string name="quick_settings_tile_animation_interpolator_title">Animációmódosító</string>
+    <string name="quick_settings_tile_animation_style_off">Nincs animáció</string>
+    <string name="quick_settings_tile_animation_style_flip">Átfordítás</string>
+    <string name="quick_settings_tile_animation_style_rotate">Elforgatás</string>
+    <string name="quick_settings_tile_animation_interpolator_linear">Egyenletes</string>
+    <string name="quick_settings_tile_animation_interpolator_accelerate">Gyorsuló</string>
+    <string name="quick_settings_tile_animation_interpolator_decelerate">Lassuló</string>
+    <string name="quick_settings_tile_animation_interpolator_accelerateDecelerate">Gyorsuló-Lassuló</string>
+    <string name="quick_settings_tile_animation_interpolator_bounce">Ugráló</string>
+    <string name="quick_settings_tile_animation_interpolator_overshoot">Túlzó</string>
+    <string name="quick_settings_tile_animation_interpolator_anticipate">Siettetett</string>
+    <string name="quick_settings_tile_animation_interpolator_anticipateOvershoot">Siettetett-Túlzó</string>
     <string name="quick_settings_lock_screen_category">Záróképernyő</string>
     <string name="quick_settings_secure_lock_screen_title">Elrejtés a biztonságos záróképernyőn</string>
     <string name="quick_settings_secure_lock_screen_summary">Az összes gyorsbeállítás elrejtése az értesítési területen, amikor a készülélk le van zárva</string>
