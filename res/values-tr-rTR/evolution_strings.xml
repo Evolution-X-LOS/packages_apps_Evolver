@@ -65,11 +65,6 @@
     <string name="themes_screen_off_animation_scale">Ölçek</string>
     <string name="themes_udfps_animation_title">Parmak izi animasyonu</string>
     <string name="themes_udfps_animation_summary">UDFPS animasyon stilini ayarlayın</string>
-    <string name="themes_launcher_category">Pixel Başlatıcı</string>
-    <string name="themes_launcher_background_blur_title">Arkaplan bulanıklığı</string>
-    <string name="themes_launcher_background_blur_summary">Son öğeler sayfası arka planı için bulanıklaştırma efektini etkinleştir</string>
-    <string name="themes_launcher_more_themed_icons_title">Daha fazla temalı simgeler</string>
-    <string name="themes_launcher_more_themed_icons_summary">Yüklü uygulamalar için dinamik renk temalı simgeler için desteği genişletir</string>
     <!-- Themes/Boot animation preview -->
     <string name="boot_animation_preview_desc">Seçilen açılış animasyonunun önizlemesi</string>
     <string name="boot_animation_preview_summary">Şu anda seçili olan açılış animasyonunun önizlemesini görüntüler</string>
@@ -359,6 +354,21 @@
     <string name="quick_settings_brightness_slider_haptic_summary">Parlaklık kaydırıcıyla değiştirildiğinde dokunsal geribildirim sağla</string>
     <string name="quick_settings_floating_clear_all_title">Uçan \"Tümünü temizle\" butonu</string>
     <string name="quick_settings_floating_clear_all_summary">\"Tümünü temizle\" yazı butonunu ekranın altının ortasındaki uçan bir tanesiyle değiştir</string>
+    <string name="quick_settings_animations_category">Animasyonlar</string>
+    <string name="quick_settings_tile_animation_style_title">Döşeme animasyon stili</string>
+    <string name="quick_settings_tile_animation_duration_title">Animasyon süresi</string>
+    <string name="quick_settings_tile_animation_interpolator_title">Animasyon interpolatörü</string>
+    <string name="quick_settings_tile_animation_style_off">Animasyon yok</string>
+    <string name="quick_settings_tile_animation_style_flip">Çevir</string>
+    <string name="quick_settings_tile_animation_style_rotate">Döndür</string>
+    <string name="quick_settings_tile_animation_interpolator_linear">Çizgisel</string>
+    <string name="quick_settings_tile_animation_interpolator_accelerate">Hızlandır</string>
+    <string name="quick_settings_tile_animation_interpolator_decelerate">Yavaşlat</string>
+    <string name="quick_settings_tile_animation_interpolator_accelerateDecelerate">Hızlandır ve yavaşlat</string>
+    <string name="quick_settings_tile_animation_interpolator_bounce">Sıçrat</string>
+    <string name="quick_settings_tile_animation_interpolator_overshoot">İlerlet</string>
+    <string name="quick_settings_tile_animation_interpolator_anticipate">Beklet</string>
+    <string name="quick_settings_tile_animation_interpolator_anticipateOvershoot">İlerlet ve beklet</string>
     <string name="quick_settings_lock_screen_category">Kilit ekranı</string>
     <string name="quick_settings_secure_lock_screen_title">Güvenli kilit ekranında gizle</string>
     <string name="quick_settings_secure_lock_screen_summary">Cihaz kilitliyken bildirim çubuğundaki tüm hızlı ayarları gizleyin</string>
