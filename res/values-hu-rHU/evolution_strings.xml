@@ -377,6 +377,24 @@
     <string name="quick_settings_miscellaneous_category">Különlegességek</string>
     <string name="quick_settings_bluetooth_show_dialog_title">Bluetooth-csempeüzenet</string>
     <string name="quick_settings_bluetooth_show_dialog_summary">Ha megérinti a csempét, megjelenik a BT-párbeszédablak vagy a BT-állapot</string>
+    <string name="quick_settings_header_image_title">Fejléc-kép</string>
+    <string name="quick_settings_header_image_summary">QS-háttér fejléckép-választás</string>
+    <string name="quick_settings_header_daylight_pack_title">Fejléckép-gyűjtemény</string>
+    <string name="quick_settings_header_shadow_title">A fejléc-kép árnyéka</string>
+    <string name="quick_settings_header_shadow_summary">A jobb láthatóság érdekében, világos képek esetén</string>
+    <string name="quick_settings_header_static_provider_title">Statikus kép</string>
+    <string name="quick_settings_header_daylight_provider_title">Képgyűjtemény</string>
+    <string name="quick_settings_header_file_provider_title">Egyéni kép</string>
+    <string name="quick_settings_header_provider_title">Fejléc-szolgáltató</string>
+    <string name="quick_settings_header_browse_title">Itt böngészhet a telepített fejlécek között</string>
+    <string name="quick_settings_header_browse_summary">Itt böngészhet az összes elérhető fejléc között</string>
+    <string name="quick_settings_header_pick_title">Fejléckép-választás</string>
+    <string name="quick_settings_header_pick_summary">Válasszon ki egy képet a statikus üzemmódban való használatához</string>
+    <string name="quick_settings_header_file_select_title">Válasszon képet</string>
+    <string name="quick_settings_header_file_select_summary">Válasszon egyéni képet</string>
+    <string name="quick_settings_header_needs_gallery">Telepítenie kéne egy Galéria-alkalmazást!</string>
+    <string name="quick_settings_header_offset_title">Fejléckép-elhelyezés</string>
+    <string name="quick_settings_header_offset_summary">Állítsa be a kép fejlécméretét</string>
     <!-- Notifications -->
     <string name="notifications_heads_up_title">Lebegő értesítés</string>
     <string name="notifications_heads_up_summary">A felugró értesítések engedélyezése</string>
