@@ -254,6 +254,11 @@
     <string name="status_bar_projection_privacy_indicator_summary">Kijelzi, ha a kijező épp kivetítésre kerül</string>
     <string name="status_bar_carrier_lock_screen_title">Szolgáltatónév a záróképernyőn</string>
     <string name="status_bar_carrier_lock_screen_summary">A záróképernyő állapotsorában megjelenik a szolgáltató neve</string>
+    <string name="status_bar_lyric_title">Dalszöveg az állapotsávon</string>
+    <string name="status_bar_lyric_summary">Ha az alkalmazás támogatja megjelenik a dalszöveg</string>
+    <string name="status_bar_lyric_options_title">Lehetőségek</string>
+    <string name="disguise_props_for_music_app_title">Készülékálcázás zenealkalmazásokhoz</string>
+    <string name="disguise_props_for_music_app_summary">A készülék álcázása egyes zenei alkalmazásokban, hogy az állapotsorban megjelenhessen a dalszöveg. Átkapcsolás után újra kell indítani az alkalmazást, hogy a módosítás érvénybe lépjen.</string>
     <!-- Status bar/Clock & date-->
     <string name="status_bar_clock_position_title">Az óra helyzete</string>
     <string name="status_bar_clock_position_right">Jobbra</string>
@@ -336,6 +341,9 @@
     <string name="quick_settings_tile_label_hide_summary">Csak az ikonok látszanak a csempén</string>
     <string name="quick_settings_tile_layout_title">Függőleges elrendezés</string>
     <string name="quick_settings_tile_layout_summary">Ikonnév nem az ikon alatt, hanem mellette</string>
+    <string name="quick_settings_layout_columns_rows_title">Oszlopok és sorok</string>
+    <string name="quick_settings_layout_columns_rows_summary">Személyre szabhatja a csempék oszlopait és sorait</string>
+    <string name="quick_settings_layout_columns_rows_footer_text">A QS sorainak többnek kell lennie mint a QQS sorainak. Használjon nagyobb számú oszlopot a kör/négyzet (A11) QS csempestílushoz.</string>
     <string name="quick_settings_columns_portrait_title">Oszlopok (álló)</string>
     <string name="quick_settings_columns_landscape_title">Oszlopok (fekvő)</string>
     <string name="quick_settings_qqs_rows_portrait_title">A Gyorsbeállítások sorai (álló módban)</string>
@@ -407,13 +415,17 @@
     <string name="notifications_alert_display_on_title">Figyelmeztetés bekapcsolt képernyőn</string>
     <string name="notifications_alert_display_on_summary">Értesítésjelzés hanggal és rezgéssel, ha a képernyő be van kapcsolva</string>
     <!-- Notifications/Edge light -->
-    <string name="notifications_edge_light_enable_ttile">Engedélyez</string>
     <string name="notifications_edge_light_always_trigger_on_pulse_title">Oldalfény-kapcsoló</string>
     <string name="notifications_edge_light_always_trigger_on_pulse_summary">Itt dönthető el, hogy a környezeti kijelző megjelenésekor is megjelenjen az oldalfény, ne csak az értesítéskor</string>
     <string name="notifications_edge_light_repeat_animation_title">Animációismétlés</string>
     <string name="notifications_edge_light_repeat_animation_summary_on">Ismétlődés egy időhatárig</string>
     <string name="notifications_edge_light_repeat_animation_summary_off">Csak egyszer jelenjen meg</string>
     <string name="notifications_edge_light_color_mode_title">Az oldalszín jellege</string>
+    <string name="notifications_edge_light_style_title">Az \'Oldalfények\' stílusa</string>
+    <string name="notifications_edge_light_stroke_width_title">Az \'Oldalfények\' vonalszélessége</string>
+    <string name="notifications_edge_light_stroke_width_summary">Beállíthatja az \'Oldalfények\' vastagságát</string>
+    <string name="notifications_edge_light_style_1">Vonalrajzolás</string>
+    <string name="notifications_edge_light_style_2">Villogás/Pulzálás</string>
     <!-- Notifications/Less boring heads up -->
     <string name="notifications_less_boring_heads_up_title">Csak a fontosak</string>
     <string name="notifications_less_boring_heads_up_summary">Felugró értesítések megjelenítése csak az ébresztőhöz, a tárcsázóhoz és az üzenetekhez</string>
@@ -495,6 +507,7 @@
     <string name="accent_color">Kiemelőszín (alapértelmezett)</string>
     <string name="notification_color">Értesítési szín</string>
     <string name="wallpaper_color">Háttérkép-színek</string>
+    <string name="rainbow_gradient_color">Szivárványszín-átmenet</string>
     <string name="custom_color">Egyéni szín</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value"><xliff:g id="v">%s</xliff:g> értékű</string>
