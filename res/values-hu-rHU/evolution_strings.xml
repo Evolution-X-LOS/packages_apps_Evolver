@@ -419,6 +419,9 @@
     <string name="notifications_sounds_vibration_category">Hangok és rezgés</string>
     <string name="notifications_alert_display_on_title">Figyelmeztetés bekapcsolt képernyőn</string>
     <string name="notifications_alert_display_on_summary">Értesítésjelzés hanggal és rezgéssel, ha a képernyő be van kapcsolva</string>
+    <!-- Notifications/Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Az értesítőcsúszka jelzései</string>
+    <string name="alert_slider_notifications_summary">Jelezni fogja, ha az értesítőcsúszka helyzete megváltozott</string>
     <!-- Notifications/Edge light -->
     <string name="notifications_edge_light_always_trigger_on_pulse_title">Oldalfény-kapcsoló</string>
     <string name="notifications_edge_light_always_trigger_on_pulse_summary">Itt dönthető el, hogy a környezeti kijelző megjelenésekor is megjelenjen az oldalfény, ne csak az értesítéskor</string>
