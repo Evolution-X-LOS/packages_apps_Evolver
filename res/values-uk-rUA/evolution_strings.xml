@@ -65,6 +65,11 @@
     <string name="themes_screen_off_animation_scale">Масштабування</string>
     <string name="themes_udfps_animation_title">Анімації відбитка пальця</string>
     <string name="themes_udfps_animation_summary">Встановити стиль анімації UDFPS</string>
+    <string name="themes_launcher_category">Pixel Launcher</string>
+    <string name="themes_launcher_background_blur_title">Розмиття фону</string>
+    <string name="themes_launcher_background_blur_summary">Увімкнути ефект розмиття для фону сторінки з останніми елементами</string>
+    <string name="themes_launcher_more_themed_icons_title">Більше тематичних іконок</string>
+    <string name="themes_launcher_more_themed_icons_summary">Розширює підтримку динамічної теми значків встановлених програм</string>
     <!-- Themes/Boot animation preview -->
     <string name="boot_animation_preview_desc">Попередній перегляд вибраної анімації завантаження</string>
     <string name="boot_animation_preview_summary">Відображає попередній перегляд поточної анімації завантаження</string>
@@ -414,6 +419,9 @@
     <string name="notifications_sounds_vibration_category">Звуки &amp; Вібрація</string>
     <string name="notifications_alert_display_on_title">Сповіщення увімкнено</string>
     <string name="notifications_alert_display_on_summary">Відтворювання звуку та вібрації для сповіщень при увімкненому екрані</string>
+    <!-- Notifications/Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Повзунок сповіщень</string>
+    <string name="alert_slider_notifications_summary">Відображення сповіщення при зміні позиції повзунка сповіщень</string>
     <!-- Notifications/Edge light -->
     <string name="notifications_edge_light_always_trigger_on_pulse_title">Завжди використовувати пульсацію</string>
     <string name="notifications_edge_light_always_trigger_on_pulse_summary">Показувати перемикач світла, коли Активний дисплей, і не тільки для сповіщень</string>
@@ -461,6 +469,15 @@
     <string name="miscellaneous_ignore_window_secure_summary">Зняти обмеження на знятках і записи екрану для всіх додатків, потенційно ризикуючи витіком конфіденційності</string>
     <string name="miscellaneous_unlimit_screenrecord_title">Скасувати обмеження запису екрану</string>
     <string name="miscellaneous_unlimit_screenrecord_summary">Видалити обмеження розміру 15 Гб файлу\nМоже призвести до більшого, ніж необхідний файл виводу</string>
+    <!-- Miscellaneous/Smart Pixels -->
+    <string name="smart_pixels_warning_text">Розумні пікселі - це функція економії заряду. В залежності від того, скільки пікселів ви вирішили вимкнути, це може збільшити час роботи батареї. Зверніть увагу, в деяких випадках це може призвести до того, що на сенсорному екрані будуть зони, які не відповідають</string>
+    <string name="smart_pixels_title">Розумні пікселі</string>
+    <string name="smart_pixels_summary">Збережіть акумулятор, вимкнувши додаткові пікселі</string>
+    <string name="smart_pixels_on_power_save_title">Автоматичне увімкнення в режимі збереження енергії</string>
+    <string name="smart_pixels_on_power_save_summary">Увімкнути розумні пікселі, коли ввімкнено збереження акумулятора</string>
+    <string name="smart_pixels_percent">Відсоток пікселів для вимкнення</string>
+    <string name="smart_pixels_shift_title">Захист від вигорання</string>
+    <string name="smart_pixels_shift_summary">Запобігає вигоранню на пристроях з OLED екраном, періодично змінюючи пікселі</string>
     <!-- Miscellaneous/Spoofing -->
     <string name="spoofing_title">Підробка компонентів</string>
     <string name="spoofing_summary">Обходьте обмеження додатків шляхом підробки компонентів</string>
