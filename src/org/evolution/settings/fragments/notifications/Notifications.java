@@ -5,6 +5,7 @@
 
 package org.evolution.settings.fragments.notifications;
 
+import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
@@ -29,15 +30,25 @@ public class Notifications extends SettingsPreferenceFragment implements
 
     private static final String TAG = "Notifications";
 
+    private static final String ALERT_SLIDER_PREF = "alert_slider_notifications";
+
+    private Preference mAlertSlider;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.evolution_settings_notifications);
 
-        final Context context = getContext();
-        final ContentResolver resolver = context.getContentResolver();
+        final Context mContext = getActivity().getApplicationContext();
+        final ContentResolver resolver = mContext.getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        final Resources resources = context.getResources();
+        final Resources res = mContext.getResources();
+
+        mAlertSlider = (Preference) prefScreen.findPreference(ALERT_SLIDER_PREF);
+        boolean mAlertSliderAvailable = res.getBoolean(
+                com.android.internal.R.bool.config_hasAlertSlider);
+        if (!mAlertSliderAvailable)
+            prefScreen.removePreference(mAlertSlider);
     }
 
     @Override
@@ -53,13 +64,19 @@ public class Notifications extends SettingsPreferenceFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-        new BaseSearchIndexProvider(R.xml.evolution_settings_notifications) {
+            new BaseSearchIndexProvider(R.xml.evolution_settings_notifications) {
 
-            @Override
-            public List<String> getNonIndexableKeys(Context context) {
-                List<String> keys = super.getNonIndexableKeys(context);
-                final Resources resources = context.getResources();
-                return keys;
-            }
-        };
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    final Resources res = context.getResources();
+
+                    boolean mAlertSliderAvailable = res.getBoolean(
+                            com.android.internal.R.bool.config_hasAlertSlider);
+                    if (!mAlertSliderAvailable)
+                        keys.add(ALERT_SLIDER_PREF);
+
+                    return keys;
+                }
+            };
 }
