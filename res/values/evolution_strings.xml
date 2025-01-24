@@ -509,6 +509,8 @@
     <string name="spoofing_pif_values_summary">View current values used to spoof GMS for Play Integrity API certification</string>
     <string name="spoofing_pixel_props_title">Pixel props</string>
     <string name="spoofing_pixel_props_summary">Spoof a select group of Google apps to the latest Pixel device</string>
+    <string name="tensor_spoof_title">Spoof tensor features</string>
+    <string name="tensor_spoof_summary">Unlock tensor/pixel features</string>
     <string name="spoofing_storage_encryption_title">Storage encryption</string>
     <string name="spoofing_storage_encryption_summary">Spoof the device storage encryption status to \'Encrypted\'</string>
     <string name="spoofing_app_specific_category">App-Specific</string>

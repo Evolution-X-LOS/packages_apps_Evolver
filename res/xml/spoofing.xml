@@ -36,6 +36,13 @@
             android:summary="@string/spoofing_pixel_props_summary"
             android:defaultValue="true" />
 
+        <!-- Tensor features -->
+        <org.evolution.settings.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.features.tensor"
+            android:title="@string/tensor_spoof_title"
+            android:summary="@string/tensor_spoof_summary"
+            android:defaultValue="false" />
+
         <!-- Encryption -->
         <org.evolution.settings.preferences.GlobalSettingSwitchPreference
             android:key="spoofing_storage_encryption"
