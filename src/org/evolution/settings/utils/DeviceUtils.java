@@ -286,7 +286,7 @@ public class DeviceUtils {
     }
 
     public static boolean isCurrentlySupportedPixel() {
-        boolean isPixelDevice = SystemProperties.get("ro.product.model").matches("Pixel [3-9][a-zA-Z ]*");
+        boolean isPixelDevice = SystemProperties.get("ro.soc.manufacturer").equals("Google");
         return isPixelDevice;
     }
 }
