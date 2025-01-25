@@ -422,6 +422,9 @@
     <!-- Notifications/Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Повзунок сповіщень</string>
     <string name="alert_slider_notifications_summary">Відображення сповіщення при зміні позиції повзунка сповіщень</string>
+    <!-- Notifications/Compact Heads-up -->
+    <string name="compact_heads_up_notifications_enabled_title">Компактні сповіщення</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Показувати сповіщення в компактному розмірі</string>
     <!-- Notifications/Edge light -->
     <string name="notifications_edge_light_always_trigger_on_pulse_title">Завжди використовувати пульсацію</string>
     <string name="notifications_edge_light_always_trigger_on_pulse_summary">Показувати перемикач світла, коли Активний дисплей, і не тільки для сповіщень</string>
@@ -488,6 +491,8 @@
     <string name="spoofing_pif_values_summary">Перегляд поточних значень, які використовуються для сертифікату GMS для Playity API</string>
     <string name="spoofing_pixel_props_title">Пропозиції Pixel</string>
     <string name="spoofing_pixel_props_summary">Імітувати пристрій як Pixel 8 Pro для всіх додатків Google</string>
+    <string name="tensor_spoof_title">Імітація особливостей tensor</string>
+    <string name="tensor_spoof_summary">Розблокувати особливості tensor/pixel</string>
     <string name="spoofing_storage_encryption_title">Шифрування сховища</string>
     <string name="spoofing_storage_encryption_summary">Імітувати статус шифрування сховища пристрою в \'Зашифрований\'</string>
     <string name="spoofing_app_specific_category">Спеціально для програми</string>
