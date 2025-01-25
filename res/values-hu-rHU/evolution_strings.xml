@@ -422,6 +422,9 @@
     <!-- Notifications/Alert Slider Notifications (OnePlus devices) -->
     <string name="alert_slider_notifications_title">Az értesítőcsúszka jelzései</string>
     <string name="alert_slider_notifications_summary">Jelezni fogja, ha az értesítőcsúszka helyzete megváltozott</string>
+    <!-- Notifications/Compact Heads-up -->
+    <string name="compact_heads_up_notifications_enabled_title">Kompakt méretű felugrók</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Az értesítések kompakt méretben jelennek meg</string>
     <!-- Notifications/Edge light -->
     <string name="notifications_edge_light_always_trigger_on_pulse_title">Oldalfény-kapcsoló</string>
     <string name="notifications_edge_light_always_trigger_on_pulse_summary">Itt dönthető el, hogy a környezeti kijelző megjelenésekor is megjelenjen az oldalfény, ne csak az értesítéskor</string>
@@ -488,6 +491,8 @@
     <string name="spoofing_pif_values_summary">A jelenlegi értékek megtekintése, amelyeket a GMS meghamisításához használnak a Play Integrity API-tanúsítványhoz</string>
     <string name="spoofing_pixel_props_title">Pixel-kellékek</string>
     <string name="spoofing_pixel_props_summary">A kijelölt Google alkalmazásokhoz a legújabb Pixel-telefonnak álcázza az Ön készülékét</string>
+    <string name="tensor_spoof_title">Hamis Tenson CPU funkciók</string>
+    <string name="tensor_spoof_summary">A Tensor / Pixel jellemzők feloldása</string>
     <string name="spoofing_storage_encryption_title">Tárhelytitkosítás</string>
     <string name="spoofing_storage_encryption_summary">A tárhely állapotának hamisítása \' Titkosított \'-ra</string>
     <string name="spoofing_app_specific_category">Alkalmazás-specifikus</string>
