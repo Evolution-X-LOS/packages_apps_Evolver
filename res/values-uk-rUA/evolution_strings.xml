@@ -65,11 +65,6 @@
     <string name="themes_screen_off_animation_scale">Масштабування</string>
     <string name="themes_udfps_animation_title">Анімації відбитка пальця</string>
     <string name="themes_udfps_animation_summary">Встановити стиль анімації UDFPS</string>
-    <string name="themes_launcher_category">Pixel Launcher</string>
-    <string name="themes_launcher_background_blur_title">Розмиття фону</string>
-    <string name="themes_launcher_background_blur_summary">Увімкнути ефект розмиття для фону сторінки з останніми елементами</string>
-    <string name="themes_launcher_more_themed_icons_title">Більше тематичних іконок</string>
-    <string name="themes_launcher_more_themed_icons_summary">Розширює підтримку динамічної теми значків встановлених програм</string>
     <!-- Themes/Boot animation preview -->
     <string name="boot_animation_preview_desc">Попередній перегляд вибраної анімації завантаження</string>
     <string name="boot_animation_preview_summary">Відображає попередній перегляд поточної анімації завантаження</string>
@@ -485,14 +480,12 @@
     <string name="spoofing_title">Підробка компонентів</string>
     <string name="spoofing_summary">Обходьте обмеження додатків шляхом підробки компонентів</string>
     <string name="spoofing_system_wide_category">Загальносистемний</string>
-    <string name="spoofing_pif_toggle_title">Відтворити виправлення цілісності</string>
-    <string name="spoofing_pif_toggle_summary">Використовуйте вбудовані налаштування інтеграції Play Integrity</string>
-    <string name="spoofing_pif_values_title">Виправлені значення цілого цілісності</string>
-    <string name="spoofing_pif_values_summary">Перегляд поточних значень, які використовуються для сертифікату GMS для Playity API</string>
     <string name="spoofing_pixel_props_title">Пропозиції Pixel</string>
     <string name="spoofing_pixel_props_summary">Імітувати пристрій як Pixel 8 Pro для всіх додатків Google</string>
     <string name="tensor_spoof_title">Імітація особливостей tensor</string>
     <string name="tensor_spoof_summary">Розблокувати особливості tensor/pixel</string>
+    <string name="gms_spoof_title">Відтворити виправлення цілісності</string>
+    <string name="gms_spoof_summary">Імітувати дані вашого пристрою, щоб перейти до списку дозволів Google Play</string>
     <string name="spoofing_storage_encryption_title">Шифрування сховища</string>
     <string name="spoofing_storage_encryption_summary">Імітувати статус шифрування сховища пристрою в \'Зашифрований\'</string>
     <string name="spoofing_app_specific_category">Спеціально для програми</string>
@@ -504,6 +497,16 @@
     <string name="spoofing_games_summary">Імітація пристрою як різних моделей для вибору ігор з вищими FPS</string>
     <string name="spoofing_snap_title">Підробка Snapchat</string>
     <string name="spoofing_snap_summary">Імітувати Pixel XL для Snapchat для вирішення можливих проблем чату</string>
+    <!-- Miscellaneous/Spoofing/Play Integrity fix JSON update -->
+    <string name="toast_spoofing_success">Успішно завантажено pif.json. Імітувати як %1$s для проходження Play Integrity.</string>
+    <string name="toast_spoofing_failure">Помилка створення імітаційних властивостей.</string>
+    <string name="update_pif_json_title">Оновити Play Integrity fix</string>
+    <string name="update_pif_json_summary">Оновлення PIF Spoofing пристрою, потребує підключення до Інтернету.</string>
+    <string name="show_pif_properties_title">Властивості Play Integrity fix</string>
+    <string name="show_pif_properties_summary">Показати всі поточні налаштування PIF</string>
+    <string name="error_loading_properties">Помилка при завантаженні властивостей PIF</string>
+    <string name="pif_spoofing_title">Виберіть JSON файл</string>
+    <string name="pif_spoofing_summary">Виберіть файл PIF JSON для використання в Spoofing Play Integrity</string>
     <!-- Navigation Bar -->
     <string name="navbar_layout_category_title">Кнопка панелі навігації</string>
     <string name="navbar_layout_title">Макет</string>
