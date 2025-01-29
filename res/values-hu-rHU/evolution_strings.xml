@@ -484,7 +484,7 @@
     <string name="spoofing_pixel_props_summary">A kijelölt Google alkalmazásokhoz a legújabb Pixel-telefonnak álcázza az Ön készülékét</string>
     <string name="tensor_spoof_title">Hamis Tenson CPU funkciók</string>
     <string name="tensor_spoof_summary">A Tensor / Pixel jellemzők feloldása</string>
-    <string name="gms_spoof_title">Play Integritás javítás</string>
+    <string name="gms_spoof_title">Play Integritásjavítás</string>
     <string name="gms_spoof_summary">Készülékálcázás, hogy megfeleljen a Google Play tanusítványi feltételeinek</string>
     <string name="spoofing_storage_encryption_title">Tárhelytitkosítás</string>
     <string name="spoofing_storage_encryption_summary">A tárhely állapotának hamisítása \' Titkosított \'-ra</string>
