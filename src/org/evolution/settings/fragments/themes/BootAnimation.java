@@ -50,6 +50,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.evolution.settings.preferences.BootAnimationPreviewPreference;
+import org.evolution.settings.utils.DeviceUtils;
 
 @SearchIndexable
 public class BootAnimation extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
@@ -73,6 +74,22 @@ public class BootAnimation extends SettingsPreferenceFragment implements OnPrefe
         "/product/media/bootanimation_rr.zip",
         "/product/media/bootanimation_slim.zip",
         "/product/media/bootanimation_valorant.zip"
+    };
+
+    private static final String[] PRODUCT_BOOT_ANIMATION_FILES_PIXEL = {
+        "/system/media/bootanimation.zip",
+        "/system/media/bootanimation_evo_reveal.zip",
+        "/system/media/bootanimation_aokp.zip",
+        "/system/media/bootanimation_cm.zip",
+        "/system/media/bootanimation_ctos.zip",
+        "/system/media/bootanimation_cyberpunk.zip",
+        "/system/media/bootanimation_du.zip",
+        "/system/media/bootanimation_google.zip",
+        "/system/media/bootanimation_google_monet.zip",
+        "/system/media/bootanimation_pac.zip",
+        "/system/media/bootanimation_rr.zip",
+        "/system/media/bootanimation_slim.zip",
+        "/system/media/bootanimation_valorant.zip"
     };
 
     private ListPreference mBootAnimationStyle;
@@ -155,11 +172,22 @@ public class BootAnimation extends SettingsPreferenceFragment implements OnPrefe
 
     private void copyProductFile(int style) {
         try {
-            if (style < 0 || style >= PRODUCT_BOOT_ANIMATION_FILES.length) {
-                Log.e(TAG, "Invalid style index");
-                return;
+            if (DeviceUtils.isCurrentlySupportedPixel()) {
+                if (style < 0 || style >= PRODUCT_BOOT_ANIMATION_FILES_PIXEL.length) {
+                    Log.e(TAG, "Invalid style index");
+                    return;
+                }
+            } else {
+                if (style < 0 || style >= PRODUCT_BOOT_ANIMATION_FILES.length) {
+                    Log.e(TAG, "Invalid style index");
+                    return;
+                }
             }
-            String productFilePath = PRODUCT_BOOT_ANIMATION_FILES[style];
+            if (DeviceUtils.isCurrentlySupportedPixel()) {
+                String productFilePath = PRODUCT_BOOT_ANIMATION_FILES_PIXEL[style];
+            } else {
+                String productFilePath = PRODUCT_BOOT_ANIMATION_FILES[style];
+            }
             File productFile = new File(productFilePath);
             if (!productFile.exists()) {
                 Log.e(TAG, "Product file does not exist: " + productFilePath);
