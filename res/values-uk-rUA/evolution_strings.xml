@@ -469,6 +469,11 @@
     <string name="miscellaneous_ignore_window_secure_summary">Зняти обмеження на знятках і записи екрану для всіх додатків, потенційно ризикуючи витіком конфіденційності</string>
     <string name="miscellaneous_unlimit_screenrecord_title">Скасувати обмеження запису екрану</string>
     <string name="miscellaneous_unlimit_screenrecord_summary">Видалити обмеження розміру 15 Гб файлу\nМоже призвести до більшого, ніж необхідний файл виводу</string>
+    <!-- Miscellaneous/Hide applist -->
+    <string name="hide_applist_title">Приховати список додатків</string>
+    <string name="hide_applist_summary">Не дозволяти додаткам перевіряти обрані додатки зі списку</string>
+    <string name="menu_show_overlay">Відображати шари</string>
+    <string name="menu_hide_overlay">Сховати шари</string>
     <!-- Miscellaneous/Smart Pixels -->
     <string name="smart_pixels_warning_text">Розумні пікселі - це функція економії заряду. В залежності від того, скільки пікселів ви вирішили вимкнути, це може збільшити час роботи батареї. Зверніть увагу, в деяких випадках це може призвести до того, що на сенсорному екрані будуть зони, які не відповідають</string>
     <string name="smart_pixels_title">Розумні пікселі</string>
