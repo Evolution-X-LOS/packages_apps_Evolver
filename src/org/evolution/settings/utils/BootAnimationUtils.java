@@ -37,6 +37,8 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.regex.Pattern;
 
+import org.evolution.settings.utils.DeviceUtils;
+
 public class BootAnimationUtils {
 
     private static final String TAG = "BootAnimationUtils";
@@ -56,6 +58,23 @@ public class BootAnimationUtils {
         "/product/media/bootanimation_rr.zip",
         "/product/media/bootanimation_slim.zip",
         "/product/media/bootanimation_valorant.zip",
+        "/data/misc/bootanim/bootanimation.zip",
+    };
+
+    private static final String[] BOOT_ANIMATION_FILES_PIXEL = {
+        "/system/media/bootanimation.zip",
+        "/system/media/bootanimation_evo_reveal.zip",
+        "/system/media/bootanimation_aokp.zip",
+        "/system/media/bootanimation_cm.zip",
+        "/system/media/bootanimation_ctos.zip",
+        "/system/media/bootanimation_cyberpunk.zip",
+        "/system/media/bootanimation_du.zip",
+        "/system/media/bootanimation_google.zip",
+        "/system/media/bootanimation_google_monet.zip",
+        "/system/media/bootanimation_pac.zip",
+        "/system/media/bootanimation_rr.zip",
+        "/system/media/bootanimation_slim.zip",
+        "/system/media/bootanimation_valorant.zip",
         "/data/misc/bootanim/bootanimation.zip",
     };
 
@@ -93,8 +112,14 @@ public class BootAnimationUtils {
 
     public static String getSelectedBootAnimation() {
         final int style = getBootAnimStyle();
-        if (style >= 0 && style < BOOT_ANIMATION_FILES.length) {
-            return BOOT_ANIMATION_FILES[style];
+        if (DeviceUtils.isCurrentlySupportedPixel()) {
+            if (style >= 0 && style < BOOT_ANIMATION_FILES_PIXEL.length) {
+                return BOOT_ANIMATION_FILES[style];
+            }
+        } else {
+            if (style >= 0 && style < BOOT_ANIMATION_FILES.length) {
+                return BOOT_ANIMATION_FILES[style];
+            }
         }
         return null;
     }

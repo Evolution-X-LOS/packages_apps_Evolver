@@ -50,6 +50,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.evolution.settings.preferences.BootAnimationPreviewPreference;
+import org.evolution.settings.utils.DeviceUtils;
 
 @SearchIndexable
 public class BootAnimation extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
@@ -73,6 +74,22 @@ public class BootAnimation extends SettingsPreferenceFragment implements OnPrefe
         "/product/media/bootanimation_rr.zip",
         "/product/media/bootanimation_slim.zip",
         "/product/media/bootanimation_valorant.zip"
+    };
+
+    private static final String[] PRODUCT_BOOT_ANIMATION_FILES_PIXEL = {
+        "/system/media/bootanimation.zip",
+        "/system/media/bootanimation_evo_reveal.zip",
+        "/system/media/bootanimation_aokp.zip",
+        "/system/media/bootanimation_cm.zip",
+        "/system/media/bootanimation_ctos.zip",
+        "/system/media/bootanimation_cyberpunk.zip",
+        "/system/media/bootanimation_du.zip",
+        "/system/media/bootanimation_google.zip",
+        "/system/media/bootanimation_google_monet.zip",
+        "/system/media/bootanimation_pac.zip",
+        "/system/media/bootanimation_rr.zip",
+        "/system/media/bootanimation_slim.zip",
+        "/system/media/bootanimation_valorant.zip"
     };
 
     private ListPreference mBootAnimationStyle;
@@ -155,31 +172,59 @@ public class BootAnimation extends SettingsPreferenceFragment implements OnPrefe
 
     private void copyProductFile(int style) {
         try {
-            if (style < 0 || style >= PRODUCT_BOOT_ANIMATION_FILES.length) {
-                Log.e(TAG, "Invalid style index");
-                return;
-            }
-            String productFilePath = PRODUCT_BOOT_ANIMATION_FILES[style];
-            File productFile = new File(productFilePath);
-            if (!productFile.exists()) {
-                Log.e(TAG, "Product file does not exist: " + productFilePath);
-                return;
-            }
-            InputStream inputStream = new FileInputStream(productFile);
-            File customBootAnimation = new File(CUSTOM_BOOTANIMATION_FILE);
-            customBootAnimation.getParentFile().mkdirs();
-            try (OutputStream outputStream = new FileOutputStream(customBootAnimation)) {
-                byte[] buffer = new byte[1024];
-                int length;
-                while ((length = inputStream.read(buffer)) > 0) {
-                    outputStream.write(buffer, 0, length);
+            if (DeviceUtils.isCurrentlySupportedPixel()) {
+                if (style < 0 || style >= PRODUCT_BOOT_ANIMATION_FILES_PIXEL.length) {
+                    Log.e(TAG, "Invalid style index");
+                    return;
                 }
+                String productFilePath = PRODUCT_BOOT_ANIMATION_FILES_PIXEL[style];
+                File productFile = new File(productFilePath);
+                if (!productFile.exists()) {
+                    Log.e(TAG, "Product file does not exist: " + productFilePath);
+                    return;
+                }
+                InputStream inputStream = new FileInputStream(productFile);
+                File customBootAnimation = new File(CUSTOM_BOOTANIMATION_FILE);
+                customBootAnimation.getParentFile().mkdirs();
+                try (OutputStream outputStream = new FileOutputStream(customBootAnimation)) {
+                    byte[] buffer = new byte[1024];
+                    int length;
+                    while ((length = inputStream.read(buffer)) > 0) {
+                        outputStream.write(buffer, 0, length);
+                    }
+                }
+                inputStream.close();
+                SystemProperties.set(BOOTANIMATION_STYLE_KEY, String.valueOf(style));
+                updateBootAnimationPreview();
+                mBootAnimationStyle.setValue(String.valueOf(style));
+                Toast.makeText(getContext(), R.string.boot_animation_applied, Toast.LENGTH_SHORT).show();
+            } else {
+                if (style < 0 || style >= PRODUCT_BOOT_ANIMATION_FILES.length) {
+                    Log.e(TAG, "Invalid style index");
+                    return;
+                }
+                String productFilePath = PRODUCT_BOOT_ANIMATION_FILES[style];
+                File productFile = new File(productFilePath);
+                if (!productFile.exists()) {
+                    Log.e(TAG, "Product file does not exist: " + productFilePath);
+                    return;
+                }
+                InputStream inputStream = new FileInputStream(productFile);
+                File customBootAnimation = new File(CUSTOM_BOOTANIMATION_FILE);
+                customBootAnimation.getParentFile().mkdirs();
+                try (OutputStream outputStream = new FileOutputStream(customBootAnimation)) {
+                    byte[] buffer = new byte[1024];
+                    int length;
+                    while ((length = inputStream.read(buffer)) > 0) {
+                        outputStream.write(buffer, 0, length);
+                    }
+                }
+                inputStream.close();
+                SystemProperties.set(BOOTANIMATION_STYLE_KEY, String.valueOf(style));
+                updateBootAnimationPreview();
+                mBootAnimationStyle.setValue(String.valueOf(style));
+                Toast.makeText(getContext(), R.string.boot_animation_applied, Toast.LENGTH_SHORT).show();
             }
-            inputStream.close();
-            SystemProperties.set(BOOTANIMATION_STYLE_KEY, String.valueOf(style));
-            updateBootAnimationPreview();
-            mBootAnimationStyle.setValue(String.valueOf(style));
-            Toast.makeText(getContext(), R.string.boot_animation_applied, Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             Log.e(TAG, "Error copying custom boot animation", e);
         }
