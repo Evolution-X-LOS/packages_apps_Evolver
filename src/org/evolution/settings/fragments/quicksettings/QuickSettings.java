@@ -9,6 +9,7 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.UserHandle;
 import android.provider.Settings;
 
@@ -20,7 +21,7 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.evolution.ThemeUtils;
+import com.android.internal.util.android.ThemeUtils;
 
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -75,15 +76,18 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private SystemSettingListPreference mTileAnimationStyle;
     private SystemSettingSeekBarPreference mTileAnimationDuration;
     private SystemSettingSwitchPreference mBrightnessSliderHaptic;
+    private SystemSettingSwitchPreference mSplitShadePref;
 
     private static ThemeUtils mThemeUtils;
+
+    private Handler mHandler = new Handler();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.evolution_settings_quick_settings);
 
-        mThemeUtils = new ThemeUtils(getContext());
+        mThemeUtils = ThemeUtils.getInstance(getActivity());
 
         final Context mContext = getContext();
         final ContentResolver resolver = mContext.getContentResolver();
@@ -142,6 +146,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQsPanelStyle = (ListPreference) findPreference(KEY_QS_PANEL_STYLE);
         mQsPanelStyle.setOnPreferenceChangeListener(this);
 
+        mSplitShadePref = (SystemSettingSwitchPreference) findPreference("qs_split_shade_enabled");
+        mSplitShadePref.setOnPreferenceChangeListener(this);
+
         checkQSOverlays(mContext);
     }
 
@@ -179,6 +186,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             int value = Integer.parseInt((String) newValue);
             updateTileAnimStyle(value);
             return true;
+        } else if (preference == mSplitShadePref) {
+            int value = (boolean) newValue ? 1 : 0;
+            Settings.System.putIntForUser(resolver,
+                   "qs_split_shade_enabled", value, UserHandle.USER_CURRENT);
+            updateSplitShadeEnabled(getActivity());
+            return true;
         }
         return false;
     }
@@ -186,6 +199,25 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private void updateTileAnimStyle(int tileAnimationStyle) {
         mTileAnimationDuration.setEnabled(tileAnimationStyle != 0);
         mTileAnimationInterpolator.setEnabled(tileAnimationStyle != 0);
+    }
+
+    private void updateSplitShadeEnabled(Context context) {
+        ContentResolver resolver = context.getContentResolver();
+        boolean splitShadeEnabled = Settings.System.getIntForUser(
+                resolver,
+                "qs_split_shade_enabled" , 0, UserHandle.USER_CURRENT) != 0;
+        String splitShadeStyleCategory = "android.theme.customization.better_qs";
+        String overlayThemeTarget  = "com.android.systemui";
+        String overlayThemePackage  = "com.android.system.qs.ui.better_qs";
+        if (mThemeUtils == null) {
+            mThemeUtils = ThemeUtils.getInstance(context);
+        }
+        mHandler.postDelayed(() -> {
+            mThemeUtils.setOverlayEnabled(splitShadeStyleCategory, overlayThemeTarget, overlayThemeTarget);
+            if (splitShadeEnabled) {
+                mThemeUtils.setOverlayEnabled(splitShadeStyleCategory, overlayThemePackage, overlayThemeTarget);
+            }
+        }, 1250);
     }
 
     private static void updateQsStyle(Context context) {
@@ -199,7 +231,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         String overlayThemePackage  = "com.android.system.qs.ui.A11";
 
         if (mThemeUtils == null) {
-            mThemeUtils = new ThemeUtils(context);
+            mThemeUtils = ThemeUtils.getInstance(context);
         }
 
         // reset all overlays before applying
@@ -251,7 +283,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         }
 
         if (mThemeUtils == null) {
-            mThemeUtils = new ThemeUtils(context);
+            mThemeUtils = ThemeUtils.getInstance(context);
         }
 
         // reset all overlays before applying
@@ -268,29 +300,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_TILE_UI_STYLE , 0, UserHandle.USER_CURRENT);
         int qsPanelStyle = Settings.System.getIntForUser(resolver,
                 Settings.System.QS_PANEL_STYLE , 0, UserHandle.USER_CURRENT);
-
-        if (isA11Style > 0) {
-            mQsUI.setEnabled(true);
-            mQsPanelStyle.setEnabled(false);
-            if (qsPanelStyle > 0) {
-                qsPanelStyle = 0;
-                Settings.System.putIntForUser(resolver,
-                        Settings.System.QS_PANEL_STYLE, 0, UserHandle.USER_CURRENT);
-                updateQsPanelStyle(context);
-            }
-        } else if (qsPanelStyle > 0) {
-            mQsPanelStyle.setEnabled(true);
-            mQsUI.setEnabled(false);
-            if (isA11Style > 0) {
-                isA11Style = 0;
-                Settings.System.putIntForUser(resolver,
-                        Settings.System.QS_TILE_UI_STYLE, 0, UserHandle.USER_CURRENT);
-                updateQsStyle(context);
-            }
-        } else {
-            mQsUI.setEnabled(true);
-            mQsPanelStyle.setEnabled(true);
-        }
 
         // Update summaries
         int index = mQsUI.findIndexOfValue(Integer.toString(isA11Style));
