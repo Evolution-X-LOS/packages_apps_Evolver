@@ -65,6 +65,11 @@
     <string name="themes_screen_off_animation_scale">Összeugrás</string>
     <string name="themes_udfps_animation_title">Ujjlenyomat-animáció</string>
     <string name="themes_udfps_animation_summary">Itt állíthatja be az ujjlenyomat-animáció stílusát</string>
+    <string name="themes_launcher_category">Pixel Launcher</string>
+    <string name="themes_launcher_background_blur_title">Háttér-homályosítás</string>
+    <string name="themes_launcher_background_blur_summary">Az Előzmények-oldalháttér elmosási effektjének bekapcsolása</string>
+    <string name="themes_launcher_more_themed_icons_title">Még témázottabb ikonok</string>
+    <string name="themes_launcher_more_themed_icons_summary">A dinamikus színes témájú ikon-támogatás kibővítése a telepített alkalmazásokhoz</string>
     <!-- Themes/Boot animation preview -->
     <string name="boot_animation_preview_desc">A kiválasztott boot-animáció előnézete</string>
     <string name="boot_animation_preview_summary">Megmutatja önnek, hogy milyen lenne, amit kiválasztott</string>
@@ -360,8 +365,6 @@
     <string name="quick_settings_auto_brightness_icon_summary">Az alkalmazkodó fényerő kapcsolója a csúszka közelében</string>
     <string name="quick_settings_brightness_slider_haptic_title">Érintési visszajelzés</string>
     <string name="quick_settings_brightness_slider_haptic_summary">Rezgéssel jelzi, ha fényerő-szabályzás történt a csúszkával</string>
-    <string name="quick_settings_floating_clear_all_title">Lebegő \"Az összes törlése\" gomb</string>
-    <string name="quick_settings_floating_clear_all_summary">Lecserélheti a szöveges \"Az összes törlése\" gombot egy alul középen lebegőre</string>
     <string name="quick_settings_animations_category">Animációk</string>
     <string name="quick_settings_tile_animation_style_title">A Csempék animációstílusa</string>
     <string name="quick_settings_tile_animation_duration_title">Animációhossz</string>
@@ -469,6 +472,11 @@
     <string name="miscellaneous_ignore_window_secure_summary">Eltávolítja a képernyőképekre és a képernyőfelvételekre vonatkozó korlátozásokat az összes alkalmazásnál, ami az adatvédelmi szivárgások kockázatát eredményezheti</string>
     <string name="miscellaneous_unlimit_screenrecord_title">Végtelen fájlméret</string>
     <string name="miscellaneous_unlimit_screenrecord_summary">Eltörli a 15GB-os fájlméret-limitet\nA szükségesnél nagyobb kimenő fájlméretet eredményezhet</string>
+    <!-- Miscellaneous/Hide applist -->
+    <string name="hide_applist_title">Az alkalmazáslista elrejtése</string>
+    <string name="hide_applist_summary">Az alkalmazások nem ellenőrizhetik az alkalmazáslistában szereplő kiválasztott alkalmazásokat</string>
+    <string name="menu_show_overlay">Fedőréteg-megjelenítés</string>
+    <string name="menu_hide_overlay">Fedőréteg-elrejtés</string>
     <!-- Miscellaneous/Smart Pixels -->
     <string name="smart_pixels_warning_text">Az Intelligens Pixelek egy akkumulátorkímélő funkció. Attól függően, hogy hány képpontot kapcsol ki, láthatja az akkumulátor élettartamának javulását. Ne feledje, hogy ez bizonyos esetekben nem reagáló területeket eredményezhet az érintőképernyőn</string>
     <string name="smart_pixels_title">Intelligens pixelek</string>
@@ -495,8 +503,6 @@
     <string name="spoofing_vending_summary">A legutolsó Pixel készüléknek álcázza az Ön készülékét</string>
     <string name="spoofing_photos_title">Trükk a Google Fényképek-hez</string>
     <string name="spoofing_photos_summary">Pixel XL-re álcázás a Google Fényképek alkalmazáshoz</string>
-    <string name="spoofing_games_title">FPS-emelés játékokhoz</string>
-    <string name="spoofing_games_summary">Eszközinfó-hamisítás hogy magasabb FPS legyen elérhető a játékokhoz</string>
     <string name="spoofing_snap_title">Snapchat álcázás</string>
     <string name="spoofing_snap_summary">A Snapchat-ben Pixel XL-nek álcázza az Ön készülékét a lehetséges csevegési problémák elkerüléséért</string>
     <!-- Miscellaneous/Spoofing/Play Integrity fix JSON update -->
@@ -509,6 +515,11 @@
     <string name="error_loading_properties">Hiba a tulajdonságok betöltése közben</string>
     <string name="pif_spoofing_title">Válasszon PIF.JSON-fájlt</string>
     <string name="pif_spoofing_summary">Válassza ki a Play Integrity átveréséhez használni kívánt PIF.JSON-fájlt</string>
+    <!-- Miscellaneous/Spoofing/Per-app spoofing -->
+    <string name="gameprops_title">Az alkalmazásonkénti álcázás bekapcsolása</string>
+    <string name="gameprops_summary">Az alkalmazásonkénti hamisítás lehetőségei</string>
+    <string name="gameprops_load_json_title">Válasszon JSON-fájlokat a művelethez</string>
+    <string name="gameprops_load_json_summary">Válassza ki a játékok meghamisításához használni kívánt alkalmazásonkénti JSON-fájlt</string>
     <!-- Navigation Bar -->
     <string name="navbar_layout_category_title">Navigációs gomb</string>
     <string name="navbar_layout_title">Elrendezés</string>
