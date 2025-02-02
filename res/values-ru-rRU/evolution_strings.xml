@@ -30,6 +30,9 @@
     <string name="themes_monet_category">Monet</string>
     <string name="themes_monet_title">Настройки Monet</string>
     <string name="themes_monet_summary">Настройка встроенного движка тем Android</string>
+    <string name="themes_audio_category">Звуки</string>
+    <string name="themes_lock_sound_title">Звук блокировки</string>
+    <string name="themes_unlock_sound_title">Звук разблокировки</string>
     <string name="themes_fonts_category">Шрифты</string>
     <string name="themes_system_font_title">Заголовок / Основной шрифт</string>
     <string name="themes_system_font_summary">Выберите системный шрифт</string>
@@ -48,7 +51,12 @@
     <string name="themes_navigation_bar_icons_summary">Выберите стиль панели навигации</string>
     <string name="themes_udfps_icon_title">Иконка UDFPS</string>
     <string name="themes_udfps_icon_summary">Выберите иконку для UDFPS</string>
+    <string name="themes_brightness_category">Ползунок яркости</string>
+    <string name="themes_brightness_slider_title">Стиль ползунка яркости</string>
+    <string name="themes_brightness_slider_summary">Стиль ползунка яркости</string>
     <string name="themes_animations_category">Анимации</string>
+    <string name="themes_boot_animation_title">Анимация загрузки</string>
+    <string name="themes_boot_animation_summary">Выберите анимацию при загрузке устройства</string>
     <string name="themes_charging_animation_title">Анимация зарядки</string>
     <string name="themes_charging_animation_summary">Показывать анимацию при подключении зарядного устройства</string>
     <string name="themes_screen_off_animation_title">Анимация выключения экрана</string>
@@ -57,11 +65,15 @@
     <string name="themes_screen_off_animation_scale">Масштабирование</string>
     <string name="themes_udfps_animation_title">Анимация UDFPS</string>
     <string name="themes_udfps_animation_summary">Выберите анимацию для UDFPS</string>
-    <string name="themes_launcher_category">Pixel Launcher</string>
-    <string name="themes_launcher_background_blur_title">Размытие фона</string>
-    <string name="themes_launcher_background_blur_summary">Включить эффект размытия для фона в недавних приложениях</string>
+    <string name="themes_launcher_category">Лаунчер Pixel</string>
+    <string name="themes_launcher_background_blur_title">Размытие заднего фона</string>
+    <string name="themes_launcher_background_blur_summary">Включить эффект размытия для фона недавних приложений</string>
     <string name="themes_launcher_more_themed_icons_title">Больше тематических значков</string>
-    <string name="themes_launcher_more_themed_icons_summary">Дополнительные динамические иконки для некоторых сторонних приложений</string>
+    <string name="themes_launcher_more_themed_icons_summary">Расширяет поддержку тематических значков для установленных приложений</string>
+    <!-- Themes/Boot animation preview -->
+    <string name="boot_animation_preview_desc">Предварительный просмотр выбранной анимации загрузки</string>
+    <string name="boot_animation_preview_summary">Показать текущий стиль анимации при загрузке устройства</string>
+    <string name="boot_animation_preview_title">Предпросмотр анимации загрузки</string>
     <!-- Themes/Monet Engine -->
     <string name="monet_engine_custom_color_title">Цветовой акцент</string>
     <string name="monet_engine_custom_color_summary">Выбрать пользовательский цвет акцента</string>
@@ -247,6 +259,11 @@
     <string name="status_bar_projection_privacy_indicator_summary">Показывать индикатор, когда экран проецируется</string>
     <string name="status_bar_carrier_lock_screen_title">Название сети на экране блокировки</string>
     <string name="status_bar_carrier_lock_screen_summary">Отображать название сети в строке состояния на заблокированном экране</string>
+    <string name="status_bar_lyric_title">Текст в строке состояния</string>
+    <string name="status_bar_lyric_summary">Показывать текст песни в строке состояния (требуется поддержка приложения)</string>
+    <string name="status_bar_lyric_options_title">Настройки</string>
+    <string name="disguise_props_for_music_app_title">Маскировка устройства для музыкальных приложений</string>
+    <string name="disguise_props_for_music_app_summary">Маскировка устройства в некоторых музыкальных приложениях для поддержки текста песен в строке состояния. После изменения этого параметра необходимо перезапустить приложения, чтобы изменения вступили в силу.</string>
     <!-- Status bar/Clock & date-->
     <string name="status_bar_clock_position_title">Расположение часов</string>
     <string name="status_bar_clock_position_right">Справа</string>
@@ -329,6 +346,9 @@
     <string name="quick_settings_tile_label_hide_summary">Показывать только значок в плитке</string>
     <string name="quick_settings_tile_layout_title">Вертикальное расположение</string>
     <string name="quick_settings_tile_layout_summary">Показывать подпись под значком, а не сбоку</string>
+    <string name="quick_settings_layout_columns_rows_title">Столбцы и строки</string>
+    <string name="quick_settings_layout_columns_rows_summary">Настройте столбцы и строки плиток на панели быстрых настроек</string>
+    <string name="quick_settings_layout_columns_rows_footer_text">Количество строк в быстрых настройках (QS) должно быть равно или больше количества строк в открытой панели быстрых настроек (QQS). Используйте большее количество колонок для круглого / квадратного (A11) стиля плиток быстрых настроек.</string>
     <string name="quick_settings_columns_portrait_title">Столбцы (вертикально)</string>
     <string name="quick_settings_columns_landscape_title">Столбцы (горизонтально)</string>
     <string name="quick_settings_qqs_rows_portrait_title">Строки открытых быстрых настроек (вертикально)</string>
@@ -345,10 +365,21 @@
     <string name="quick_settings_auto_brightness_icon_summary">Показывать переключатель адаптивной яркости рядом со слайдером</string>
     <string name="quick_settings_brightness_slider_haptic_title">Тактильный отклик</string>
     <string name="quick_settings_brightness_slider_haptic_summary">Виброотклик при изменении яркости с помощью ползунка яркости</string>
-    <string name="quick_settings_data_usage_title">Использованные данные</string>
-    <string name="quick_settings_data_usage_summary">Отображать расход трафика в нижней части быстрых настроек</string>
-    <string name="quick_settings_floating_clear_all_title">Плавающая кнопка «Очистить всё»</string>
-    <string name="quick_settings_floating_clear_all_summary">Заменить текстовую кнопку «Очистить все» на плавающую (по центру снизу)</string>
+    <string name="quick_settings_animations_category">Анимации</string>
+    <string name="quick_settings_tile_animation_style_title">Стиль анимации при нажатии</string>
+    <string name="quick_settings_tile_animation_duration_title">Длительность анимации</string>
+    <string name="quick_settings_tile_animation_interpolator_title">Интерполятор анимации плиток</string>
+    <string name="quick_settings_tile_animation_style_off">Без анимации</string>
+    <string name="quick_settings_tile_animation_style_flip">Переворот</string>
+    <string name="quick_settings_tile_animation_style_rotate">Вращение</string>
+    <string name="quick_settings_tile_animation_interpolator_linear">Линейная</string>
+    <string name="quick_settings_tile_animation_interpolator_accelerate">Ускоренная</string>
+    <string name="quick_settings_tile_animation_interpolator_decelerate">Замедленная</string>
+    <string name="quick_settings_tile_animation_interpolator_accelerateDecelerate">Ускорить и замедлить</string>
+    <string name="quick_settings_tile_animation_interpolator_bounce">Прыжок</string>
+    <string name="quick_settings_tile_animation_interpolator_overshoot">Перекрытие</string>
+    <string name="quick_settings_tile_animation_interpolator_anticipate">Ускорение</string>
+    <string name="quick_settings_tile_animation_interpolator_anticipateOvershoot">Опережение с перекрытием</string>
     <string name="quick_settings_lock_screen_category">Экран блокировки</string>
     <string name="quick_settings_secure_lock_screen_title">Скрытие на защищённом экране блокировки</string>
     <string name="quick_settings_secure_lock_screen_summary">Скрывать все быстрые настройки в шторке уведомлений, пока устройство заблокировано</string>
@@ -357,6 +388,26 @@
     <string name="quick_settings_miscellaneous_category">Прочее</string>
     <string name="quick_settings_bluetooth_show_dialog_title">Диалог плитки Bluetooth</string>
     <string name="quick_settings_bluetooth_show_dialog_summary">Показывать диалоговое окно или переключать состояние при нажатии на плитку Bluetooth</string>
+    <string name="quick_settings_header_image_title">Изображение обложки</string>
+    <string name="quick_settings_header_image_summary">Выбор фонового изображения заголовка быстрых настроек</string>
+    <string name="quick_settings_header_daylight_pack_title">Коллекция изображений для заголовка панели быстрых настроек</string>
+    <string name="quick_settings_header_shadow_title">Тень изображения обложки</string>
+    <string name="quick_settings_header_shadow_summary">Для лучшей видимости на ярких изображений</string>
+    <string name="quick_settings_header_static_provider_title">Статическое изображение</string>
+    <string name="quick_settings_header_daylight_provider_title">Коллекция изображений</string>
+    <string name="quick_settings_header_file_provider_title">Пользовательское изображение</string>
+    <string name="quick_settings_header_provider_title">Поставщик обложек</string>
+    <string name="quick_settings_header_browse_title">Просмотреть установленные обложки</string>
+    <string name="quick_settings_header_browse_summary">Просмотреть все доступные коллекции обложек</string>
+    <string name="quick_settings_header_pick_title">Выбрать изображение обложки</string>
+    <string name="quick_settings_header_pick_summary">Выбрать изображение для статичного режима</string>
+    <string name="quick_settings_header_file_select_title">Выбрать изображение</string>
+    <string name="quick_settings_header_file_select_summary">Выбрать пользовательское изображение</string>
+    <string name="quick_settings_header_needs_gallery">Вам необходимо установить приложение галереи!</string>
+    <string name="quick_settings_header_offset_title">Смещение изображения обложки</string>
+    <string name="quick_settings_header_offset_summary">Отрегулировать размер изображения обложки</string>
+    <string name="quick_settings_transparency_title">Прозрачность фона</string>
+    <string name="quick_settings_transparency_summary">Установка уровня прозрачности панели быстрых настроек</string>
     <!-- Notifications -->
     <string name="notifications_heads_up_title">Всплывающие уведомления</string>
     <string name="notifications_heads_up_summary">Разрешить всплывающие уведомления</string>
@@ -368,14 +419,24 @@
     <string name="notifications_sounds_vibration_category">Звуки и вибрация</string>
     <string name="notifications_alert_display_on_title">Оповещения при включенном экране</string>
     <string name="notifications_alert_display_on_summary">Включить звуки и вибрацию для уведомлений при включенном экране</string>
+    <!-- Notifications/Alert Slider Notifications (OnePlus devices) -->
+    <string name="alert_slider_notifications_title">Уведомления слайдера оповещений</string>
+    <string name="alert_slider_notifications_summary">Отображать уведомление при изменении положения слайдера оповещений</string>
+    <!-- Notifications/Compact Heads-up -->
+    <string name="compact_heads_up_notifications_enabled_title">Компактные всплывающие уведомления</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Отображать уведомления в компактном размере</string>
     <!-- Notifications/Edge light -->
-    <string name="notifications_edge_light_enable_ttile">Включить</string>
     <string name="notifications_edge_light_always_trigger_on_pulse_title">Всегда запускать при уведомлениях</string>
     <string name="notifications_edge_light_always_trigger_on_pulse_summary">Воспроизводить анимацию даже когда Активный экран включён и не только для уведомлений</string>
     <string name="notifications_edge_light_repeat_animation_title">Повтор анимации</string>
     <string name="notifications_edge_light_repeat_animation_summary_on">Повторить несколько раз</string>
     <string name="notifications_edge_light_repeat_animation_summary_off">Показать только один раз</string>
     <string name="notifications_edge_light_color_mode_title">Цвет подсветки краёв экрана</string>
+    <string name="notifications_edge_light_style_title">Стиль подсветки по краям</string>
+    <string name="notifications_edge_light_stroke_width_title">Ширина подсветки по краям</string>
+    <string name="notifications_edge_light_stroke_width_summary">Настройка толщины подсветки по краям</string>
+    <string name="notifications_edge_light_style_1">Рисовать линию</string>
+    <string name="notifications_edge_light_style_2">Мигание/Пульсация</string>
     <!-- Notifications/Less boring heads up -->
     <string name="notifications_less_boring_heads_up_title">Не надоедать</string>
     <string name="notifications_less_boring_heads_up_summary">Показывать всплывающие уведомления только для будильника, телефона и сообщений</string>
@@ -411,16 +472,30 @@
     <string name="miscellaneous_ignore_window_secure_summary">Снятие ограничений на скриншоты и запись экрана для всех приложений, потенциально увеличивая риск утечки конфиденциальных данных</string>
     <string name="miscellaneous_unlimit_screenrecord_title">Неограниченная запись</string>
     <string name="miscellaneous_unlimit_screenrecord_summary">Убрать ограничение на размер в 15 ГБ\nИтоговый файл может быть очень большого размера</string>
+    <!-- Miscellaneous/Hide applist -->
+    <string name="hide_applist_title">Скрыть список приложений</string>
+    <string name="hide_applist_summary">Запретить приложениям проверять выбранные приложения из списка приложений</string>
+    <string name="menu_show_overlay">Показать оверлей</string>
+    <string name="menu_hide_overlay">Скрыть оверлей</string>
+    <!-- Miscellaneous/Smart Pixels -->
+    <string name="smart_pixels_warning_text">Умные пиксели - это функция энергосбережения. В зависимости от количества пикселей, которые вы решили выключить, вы можете видеть улучшения в жизни батареи. Заметьте, что в некоторых случаях это может привести к нереагирующим областям при сенсорном экране</string>
+    <string name="smart_pixels_title">Умные пиксели</string>
+    <string name="smart_pixels_summary">Экономьте батарею, отключая лишние пиксели</string>
+    <string name="smart_pixels_on_power_save_title">Автоматическое включение при активации экономии зарядка батареи</string>
+    <string name="smart_pixels_on_power_save_summary">Включить умные пиксели, когда включена заставка</string>
+    <string name="smart_pixels_percent">Процент выключаемых пикселей</string>
+    <string name="smart_pixels_shift_title">Защита от выгорания экрана</string>
+    <string name="smart_pixels_shift_summary">Предотвращение выгорания на OLED устройствах благодаря перемещению пикселей с такой частотой</string>
     <!-- Miscellaneous/Spoofing -->
     <string name="spoofing_title">Подмена компонентов</string>
     <string name="spoofing_summary">Обход ограничений приложений с помощью подмены различных компонентов</string>
     <string name="spoofing_system_wide_category">Общесистемные</string>
-    <string name="spoofing_pif_toggle_title">Исправление Play Integrity</string>
-    <string name="spoofing_pif_toggle_summary">Использовать исправления Play Integrity на стороне прошивки</string>
-    <string name="spoofing_pif_values_title">Текущие значения Play Integrity</string>
-    <string name="spoofing_pif_values_summary">Просмотр данных подмены для сервисов Google, необходимых для прохождения сертификации Play Integrity API</string>
     <string name="spoofing_pixel_props_title">Свойства Pixel</string>
     <string name="spoofing_pixel_props_summary">Подмена устройства на новейший Pixel для отдельных приложений Google</string>
+    <string name="tensor_spoof_title">Подмена функций tensor</string>
+    <string name="tensor_spoof_summary">Разблокирует функции tensor/pixel</string>
+    <string name="gms_spoof_title">Play Integrity fix</string>
+    <string name="gms_spoof_summary">Подмените свое устройство, чтобы пройти сертификацию Google Play</string>
     <string name="spoofing_storage_encryption_title">Шифрование хранилища</string>
     <string name="spoofing_storage_encryption_summary">Подмена статуса шифрования хранилища на «Зашифровано»</string>
     <string name="spoofing_app_specific_category">Для отдельных приложений</string>
@@ -428,10 +503,23 @@
     <string name="spoofing_vending_summary">Подмена устройства на новейший Pixel для приложения Google Play</string>
     <string name="spoofing_photos_title">Маскировка для Google Фото</string>
     <string name="spoofing_photos_summary">Подмена устройства на Pixel XL для приложения «Google Фото»</string>
-    <string name="spoofing_games_title">Повышенный FPS в играх</string>
-    <string name="spoofing_games_summary">Подмена устройства на другую модель для разблокировки более высокого FPS в некоторых играх</string>
     <string name="spoofing_snap_title">Маскировка для Snapchat</string>
     <string name="spoofing_snap_summary">Подмена устройства на Pixel XL для решения проблем с чатами в Snapchat</string>
+    <!-- Miscellaneous/Spoofing/Play Integrity fix JSON update -->
+    <string name="toast_spoofing_success">Успешно скачан файл pif.json. Подмена на %1$s для Play Integrity.</string>
+    <string name="toast_spoofing_failure">Не удалось подменить свойства.</string>
+    <string name="update_pif_json_title">Обновить Play Integrity fix</string>
+    <string name="update_pif_json_summary">Обновление подменяемого устройства PIF, требует подключение к интернету.</string>
+    <string name="show_pif_properties_title">Свойства Play Integrity fix</string>
+    <string name="show_pif_properties_summary">Показать все текущие свойства PIF</string>
+    <string name="error_loading_properties">Ошибка загрузки свойств PIF</string>
+    <string name="pif_spoofing_title">Выберите PIF файл JSON</string>
+    <string name="pif_spoofing_summary">Выбранный PIF файл JSON будет использован для подмены Play Integrity</string>
+    <!-- Miscellaneous/Spoofing/Per-app spoofing -->
+    <string name="gameprops_title">Включить подделку для отдельных игр</string>
+    <string name="gameprops_summary">Включает настройки подделки для отдельных игр</string>
+    <string name="gameprops_load_json_title">Выберите для отдельных игр файл JSON</string>
+    <string name="gameprops_load_json_summary">Выберите файл JSON, который будет использован для подделки игр</string>
     <!-- Navigation Bar -->
     <string name="navbar_layout_category_title">Расположение кнопок панели навигации</string>
     <string name="navbar_layout_title">Расположение</string>
@@ -457,6 +545,7 @@
     <string name="accent_color">Акцентный цвет (по умолчанию)</string>
     <string name="notification_color">Цвет уведомлений</string>
     <string name="wallpaper_color">Цвет обоев</string>
+    <string name="rainbow_gradient_color">Радужный цвет градиента</string>
     <string name="custom_color">Пользовательский цвет</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
@@ -466,7 +555,13 @@
     <!-- General -->
     <string name="enable">Включить</string>
     <string name="disable">Отключить</string>
+    <string name="boot_animation_applied">Анимация загрузки применена</string>
     <!-- Units -->
     <string name="unit_milliseconds">миллисекунд</string>
     <string name="unit_seconds">секунд</string>
+    <!-- SystemUI restart dialog -->
+    <string name="systemui_restart_title">Требуется перезагрузка SystemUI</string>
+    <string name="systemui_restart_message">Чтобы все изменения вступили в силу, требуется перезагрузка системного интерфейса. Сделать это сейчас?</string>
+    <string name="systemui_restart_yes">Да</string>
+    <string name="systemui_restart_not_now">Не сейчас</string>
 </resources>
