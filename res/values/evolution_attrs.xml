@@ -28,4 +28,8 @@
         <attr name="dkey" format="string" />
         <attr name="dkeyNightOnly" format="boolean" />
     </declare-styleable>
+    
+    <declare-styleable name="WallpaperView">
+        <attr name="blurred" format="boolean" />
+    </declare-styleable>
 </resources>
