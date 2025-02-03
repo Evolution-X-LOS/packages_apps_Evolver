@@ -27,6 +27,7 @@
     <string name="about_title">Névjegy</string>
     <string name="about_summary">Az Evolution X-ről</string>
     <!-- Themes -->
+    <string name="themes_general_category">Általános</string>
     <string name="themes_monet_category">Monet</string>
     <string name="themes_monet_title">Monet-beállítások</string>
     <string name="themes_monet_summary">Testreszabhatja az Android beépített témamotorját</string>
