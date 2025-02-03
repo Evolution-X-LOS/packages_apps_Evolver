@@ -565,6 +565,9 @@
     <string name="systemui_restart_message">A módosítások érvénybe léptetéséhez szükséges a rendszerfelület újraindítása. Újraindítja most?</string>
     <string name="systemui_restart_yes">Igen</string>
     <string name="systemui_restart_not_now">Most nem</string>
+    <!-- Split Shade -->
+    <string name="qs_split_shade_enabled_title">Javított Gyorsbeállítások fekvőmód</string>
+    <string name="qs_split_shade_enabled_summary">Bekapcsolja az új kísérleti osztott Gyorsbeállításokat,\nleállítja a fekvő tájolású figyelmeztetéseket</string>
     <!-- Power Menu Styles -->
     <string name="powermenu_style_title">A kikapcsolási menü stílusa</string>
     <string name="powermenu_style1">Cyberpunk</string>
