@@ -599,23 +599,8 @@
     <string name="wallpaper_dim_level_summary">Beállíthatja a halványítás erősségét</string>
     <string name="glass_blur">Üvegszerű elmosás</string>
     <string name="frosted_blur">Fagyásos elmosás</string>
-    <string name="wallpaper_styles_footer">        A háttérképstílusok hatékony működéséhez a felhasználónak elkülönítva kell beállítani a lezárási képernyő és a kezdőképernyő háttérképeit.\nUgyanaz a háttérkép használható, de nem szabad egyszerre alkalmazni a lezárási képernyőn és a kezdőképernyőn.\nEz nem kötelező ha az elmosódásre és a halványításra MINDKÉT OPCIÓT használja.
+    <string name="wallpaper_styles_footer">        A háttérképstílusok hatékony működéséhez a felhasználónak elkülönítva kell beállítani a lezárási képernyő és a kezdőképernyő háttérképeit.\nUgyanaz a háttérkép használható, de nem szabad egyszerre alkalmazni a lezárási képernyőn és a kezdőképernyőn.\nEz nem kötelező ha az elmosódásra és a halványításra MINDKÉT OPCIÓT használja.
     </string>
-    <!-- AOD custom image -->
-    <string name="lockscreen_custom_image_enabled_title">A \'Mindig bekapcsolva\' (AOD) kép bekapcsolása a záróképernyőn</string>
-    <string name="lockscreen_custom_image_title">A záróképernyő \'Mindig bekapcsolva\' (AOD) képe</string>
-    <string name="lockscreen_custom_image_summary">Válasszon a záróképernyő \'Mindig bekapcsolva\' (AOD)-hoz képet</string>
-    <string name="lockscreen_custom_image_pick_summary">Válasszon képet a galériábólé</string>
-    <string name="custom_aod_image_not_supported">Az órastílus nem támogatott</string>
-    <!-- Lockscreen Clock Highlight Guide -->
-    <string name="ls_clock_face_highlight_text">Csúsztassa balra vagy jobbra az órastílusok előnézetének megtekintéséhez</string>
-    <!-- Lockscreen Clock Revamp -->
-    <string name="ls_clock_custom_font_not_supported">A kiválasztott óra nem támogatja az egyéni betűtípusokat</string>
-    <!-- Media Art -->
-    <string name="ls_media_art_fade_level_title">A Médiaborító elhalvnyítási szintje</string>
-    <string name="ls_media_art_fade_level_summary">Beállíthatja az elhalványítás erősségét</string>
-    <!-- Apply Button -->
-    <string name="apply_change_button_title">Alkalmazás</string>
     <!-- Compact QS Media Player-->
     <string name="qs_compact_media_player_mode_title">Kompakt médialejátszó a Gyorsbeállításokhoz</string>
     <string name="qs_compact_media_player_mode_summary">Engedélyezi a kompakt módot a Gyorsbeállítások médialejátszójához</string>
@@ -633,6 +618,8 @@
     <!-- Media art -->
     <string name="media_art_title">Albumborító</string>
     <string name="media_art_summary">Az albumborító megjelenítése, ha elérhető</string>
+    <string name="ls_media_art_fade_level_title">A Médiaborító elhalvnyítási szintje</string>
+    <string name="ls_media_art_fade_level_summary">Beállíthatja az elhalványítás erősségét</string>
     <!-- Lockscreen album art filter -->
     <string name="lockscreen_albumart_filter_title">Médiaborító-szűrő</string>
     <string name="lockscreen_albumart_filter_none">Nincs</string>
@@ -641,13 +628,9 @@
     <string name="lockscreen_albumart_filter_blur">Homályosított</string>
     <string name="lockscreen_albumart_filter_grayblur">Szürkeárnyalatos és homályosított</string>
     <!-- Font styles -->
-    <string name="font_styles_title">Betűstílus</string>
+    <string name="font_styles_title">Betűtípus</string>
     <string name="font_styles_summary">Itt állíthatja be a rendszer-betűtípusát</string>
     <string name="font_preview_text">A nőgyógyászod\neltiltott a szextől\n...de mit mondott a fogorvosod?\n\nABCDEFGHIJKLM\nNOPQRSTUVWXYZ\nabcdefghijkl\nmnopqrstuvwxyz\n1234567890</string>
     <string name="apply_button_text">Beállítás</string>
     <string name="font_picker_select_font">Betűtípus-választás</string>
-    <!-- Custom Clock Style -->
-    <string name="lockscreen_clock_category_title">A záróképernyő órája</string>
-    <string name="lockscreen_clock_category_summary">Itt állíthatja be az óra stílusát</string>
-    <string name="custom_clock_style">Egyéni órastílus</string>
 </resources>
