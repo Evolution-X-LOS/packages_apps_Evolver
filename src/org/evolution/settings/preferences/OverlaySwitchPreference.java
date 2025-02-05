@@ -31,12 +31,13 @@ import android.os.UserHandle;
 import android.util.AttributeSet;
 import android.util.Log;
 
-import androidx.preference.SwitchPreference;
-
 import java.lang.SecurityException;
 import java.util.List;
 
-public class OverlaySwitchPreference extends SwitchPreference {
+import lineageos.preference.SelfRemovingSwitchPreference;
+
+public class OverlaySwitchPreference extends SelfRemovingSwitchPreference {
+
     private final static String TAG = "OverlaySwitchPreference";
     private final static String SETTINGSNS = "http://schemas.android.com/apk/res-auto";
     private static final String DKEY = "dkey";
@@ -65,29 +66,34 @@ public class OverlaySwitchPreference extends SwitchPreference {
     }
 
     @Override
-    public void onAttached() {
-        super.onAttached();
-        if (mOverlayManager == null) return;
-        OverlayInfo info = null;
-        info = mOverlayManager.getOverlayInfo(getOverlayID(getKey()), CURRENT);
-        if (info != null) setChecked(info.isEnabled());
+    protected boolean isPersisted() {
+        return true;
     }
 
     @Override
-    public void setChecked(boolean checked) {
+    protected boolean getBoolean(String key, boolean defaultValue) {
+        if (mOverlayManager == null) return false;
+        OverlayInfo info = null;
+        info = mOverlayManager.getOverlayInfo(getOverlayID(getKey()), CURRENT);
+        if (info != null) return info.isEnabled();
+        return false;
+    }
+
+    @Override
+    protected void putBoolean(String key, boolean value) {
         if (mOverlayManager == null) return;
         OverlayManagerTransaction.Builder transaction = new OverlayManagerTransaction.Builder();
-        transaction.setEnabled(getOverlayID(getKey()), checked, USER_CURRENT);
+        transaction.setEnabled(getOverlayID(getKey()), value, USER_CURRENT);
         if (mDisableKey != null && !mDisableKey.isEmpty()) {
             if (mDKeyNightOnly) {
                 final boolean isNight = (getContext().getResources().getConfiguration().uiMode
                     & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
                 if (isNight)
-                    transaction.setEnabled(getOverlayID(mDisableKey), !checked, USER_CURRENT);
+                    transaction.setEnabled(getOverlayID(mDisableKey), !value, USER_CURRENT);
                 else // always enabled in day
                     transaction.setEnabled(getOverlayID(mDisableKey), true, USER_CURRENT);
             } else {
-                transaction.setEnabled(getOverlayID(mDisableKey), !checked, USER_CURRENT);
+                transaction.setEnabled(getOverlayID(mDisableKey), !value, USER_CURRENT);
             }
         }
         try {
@@ -97,7 +103,6 @@ public class OverlaySwitchPreference extends SwitchPreference {
             e.printStackTrace();
             return;
         }
-        super.setChecked(checked);
     }
 
     private OverlayIdentifier getOverlayID(String name) throws IllegalStateException {
