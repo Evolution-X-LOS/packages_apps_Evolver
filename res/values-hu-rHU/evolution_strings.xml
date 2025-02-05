@@ -633,4 +633,14 @@
     <string name="lockscreen_albumart_filter_tint">Kiemelőszínhez igazodó</string>
     <string name="lockscreen_albumart_filter_blur">Homályosított</string>
     <string name="lockscreen_albumart_filter_grayblur">Szürkeárnyalatos és homályosított</string>
+    <!-- Haptics Settings -->
+    <string name="haptics_settings_title">A rendszer rezgő visszajelzései</string>
+    <string name="haptics_settings_summary">Az érintési visszajelzés intenzitásának módosítása</string>
+    <string name="back_gesture_haptic_intensity_title">A vissza gesztus rezgési intenzitása</string>
+    <string name="brightness_slider_haptics_intensity_title">A fényerőcsúszka rezgési intenzitása</string>
+    <string name="edge_scrolling_haptics_intensity_title">Az oldalgörgetés rezgési intenzitása</string>
+    <string name="volume_slider_haptics_intensity_title">A hangerőcsúszka rezgési intenzitása</string>
+    <string name="qs_panel_tile_haptic_intensity_title">A gyorsbeállítási csempék rezgési intenzitása</string>
+    <string name="qs_haptics_intensity_title">A gyorsbeállítások rezgési intenzitása</string>
+    <string name="qs_tiles_haptic_feedback_title">A Csempe rezgő visszajelzése</string>
 </resources>
