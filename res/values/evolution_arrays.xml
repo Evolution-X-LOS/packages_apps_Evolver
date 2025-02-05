@@ -196,9 +196,9 @@
     </string-array>
 
     <string-array name="status_bar_quick_pull_down_values_rtl" translatable="false">
+        <item>0</item>
         <item>2</item>
         <item>1</item>
-        <item>0</item>
         <item>3</item>
     </string-array>
 
